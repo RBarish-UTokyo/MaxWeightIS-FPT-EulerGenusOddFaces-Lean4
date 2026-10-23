@@ -1,0 +1,3964 @@
+2026-10-23T14:25:19Z
+✔ [3153/3173] Built MWIS.GroupSize (140s)
+✔ [3164/3189] Built MWIS.AlgorithmRounding (137s)
+✔ [3169/3194] Built MWIS.AlgorithmBounds (4.1s)
+✔ [3170/3194] Built MWIS.AlgorithmSqrt (1.7s)
+✔ [3178/3201] Built MWIS.AlgorithmRational (2.5s)
+✔ [3197/3211] Built MWIS.AlgorithmSeparation (1.5s)
+✔ [3263/3278] Built MWIS.AlgorithmMatrixRounding (13s)
+✔ [3330/3353] Built MWIS.AlgorithmEllipsoid (4.3s)
+✔ [8938/8959] Built MWIS.GroupNetwork (3.8s)
+✔ [8939/8959] Built MWIS.Midpoint (4.2s)
+✔ [8940/8959] Built MWIS.DirectedDecomposition (2.6s)
+⚠ [8941/8959] Built MWIS.ClassMinimum (1.7s)
+warning: MWIS/ClassMinimum.lean:39:4: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [8942/8959] Built MWIS.GroupLifting (2.3s)
+✔ [8943/8964] Built MWIS.RealCoordinates (1.9s)
+✔ [8944/8968] Built MWIS.EllipsoidGeometry (105s)
+✔ [8945/8968] Built MWIS.EllipsoidCenterRounding (4.3s)
+✔ [8946/8970] Built MWIS.NetworkBirkhoff (16s)
+✔ [8947/8970] Built MWIS.EllipsoidPerturbation (3.2s)
+✔ [8948/8970] Built MWIS.UnitFlowIntegrality (2.6s)
+✔ [8949/8970] Built MWIS.Parameters (2.0s)
+✔ [8950/8970] Built MWIS.AlgorithmEllipsoidGeometry (3.3s)
+✔ [8951/8970] Built MWIS.EllipsoidIteration (3.0s)
+✔ [8952/8970] Built MWIS.EllipsoidUpdateBridge (3.2s)
+✔ [8953/8978] Built MWIS.GroupExtension (4.7s)
+⚠ [8954/8981] Built MWIS.AlgorithmTrajectory (2.6s)
+warning: MWIS/AlgorithmTrajectory.lean:109:37: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [castMatrix, initial_shape]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmTrajectory.lean:110:37: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [castMatrix, initial_shape, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8955/8986] Built MWIS.PermutationDeletion (1.9s)
+✔ [8956/8989] Built MWIS.RegionParity (2.3s)
+✔ [8957/9012] Built MWIS.AlgorithmEllipsoidComplete (2.6s)
+⚠ [8958/9012] Built MWIS.Persistence (3.1s)
+warning: MWIS/Persistence.lean:129:0: automatically included section variable(s) unused in theorem `MWIS.Persistence.extend_feasible`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/Persistence.lean:153:0: automatically included section variable(s) unused in theorem `MWIS.Persistence.extend_objective`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/Persistence.lean:196:0: automatically included section variable(s) unused in theorem `MWIS.Persistence.residualSet_independent`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/Persistence.lean:201:0: automatically included section variable(s) unused in theorem `MWIS.Persistence.residualSet_supported`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/Persistence.lean:206:0: automatically included section variable(s) unused in theorem `MWIS.Persistence.residualSet_eq_self`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8959/9012] Built MWIS.Incidence (65s)
+✔ [8960/9012] Built MWIS.WeightedHall (41s)
+⚠ [8961/9012] Built MWIS.LPDirections (2.1s)
+warning: MWIS/LPDirections.lean:33:0: automatically included section variable(s) unused in theorem `MWIS.LPDirections.nonpositive_direction`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/LPDirections.lean:81:0: automatically included section variable(s) unused in theorem `MWIS.LPDirections.half_optimal_of_nonpositive_directions`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8962/9012] Built MWIS.OddRow (2.7s)
+✔ [8963/9012] Built MWIS.FaceRank (3.3s)
+✔ [8964/9014] Built MWIS.Faces (3.7s)
+✔ [8965/9018] Built MWIS.GraphComponents (2.8s)
+✔ [8966/9018] Built MWIS.CoarseGeometry (2.0s)
+✔ [8967/9018] Built MWIS.EmbeddingFaces (3.2s)
+✔ [8968/9018] Built MWIS.ComponentBoundary (2.3s)
+✔ [8969/9018] Built MWIS.ExactValue (1.6s)
+✔ [8970/9018] Built MWIS.CoarseJensen (2.6s)
+✔ [8971/9018] Built MWIS.EmbeddingVertices (2.6s)
+✔ [8972/9018] Built MWIS.CoreBridge (1.6s)
+✔ [8973/9018] Built MWIS.Embedding (2.5s)
+✔ [8974/9018] Built MWIS.ResidueJensen (3.0s)
+✔ [8975/9018] Built MWIS.EmbeddingPermutations (2.6s)
+✔ [8976/9018] Built MWIS.Orientable (2.0s)
+✔ [8977/9020] Built MWIS.EmbeddingDeletion (2.8s)
+✔ [8978/9020] Built MWIS.EmbeddingDeletionOrientation (2.3s)
+✔ [8979/9020] Built MWIS.EmbeddingEuler (2.0s)
+✔ [8980/9020] Built MWIS.RibbonTracing (2.3s)
+✔ [8981/9020] Built MWIS.ComplementEuler (2.6s)
+✔ [8982/9021] Built MWIS.EmbeddedDimensions (2.2s)
+✔ [8983/9024] Built MWIS.RibbonLinks (2.1s)
+✔ [8984/9024] Built MWIS.RibbonFaces (2.6s)
+✔ [8985/9024] Built MWIS.EmbeddingDual (2.4s)
+✔ [8986/9024] Built MWIS.IntegerFeasibilityDefs (36s)
+✔ [8987/9025] Built MWIS.Slack (106s)
+⚠ [8988/9025] Built MWIS.IntegerCramerBound (23s)
+warning: MWIS/IntegerCramerBound.lean:71:36: This simp argument is unused:
+  Matrix.updateCol_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hMr, hvr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/IntegerCramerBound.lean:79:34: This simp argument is unused:
+  Matrix.updateCol_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hc, hv a, hM a c]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8989/9025] Built MWIS.Walks (141s)
+✔ [8990/9030] Built MWIS.RibbonCellular (2.7s)
+✔ [8991/9030] Built MWIS.IntegerSquareSubsystem (6.1s)
+⚠ [8992/9030] Built MWIS.RationalDual (6.1s)
+warning: MWIS/RationalDual.lean:28:8: automatically included section variable(s) unused in theorem `MWIS.RationalDual.mem_neighbors`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RationalDual.lean:56:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+warning: MWIS/RationalDual.lean:93:0: automatically included section variable(s) unused in theorem `MWIS.RationalDual.clear_denominators`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RationalDual.lean:119:0: automatically included section variable(s) unused in theorem `MWIS.RationalDual.scaled_weighted_hall`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RationalDual.lean:137:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+⚠ [8993/9030] Built MWIS.IntegerMinimalFace (7.2s)
+warning: MWIS/IntegerMinimalFace.lean:37:8: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/IntegerMinimalFace.lean:69:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [8994/9030] Built MWIS.IntegerFarkas (6.8s)
+warning: MWIS/IntegerFarkas.lean:197:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:198:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:200:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFarkas.lean:205:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:206:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:208:25: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFarkas.lean:214:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:218:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkas.lean:198:19: This simp argument is unused:
+  e
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [redF, if_pos h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/IntegerFarkas.lean:206:19: This simp argument is unused:
+  e
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [redF, if_pos h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/IntegerFarkas.lean:249:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8995/9030] Built MWIS.OriginalFaces (3.1s)
+✔ [8996/9032] Built MWIS.RibbonRestriction (2.9s)
+✔ [8997/9032] Built MWIS.ColumnEncoding (5.5s)
+✔ [8998/9032] Built MWIS.Decomposition (6.4s)
+✔ [8999/9032] Built MWIS.RibbonComponents (2.9s)
+✔ [9000/9036] Built MWIS.IntegerDeterminantBound (6.3s)
+✔ [9001/9036] Built MWIS.IntegerSubsystemBound (5.9s)
+⚠ [9002/9036] Built MWIS.EdgeTransport (6.2s)
+warning: MWIS/EdgeTransport.lean:27:45: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+⚠ [9003/9036] Built MWIS.RibbonSmoothing (2.7s)
+warning: MWIS/RibbonSmoothing.lean:77:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.SidePairing.smoothing_apply`:
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RibbonSmoothing.lean:98:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.SidePairing.smoothing_conjugate`:
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RibbonSmoothing.lean:103:23: This simp argument is unused:
+  Flag.deletionToggle_twice
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [smoothing, smoothingRibbon, Ribbon.rotation, Flag.deletionSwitch, Equiv.trans_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9004/9036] Built MWIS.RibbonOrientation (2.0s)
+✔ [9005/9040] Built MWIS.RibbonComponentFaces (2.8s)
+✔ [9006/9040] Built MWIS.SignedCover (5.4s)
+✔ [9007/9040] Built MWIS.EllipsoidInverseBounds (2.7s)
+✔ [9008/9040] Built MWIS.IntegerSolutionBound (5.4s)
+⚠ [9009/9040] Built MWIS.SmoothingFaces (3.4s)
+warning: MWIS/SmoothingFaces.lean:73:8: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.smoothingFlag_along`:
+  [Fintype E]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9010/9042] Built MWIS.EndpointRelabeling (5.4s)
+warning: MWIS/EndpointRelabeling.lean:78:0: Definition `MWIS.Incidence.endpointAdjDecidable` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+✔ [9011/9042] Built MWIS.Recovery (1.6s)
+✔ [9012/9042] Built MWIS.RibbonComponentEuler (2.9s)
+⚠ [9013/9042] Built MWIS.IntegerFarkasCertificate (9.9s)
+warning: MWIS/IntegerFarkasCertificate.lean:92:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: MWIS/IntegerFarkasCertificate.lean:116:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: MWIS/IntegerFarkasCertificate.lean:118:31: `HasSubset.Subset.ssubset_of_ne` has been deprecated: Use `LE.le.ssubset_of_ne` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.ssubset_of_ne` to `LE.le.ssubset_of_ne x`).
+
+Hint: Replace the deprecated name:
+  H̵a̵s̵S̵u̵b̵s̵e̵t̵.̵S̵u̵b̵s̵e̵t̵.̵s̵s̵u̵b̵s̵e̵t̵_̵o̵f̵_̵n̵e̵L̲E̲.̲l̲e̲.̲s̲s̲u̲b̲s̲e̲t̲_̲o̲f̲_̲n̲e̲
+warning: MWIS/IntegerFarkasCertificate.lean:150:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: MWIS/IntegerFarkasCertificate.lean:220:31: This simp argument is unused:
+  Matrix.updateCol_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/IntegerFarkasCertificate.lean:289:61: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:293:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:416:16: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:418:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:446:36: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:449:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFarkasCertificate.lean:246:35: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9014/9042] Built MWIS.PureSmoothing (3.3s)
+warning: MWIS/PureSmoothing.lean:70:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.isolated_flag_deleted`:
+  [Fintype E]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9015/9042] Built MWIS.AlgorithmPrecision (5.7s)
+warning: MWIS/AlgorithmPrecision.lean:46:76: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/AlgorithmPrecision.lean:124:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9016/9042] Built MWIS.FiniteExtension (6.7s)
+✔ [9017/9042] Built MWIS.InducedComponents (6.5s)
+⚠ [9018/9042] Built MWIS.AlgorithmThresholdSearch (1.9s)
+warning: MWIS/AlgorithmThresholdSearch.lean:59:25: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, ↓reduceIte, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:59:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:61:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:81:25: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, ↓reduceIte, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:81:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:84:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:98:25: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, ↓reduceIte, ite_false, List.mem_cons] at hq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:98:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte, List.mem_cons] at hq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/AlgorithmThresholdSearch.lean:103:57: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [run, h, Bool.false_eq_true, ↓reduceIte, List.mem_cons] at hq
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9019/9042] Built MWIS.EllipsoidShapeBounds (3.7s)
+✔ [9020/9042] Built MWIS.ComplementCaps (2.5s)
+⚠ [9021/9049] Built MWIS.AlgorithmStateBounds (4.0s)
+warning: MWIS/AlgorithmStateBounds.lean:129:9: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9022/9049] Built MWIS.NestedRetention (5.3s)
+⚠ [9023/9049] Built MWIS.IntegerFeasibilityReverse (6.9s)
+warning: MWIS/IntegerFeasibilityReverse.lean:32:44: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityReverse.lean:36:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityReverse.lean:78:13: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9024/9049] Built MWIS.CapRegions (3.6s)
+✔ [9025/9049] Built MWIS.FiniteCycleEnumeration (2.6s)
+✔ [9026/9049] Built MWIS.ComputedColumns (5.5s)
+⚠ [9027/9051] Built MWIS.DrawingComponents (5.9s)
+warning: MWIS/DrawingComponents.lean:44:0: automatically included section variable(s) unused in theorem `MWIS.DrawingComponents.componentKeep_nonempty`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+  [DecidablePred g]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] [DecidablePred g] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DrawingComponents.lean:50:0: automatically included section variable(s) unused in theorem `MWIS.DrawingComponents.componentKeep_sub`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+  [DecidablePred g]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] [DecidablePred g] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DrawingComponents.lean:61:8: automatically included section variable(s) unused in theorem `MWIS.DrawingComponents.componentVertexEquiv_left`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+  [DecidablePred g]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] [DecidablePred g] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DrawingComponents.lean:73:8: automatically included section variable(s) unused in theorem `MWIS.DrawingComponents.componentVertexEquiv_right`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+  [DecidablePred g]
+  [DecidablePred keep]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] [DecidablePred g] [DecidablePred keep] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9028/9051] Built MWIS.IntegerFeasibilityEquiv (6.6s)
+warning: MWIS/IntegerFeasibilityEquiv.lean:34:69: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:51:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:60:41: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:68:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:68:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:86:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityEquiv.lean:86:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9029/9051] Built MWIS.FiniteCycleLength (2.6s)
+✔ [9030/9051] Built MWIS.DeletionParameters (3.5s)
+⚠ [9031/9054] Built MWIS.IntegerFeasibilityInterior (8.4s)
+warning: MWIS/IntegerFeasibilityInterior.lean:110:41: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:113:73: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:150:41: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:158:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:158:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:177:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:177:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityInterior.lean:138:54: This simp argument is unused:
+  mul_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.sum_const, Finset.card_univ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9032/9054] Built MWIS.RibbonEnumeration (2.3s)
+⚠ [9033/9056] Built MWIS.DrawingRegions (2.3s)
+warning: MWIS/DrawingRegions.lean:41:8: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.SidePairing.regionRefinement_originalFace`:
+  [Fintype E]
+  [Fintype F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] [Fintype F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9034/9056] Built MWIS.ShortestPath (6.0s)
+✔ [9035/9056] Built MWIS.IntegerFeasibilityEncoding (5.1s)
+✔ [9036/9057] Built MWIS.Complement (3.1s)
+⚠ [9037/9057] Built MWIS.DrawingParameters (4.1s)
+warning: MWIS/DrawingParameters.lean:102:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9038/9057] Built MWIS.RibbonEnumeratedSides (4.0s)
+⚠ [9039/9060] Built MWIS.IntegerFeasibilityBounds (7.7s)
+warning: MWIS/IntegerFeasibilityBounds.lean:41:41: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:47:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:47:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:63:41: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:69:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:69:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/IntegerFeasibilityBounds.lean:41:41: This simp argument is unused:
+  dif_neg hnlt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [SmaleNinth.khachiyanSystemb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9040/9060] Built MWIS.SupportCycle (5.6s)
+✔ [9041/9060] Built MWIS.CycleSearch (5.3s)
+✔ [9042/9060] Built MWIS.EnumeratedEmbedding (4.0s)
+✔ [9043/9060] Built MWIS.BoundedCycles (6.8s)
+✔ [9044/9060] Built MWIS.RationalElimination (6.9s)
+✔ [9045/9065] Built MWIS.SurfaceComplex (3.4s)
+✔ [9046/9065] Built MWIS.ComputedFaceMatrix (5.2s)
+✔ [9047/9065] Built MWIS.IntegerFeasibilitySolver (5.9s)
+✔ [9048/9065] Built MWIS.KernelBasis (6.2s)
+✔ [9049/9067] Built MWIS.StoredElimination (6.0s)
+✔ [9050/9067] Built MWIS.SurfaceColumns (4.0s)
+✔ [9051/9068] Built MWIS.Expanded (6.8s)
+✔ [9052/9070] Built MWIS.IntegerFeasibilityGeneral (5.5s)
+✔ [9053/9070] Built MWIS.SparseKernel (8.5s)
+✔ [9054/9070] Built MWIS.DeterministicComplement (6.4s)
+✔ [9055/9073] Built MWIS.SurfaceNetworkSize (6.3s)
+✔ [9056/9073] Built MWIS.LinearAlgebra (2.8s)
+✔ [9057/9073] Built MWIS.Lift (6.8s)
+✔ [9058/9073] Built MWIS.NodeEncoding (5.4s)
+✔ [9059/9073] Built MWIS.Parity (2.0s)
+✔ [9060/9073] Built MWIS.ComputedKernel (5.6s)
+✔ [9061/9076] Built MWIS.Construction (6.6s)
+✔ [9062/9076] Built MWIS.SearchOptimum (7.7s)
+✔ [9063/9077] Built MWIS.EncodingCost (6.3s)
+✔ [9064/9077] Built MWIS.IntegerSlacks (5.5s)
+⚠ [9065/9079] Built MWIS.MaxFlowReach (6.5s)
+warning: MWIS/MaxFlowReach.lean:56:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowReach.initial_invariant`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowReach.lean:82:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [hu, hv, huv] at hh
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: MWIS/MaxFlowReach.lean:233:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowReach.invariant_route_length`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9066/9081] Built MWIS.KernelArithmetic (6.4s)
+⚠ [9067/9082] Built MWIS.AlgorithmNetworkEncoding (20s)
+warning: MWIS/AlgorithmNetworkEncoding.lean:203:0: automatically included section variable(s) unused in theorem `MWIS.AlgorithmNetworkEncoding.matrix_bit_bound`:
+  [Fintype Row]
+  [Fintype Edge]
+  [Fintype G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] [Fintype Edge] [Fintype G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/AlgorithmNetworkEncoding.lean:223:0: automatically included section variable(s) unused in theorem `MWIS.AlgorithmNetworkEncoding.bound_bit_bound`:
+  [Fintype Row]
+  [Fintype G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] [Fintype G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/AlgorithmNetworkEncoding.lean:308:0: automatically included section variable(s) unused in theorem `MWIS.AlgorithmNetworkEncoding.dimensions_bound`:
+  [DecidableEq Edge]
+  [DecidableEq G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Edge] [DecidableEq G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/AlgorithmNetworkEncoding.lean:471:0: automatically included section variable(s) unused in theorem `MWIS.AlgorithmNetworkEncoding.toDenseTables_eq`:
+  [Fintype Row]
+  [Fintype Edge]
+  [Fintype G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] [Fintype Edge] [Fintype G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9068/9083] Built MWIS.Reduction (6.5s)
+⚠ [9069/9083] Built MWIS.GraphSearch (5.4s)
+warning: MWIS/GraphSearch.lean:35:0: automatically included section variable(s) unused in theorem `MWIS.GraphSearch.edgeBetween_some`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9070/9083] Built MWIS.DeterministicKernel (7.1s)
+⚠ [9071/9083] Built MWIS.InducedReduction (5.5s)
+warning: MWIS/InducedReduction.lean:34:8: automatically included section variable(s) unused in theorem `MWIS.InducedReduction.mem_lift`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/InducedReduction.lean:38:8: automatically included section variable(s) unused in theorem `MWIS.InducedReduction.mem_restrict`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/InducedReduction.lean:47:0: automatically included section variable(s) unused in theorem `MWIS.InducedReduction.lift_restrict_of_supported`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/InducedReduction.lean:76:8: automatically included section variable(s) unused in theorem `MWIS.InducedReduction.zeroExtend_at`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9072/9083] Built MWIS.AlgorithmThresholdLP (5.8s)
+✔ [9073/9083] Built MWIS.AlgorithmNetworkEnumeration (6.1s)
+✔ [9074/9085] Built MWIS.EmbeddedReduction (5.7s)
+⚠ [9075/9085] Built MWIS.ComputedRecovery (5.6s)
+warning: MWIS/ComputedRecovery.lean:27:0: automatically included section variable(s) unused in theorem `MWIS.ComputedRecovery.rootValue_eq`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9076/9085] Built MWIS.ComputedOddRow (5.0s)
+warning: MWIS/ComputedOddRow.lean:43:0: automatically included section variable(s) unused in theorem `MWIS.ComputedOddRow.parityNodes_complete`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ComputedOddRow.lean:49:0: automatically included section variable(s) unused in theorem `MWIS.ComputedOddRow.closed_walk_phase`:
+  [Fintype E]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ComputedOddRow.lean:70:0: automatically included section variable(s) unused in theorem `MWIS.ComputedOddRow.odd_walk_at_root`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ComputedOddRow.lean:148:16: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/ComputedOddRow.lean:168:0: automatically included section variable(s) unused in theorem `MWIS.ComputedOddRow.row_natAbs_le`:
+  [Fintype V]
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9077/9085] Built MWIS.ComputedEmbeddedMatrices (5.7s)
+⚠ [9078/9085] Built MWIS.ComponentAssembly (5.4s)
+warning: MWIS/ComponentAssembly.lean:69:0: automatically included section variable(s) unused in theorem `MWIS.ComponentAssembly.mem_assemble`:
+  [Fintype Q]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ComponentAssembly.lean:130:0: automatically included section variable(s) unused in theorem `MWIS.ComponentAssembly.component_closed`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ComponentAssembly.lean:137:0: automatically included section variable(s) unused in theorem `MWIS.ComponentAssembly.component_adj_iff`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9079/9088] Built MWIS.AlgorithmNetworkOptimize (5.3s)
+⚠ [9080/9091] Built MWIS.GraphRelabeling (6.4s)
+warning: MWIS/GraphRelabeling.lean:25:0: automatically included section variable(s) unused in theorem `MWIS.GraphRelabeling.feasible_pullback`:
+  [Fintype U]
+  [Fintype V]
+  [DecidableEq U]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U] [Fintype V] [DecidableEq U] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/GraphRelabeling.lean:27:7: Variable name `u` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _u
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/GraphRelabeling.lean:31:0: automatically included section variable(s) unused in theorem `MWIS.GraphRelabeling.feasible_pushforward`:
+  [Fintype U]
+  [Fintype V]
+  [DecidableEq U]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U] [Fintype V] [DecidableEq U] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/GraphRelabeling.lean:39:0: automatically included section variable(s) unused in theorem `MWIS.GraphRelabeling.objective_relabel`:
+  [DecidableEq U]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq U] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/GraphRelabeling.lean:58:8: automatically included section variable(s) unused in theorem `MWIS.GraphRelabeling.mem_mapSet`:
+  [Fintype U]
+  [Fintype V]
+  [DecidableEq U]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U] [Fintype V] [DecidableEq U] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9081/9091] Built MWIS.DeletedEmbeddedReduction (5.5s)
+⚠ [9082/9091] Built MWIS.MaxFlowCore (6.0s)
+warning: MWIS/MaxFlowCore.lean:46:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.zero_feasible`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:51:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.residual_nonnegative`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:56:8: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.pathFlow_nil`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:59:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.pathFlow_cons`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:71:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.pathFlow_skew`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:100:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.simple_nodup`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCore.lean:155:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCore.internal_sum_zero`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9083/9092] Built MWIS.NegativeWeights (3.1s)
+⚠ [9084/9094] Built MWIS.BipartiteRecovery (5.9s)
+warning: MWIS/BipartiteRecovery.lean:69:0: automatically included section variable(s) unused in theorem `MWIS.BipartiteRecovery.indicator_feasible`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/BipartiteRecovery.lean:80:0: automatically included section variable(s) unused in theorem `MWIS.BipartiteRecovery.colorClass_independent`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9085/9094] Built MWIS.DoubleCover (6.6s)
+warning: MWIS/DoubleCover.lean:36:0: automatically included section variable(s) unused in theorem `MWIS.DoubleCover.rounded_half_integral`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DoubleCover.lean:42:54: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+warning: MWIS/DoubleCover.lean:42:0: automatically included section variable(s) unused in theorem `MWIS.DoubleCover.rounded_feasible`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DoubleCover.lean:93:0: automatically included section variable(s) unused in theorem `MWIS.DoubleCover.threshold_cover`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DoubleCover.lean:124:62: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+warning: MWIS/DoubleCover.lean:246:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+⚠ [9086/9100] Built MWIS.MaxFlowScaling (7.5s)
+warning: MWIS/MaxFlowScaling.lean:219:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowScaling.feasible_entry_bound`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9087/9100] Built MWIS.DoubleCoverNetwork (6.9s)
+warning: MWIS/DoubleCoverNetwork.lean:59:0: automatically included section variable(s) unused in theorem `MWIS.DoubleCoverNetwork.side_isCut`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DoubleCoverNetwork.lean:62:0: automatically included section variable(s) unused in theorem `MWIS.DoubleCoverNetwork.capacity_nonnegative`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/DoubleCoverNetwork.lean:79:35: This simp argument is unused:
+  Bool.true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [source, target, sourceNode, sinkNode, side, capacity, Bool.not_false, Bool.not_true, Bool.false_eq,
+    true_and, and_true, decide_eq_true_eq, decide_eq_false_iff_not, not_not]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/DoubleCoverNetwork.lean:79:49: This simp argument is unused:
+  Bool.false_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [source, target, sourceNode, sinkNode, side, capacity, Bool.not_false, Bool.not_true, Bool.true_eq,
+    true_and, and_true, decide_eq_true_eq, decide_eq_false_iff_not, not_not]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/DoubleCoverNetwork.lean:110:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+✔ [9088/9101] Built MWIS.EfficientSearchQueue (9.6s)
+✔ [9089/9104] Built MWIS.SearchConstruction (11s)
+✔ [9090/9104] Built MWIS.DijkstraCorrectness (6.4s)
+⚠ [9091/9115] Built MWIS.MaxFlowPreprocessing (5.8s)
+warning: MWIS/MaxFlowPreprocessing.lean:30:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowPreprocessing.denominator_positive`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowPreprocessing.lean:33:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowPreprocessing.scaledWeight_exact`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowPreprocessing.lean:68:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowPreprocessing.networkNodes_complete`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowPreprocessing.lean:131:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+⚠ [9092/9115] Built MWIS.RadixConstruction (4.7s)
+warning: MWIS/RadixConstruction.lean:35:89: This simp argument is unused:
+  Nat.add_left_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [insertEntries, insert_size, ih, Nat.add_assoc, Nat.add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9093/9115] Built MWIS.EfficientSearchArithmetic (5.8s)
+⚠ [9094/9115] Built MWIS.MaxFlowCached (5.4s)
+warning: MWIS/MaxFlowCached.lean:34:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCached.lookup_map`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCached.lean:50:8: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCached.freeze_length`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCached.lean:156:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowCached.lookupQueries_le`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowCached.lean:161:57: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9095/9115] Built MWIS.MaxFlowDual (6.5s)
+warning: MWIS/MaxFlowDual.lean:27:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowDual.flow_zero`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowDual.lean:52:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowDual.transport_nonnegative`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowDual.lean:173:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+warning: MWIS/MaxFlowDual.lean:231:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+⚠ [9096/9116] Built MWIS.OriginalReduction (5.9s)
+warning: MWIS/OriginalReduction.lean:38:0: automatically included section variable(s) unused in theorem `MWIS.OriginalReduction.independent_iff`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq V]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq V] [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/OriginalReduction.lean:96:0: automatically included section variable(s) unused in theorem `MWIS.OriginalReduction.component_maximum`:
+  [DecidableEq F]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq F] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/OriginalReduction.lean:179:0: automatically included section variable(s) unused in theorem `MWIS.OriginalReduction.preprocessingPoint_correct`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9097/9116] Built MWIS.MaxFlowSize (6.9s)
+warning: MWIS/MaxFlowSize.lean:28:39: `Finset.prod_le_prod'` has been deprecated: Use `Finset.prod_le_prod` instead
+
+Hint: Replace the deprecated name:
+  Finset.prod_le_prod'̵
+warning: MWIS/MaxFlowSize.lean:24:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowSize.denominator_le_pow`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowSize.lean:43:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowSize.node_card`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/MaxFlowSize.lean:54:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowSize.matrix_entry_bound`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9098/9117] Built MWIS.ExecutableParity (5.7s)
+⚠ [9099/9120] Built MWIS.CachedPreprocessing (4.5s)
+warning: MWIS/CachedPreprocessing.lean:48:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+warning: MWIS/CachedPreprocessing.lean:72:12: `Symmetric` has been deprecated: Use `Std.Symm` instead
+
+Hint: Replace the deprecated name:
+  S̵y̵m̵m̵e̵t̵r̵i̵c̵S̲t̲d̲.̲S̲y̲m̲m̲
+✔ [9100/9120] Built MWIS.ComputedPathRecovery (5.1s)
+✔ [9101/9120] Built MWIS.ComputedRestriction (3.0s)
+✔ [9102/9121] Built MWIS.ComputedComponents (5.6s)
+✔ [9103/9121] Built MWIS.EfficientSearchLoop (9.0s)
+✔ [9104/9126] Built MWIS.RibbonRelabeling (2.4s)
+⚠ [9105/9126] Built MWIS.EdgeAllocation (5.8s)
+warning: MWIS/EdgeAllocation.lean:33:0: automatically included section variable(s) unused in theorem `MWIS.EdgeAllocation.selected_some`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/EdgeAllocation.lean:37:0: automatically included section variable(s) unused in theorem `MWIS.EdgeAllocation.selected_none`:
+  [Fintype V]
+  [Fintype E]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype E] [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9106/9127] Built MWIS.EfficientSearchRelations (6.1s)
+✔ [9107/9143] Built MWIS.ComputedComponentRibbon (5.6s)
+✔ [9108/9146] Built MWIS.EfficientSearchBounds (6.4s)
+⚠ [9109/9156] Built MWIS.IntegerEdgeCosts (6.1s)
+warning: MWIS/IntegerEdgeCosts.lean:35:0: automatically included section variable(s) unused in theorem `MWIS.IntegerEdgeCosts.transport_nonnegative`:
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9110/9156] Built MWIS.Statement (9.2s)
+✔ [9111/9156] Built MWIS.EfficientSearchCorrectness (9.2s)
+⚠ [9112/9167] Built MWIS.EfficientSearchArithmeticMore (9.8s)
+warning: MWIS/EfficientSearchArithmeticMore.lean:33:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:99:65: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:133:48: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:174:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:174:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:179:24: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:179:51: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:262:5: Variable name `hden` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hden
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:282:26: This simp argument is unused:
+  value
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pow_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchArithmeticMore.lean:338:20: This simp argument is unused:
+  Nat.zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [value, Bool.false_eq_true, ↓reduceIte, zero_add, value_zero, Nat.zero_mul] at hr
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9113/9168] Built MWIS.ComputedInduced (6.2s)
+✔ [9114/9169] Built MWIS.PointerMemory (6.8s)
+⚠ [9115/9170] Built MWIS.MaxFlowResidual (5.0s)
+warning: MWIS/MaxFlowResidual.lean:86:2: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9116/9170] Built MWIS.EfficientSearchRecovery (6.9s)
+⚠ [9117/9174] Built MWIS.MaxFlowListReach (6.3s)
+warning: MWIS/MaxFlowListReach.lean:73:28: This simp argument is unused:
+  he
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [decode]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9118/9176] Built MWIS.BinaryGCD (7.4s)
+✔ [9119/9176] Built MWIS.PointerRepresentations (5.1s)
+✔ [9120/9176] Built MWIS.SparseSearchGraph (5.8s)
+⚠ [9121/9176] Built MWIS.DeterminantSize (5.9s)
+warning: MWIS/DeterminantSize.lean:103:0: automatically included section variable(s) unused in theorem `MWIS.DeterminantSize.updateCol_single_bound`:
+  [Fintype I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9122/9178] Built MWIS.BinaryRational (5.6s)
+✔ [9123/9181] Built MWIS.EfficientSearchPointerData (5.4s)
+✔ [9124/9181] Built MWIS.PointerLookup (5.6s)
+✔ [9125/9181] Built MWIS.SparseSearchPath (6.3s)
+✔ [9126/9181] Built MWIS.EliminationCertificate (8.1s)
+⚠ [9127/9181] Built MWIS.BinaryRationalArithmetic (8.4s)
+warning: MWIS/BinaryRationalArithmetic.lean:60:48: This simp argument is unused:
+  Int.ofNat_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [signed, sub_eq_add_neg, add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/BinaryRationalArithmetic.lean:64:48: This simp argument is unused:
+  Int.ofNat_sub
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [signed, sub_eq_add_neg, add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/BinaryRationalArithmetic.lean:125:36: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/BinaryRationalArithmetic.lean:144:10: This simp argument is unused:
+  hqs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hrs, div_div_eq_mul_div, div_mul_eq_mul_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/BinaryRationalArithmetic.lean:144:15: This simp argument is unused:
+  hrs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hqs, div_div_eq_mul_div, div_mul_eq_mul_div]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/BinaryRationalArithmetic.lean:198:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/BinaryRationalArithmetic.lean:198:17: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9128/9181] Built MWIS.PointerArithmetic (7.3s)
+✔ [9129/9188] Built MWIS.PointerJoin (5.9s)
+✔ [9130/9209] Built MWIS.PointerInsert (5.6s)
+✔ [9131/9210] Built MWIS.SparseSearchWeights (5.9s)
+⚠ [9132/9210] Built MWIS.RationalWidth (5.7s)
+warning: MWIS/RationalWidth.lean:115:73: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/RationalWidth.lean:115:85: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/RationalWidth.lean:142:20: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/RationalWidth.lean:142:32: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9133/9213] Built MWIS.PermutationRestriction (1.9s)
+warning: MWIS/PermutationRestriction.lean:132:6: Unused tactic linter: `change q (((firstReturn σ p : { a // p a } → { a // p a })^[k] x.val).val)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9134/9213] Built MWIS.PointerPop (6.3s)
+⚠ [9135/9216] Built MWIS.RibbonFaceRelabeling (2.9s)
+warning: MWIS/RibbonFaceRelabeling.lean:27:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.map_rotation`:
+  [Fintype D]
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype D] [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RibbonFaceRelabeling.lean:108:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.eq_of_corner_eq`:
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/RibbonFaceRelabeling.lean:117:0: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.edge_vertexLinks`:
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9136/9216] Built MWIS.IndexedActiveVertices (2.1s)
+✔ [9137/9216] Built MWIS.SparseSearchLabeled (4.5s)
+✔ [9138/9216] Built MWIS.BinaryRationalInterface (4.7s)
+✔ [9139/9216] Built MWIS.PointerEvaluation (5.7s)
+✔ [9140/9216] Built MWIS.EfficientSearchPointerTrie (5.3s)
+✔ [9141/9216] Built MWIS.RibbonRestrictionCompatibility (5.2s)
+⚠ [9142/9218] Built MWIS.ComputedGeometryTransfer (6.1s)
+warning: MWIS/ComputedGeometryTransfer.lean:42:8: Variable name `O` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _O
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9143/9218] Built MWIS.SparseSearchLabeledPath (5.6s)
+⚠ [9144/9218] Built MWIS.PointerPopSafety (5.7s)
+warning: MWIS/PointerPopSafety.lean:66:70: This simp argument is unused:
+  Nat.add_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.length_append, List.length_cons, List.length_nil]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9145/9218] Built MWIS.PointerExecution (5.9s)
+✔ [9146/9218] Built MWIS.EfficientSearchPointerInspect (5.4s)
+✔ [9147/9218] Built MWIS.RibbonTable (6.4s)
+✔ [9148/9218] Built MWIS.ExpandedWords (6.1s)
+✔ [9149/9221] Built MWIS.EfficientSearchPointerRelax (8.0s)
+✔ [9150/9221] Built MWIS.RibbonDeletionRelabeling (6.4s)
+✔ [9151/9221] Built MWIS.KernelMidpoint (1.9s)
+✔ [9152/9221] Built MWIS.ComputedDrawingTransfer (6.6s)
+✔ [9153/9221] Built MWIS.SparseSearchLabeledWeights (6.4s)
+✔ [9154/9223] Built MWIS.PointerStack (7.1s)
+✔ [9155/9223] Built MWIS.RibbonTableRestrict (6.7s)
+✔ [9156/9223] Built MWIS.IncidenceSplit (2.0s)
+⚠ [9157/9223] Built MWIS.ExpandedCoordinate (6.4s)
+warning: MWIS/ExpandedCoordinate.lean:73:75: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9158/9223] Built MWIS.EfficientSearchPointerFresh (6.5s)
+⚠ [9159/9223] Built MWIS.RibbonDrawingRestriction (4.8s)
+warning: MWIS/RibbonDrawingRestriction.lean:30:8: automatically included section variable(s) unused in theorem `MWIS.EmbeddingFaces.Ribbon.drawingEdgeEquiv_val`:
+  [Fintype D]
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype D] [Fintype E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9160/9223] Built MWIS.ResidueHull (1.0s)
+✔ [9161/9223] Built MWIS.ComputedResidualGeometry (6.1s)
+✔ [9162/9223] Built MWIS.ComponentTable (5.6s)
+✔ [9163/9223] Built MWIS.InducedTable (5.4s)
+✔ [9164/9223] Built MWIS.ExecutableReduction (5.9s)
+✔ [9165/9223] Built MWIS.KernelCoordinates (2.6s)
+✔ [9166/9223] Built MWIS.PointerCallTrees (4.0s)
+✔ [9167/9223] Built MWIS.RegisterMachine (4.5s)
+✔ [9168/9223] Built MWIS.CycleQuotient (2.5s)
+⚠ [9169/9223] Built MWIS.PointerArithmeticEval (5.7s)
+warning: MWIS/PointerArithmeticEval.lean:37:49: Variable name `hh` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hh
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9170/9223] Built MWIS.ExecutableComponent (5.8s)
+✔ [9171/9223] Built MWIS.EfficientSearchPointerRun (6.9s)
+✔ [9172/9223] Built MWIS.EfficientSearchCode (5.7s)
+✔ [9173/9223] Built MWIS.RegisterMachineFacts (5.8s)
+✔ [9174/9223] Built MWIS.EfficientSearchCodeBounds (4.1s)
+✔ [9175/9223] Built MWIS.CompiledTrie (4.4s)
+✔ [9176/9223] Built MWIS.ExecutableAllHalf (4.5s)
+✔ [9177/9223] Built MWIS.CoreOptimum (4.7s)
+⚠ [9178/9223] Built MWIS.RegisterMachineBounds (5.4s)
+warning: MWIS/RegisterMachineBounds.lean:120:52: This simp argument is unused:
+  Value.asFlag
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [CellExpr.eval, ha, ht, Value.asPointer] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterMachineBounds.lean:129:52: This simp argument is unused:
+  Value.asFlag
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [CellExpr.eval, ha, ht, Value.asPointer] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterMachineBounds.lean:138:52: This simp argument is unused:
+  Value.asFlag
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [CellExpr.eval, ha, ht, Value.asPointer] at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterMachineBounds.lean:156:14: This simp argument is unused:
+  List.mem_singleton
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Cell.Fits, Cell.references, List.mem_cons, List.not_mem_nil, or_false] at hc
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9179/9223] Built MWIS.EfficientSearchPointerEvaluation (7.0s)
+✔ [9180/9223] Built MWIS.CompiledTemplates (5.6s)
+⚠ [9181/9224] Built MWIS.RegisterAdder (7.2s)
+warning: MWIS/RegisterAdder.lean:58:41: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [withEvents, values, Atom.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterAdder.lean:59:22: This simp argument is unused:
+  sumLeaf
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [withEvents, CellExpr.args, values, moves, Atom.eval, Value.moves, ht]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9182/9224] Built MWIS.CompiledLookup (4.0s)
+✔ [9183/9224] Built MWIS.ExecutableMIS (4.7s)
+✔ [9184/9224] Built MWIS.RegisterListCommon (6.5s)
+✔ [9185/9224] Built MWIS.CoreNetwork (6.2s)
+⚠ [9186/9224] Built MWIS.RegisterMachineMeta (4.9s)
+warning: MWIS/RegisterMachineMeta.lean:47:55: This simp argument is unused:
+  Program.allocate
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Value.Bounded, Value.word, Word.Bounded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9187/9224] Built MWIS.EfficientSearchCodeBasic (5.3s)
+warning: MWIS/EfficientSearchCodeBasic.lean:28:43: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r, CellExpr.eval, Atom.eval, h1, Value.asPointer]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeBasic.lean:30:43: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r, CellExpr.eval, Atom.eval, h3, Value.asPointer]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeBasic.lean:31:76: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r, values, Atom.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeBasic.lean:31:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9188/9224] Built MWIS.ExpandedRecords (4.3s)
+✔ [9189/9224] Built MWIS.RegisterComparator (5.2s)
+✔ [9190/9224] Built MWIS.StoredRational (5.5s)
+✔ [9191/9224] Built MWIS.ComputedResidualParameters (4.7s)
+⚠ [9192/9224] Built MWIS.CompiledInsert (7.1s)
+warning: MWIS/CompiledInsert.lean:27:33: This simp argument is unused:
+  List.append_assoc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [values, Atom.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/CompiledInsert.lean:26:79: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9193/9224] Built MWIS.RegisterListZip (6.0s)
+✔ [9194/9224] Built MWIS.RegisterListFilter (6.4s)
+✔ [9195/9224] Built MWIS.RegisterListFind (6.2s)
+✔ [9196/9224] Built MWIS.RegisterMachineFrames (6.3s)
+⚠ [9197/9224] Built MWIS.EfficientSearchCodePush (5.3s)
+warning: MWIS/EfficientSearchCodePush.lean:70:65: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadedArc, r, Atom.eval, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9198/9224] Built MWIS.RegisterMembership (5.6s)
+warning: MWIS/RegisterMembership.lean:100:37: This simp argument is unused:
+  recurseBody
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [found, heq]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterMembership.lean:100:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9199/9224] Built MWIS.ResidualWords (4.9s)
+✔ [9200/9224] Built MWIS.RegisterFlagKeys (8.7s)
+⚠ [9201/9224] Built MWIS.ComputedDrawingParameters (5.7s)
+warning: MWIS/ComputedDrawingParameters.lean:51:0: automatically included section variable(s) unused in theorem `MWIS.ComputedDrawing.componentAmbient_corner_map`:
+  [Fintype V]
+  [Fintype F]
+  [DecidableEq V]
+  [DecidableEq E]
+  [DecidableEq F]
+  [DecidablePred drawing]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [Fintype F] [DecidableEq V] [DecidableEq E] [DecidableEq F] [DecidablePred drawing] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9202/9224] Built MWIS.CompiledJoin (5.9s)
+✔ [9203/9224] Built MWIS.CompiledGraphConstruction (6.0s)
+⚠ [9204/9224] Built MWIS.EfficientSearchCodeRelax (5.6s)
+warning: MWIS/EfficientSearchCodeRelax.lean:64:64: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [finalRegs, pushed, r, Atom.eval, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9205/9224] Built MWIS.CompiledTemplatePrimitives (7.6s)
+✔ [9206/9224] Built MWIS.RegisterResidualPredicate (6.3s)
+✔ [9207/9228] Built MWIS.RegisterRouteLookup (6.5s)
+✔ [9208/9234] Built MWIS.RegisterRecordLookup (7.1s)
+✔ [9209/9234] Built MWIS.EfficientSearchCodeFresh (5.6s)
+✔ [9210/9240] Built MWIS.CompiledTemplateEmit (4.8s)
+✔ [9211/9242] Built MWIS.RegisterResidualCrossing (5.5s)
+⚠ [9212/9243] Built MWIS.EfficientSearchCodeSearchHelpers (5.2s)
+warning: MWIS/EfficientSearchCodeSearchHelpers.lean:49:43: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/EfficientSearchCodeSearchHelpers.lean:84:44: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9213/9243] Built MWIS.RegisterComplement (6.5s)
+✔ [9214/9245] Built MWIS.RegisterFirstReturn (7.0s)
+✔ [9215/9247] Built MWIS.CompiledTemplateColumn (6.0s)
+⚠ [9216/9247] Built MWIS.ResidualCrossingRefinement (4.3s)
+warning: MWIS/ResidualCrossingRefinement.lean:19:0: automatically included section variable(s) unused in theorem `MWIS.ResidualCrossingRefinement.encoded_membership`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ResidualCrossingRefinement.lean:61:0: automatically included section variable(s) unused in theorem `MWIS.ResidualCrossingRefinement.encoded_list_membership`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9217/9247] Built MWIS.DeterministicKernelWidth (5.4s)
+✔ [9218/9250] Built MWIS.CompiledPop (6.0s)
+✔ [9219/9250] Built MWIS.RegisterSubtractor (5.6s)
+✔ [9220/9250] Built MWIS.RegisterPairReads (4.9s)
+✔ [9221/9250] Built MWIS.RegisterWordFilter (7.6s)
+✔ [9222/9250] Built MWIS.CompiledTemplateList (6.1s)
+✔ [9223/9255] Built MWIS.RegisterListMap (5.9s)
+⚠ [9224/9255] Built MWIS.ResidualListReach (5.4s)
+warning: MWIS/ResidualListReach.lean:110:0: automatically included section variable(s) unused in theorem `MWIS.ResidualListReach.lookup_encoded`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ResidualListReach.lean:126:0: automatically included section variable(s) unused in theorem `MWIS.ResidualListReach.encode_initial`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9225/9264] Built MWIS.RegisterListFold (7.1s)
+✔ [9226/9265] Built MWIS.RegisterShift (6.4s)
+✔ [9227/9265] Built MWIS.CompiledTemplateSemantics (5.8s)
+✔ [9228/9265] Built MWIS.ReachSeen (5.6s)
+✔ [9229/9269] Built MWIS.RegisterListFlatMap (4.6s)
+✔ [9230/9269] Built MWIS.RegisterZero (6.1s)
+✔ [9231/9269] Built MWIS.GraphReachEncoded (6.3s)
+✔ [9232/9269] Built MWIS.RegisterRoutePrepend (5.4s)
+✔ [9233/9270] Built MWIS.RegisterDivision (8.9s)
+⚠ [9234/9270] Built MWIS.RegisterMultiplier (5.4s)
+warning: MWIS/RegisterMultiplier.lean:104:74: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [shifted, loaded, regs, bindResults, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterMultiplier.lean:106:74: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [shifted, loaded, regs, bindResults, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9235/9270] Built MWIS.RegisterWiden (7.4s)
+✔ [9236/9275] Built MWIS.AllHalfEncoded (6.9s)
+✔ [9237/9277] Built MWIS.RegisterHalve (8.4s)
+✔ [9238/9277] Built MWIS.RegisterReachExtend (6.5s)
+✔ [9239/9278] Built MWIS.RegisterDivisionWrapper (7.1s)
+✔ [9240/9278] Built MWIS.RegisterWordArithmetic (5.2s)
+✔ [9241/9278] Built MWIS.NetworkWeights (6.0s)
+⚠ [9242/9280] Built MWIS.RegisterArcMembership (9.3s)
+warning: MWIS/RegisterArcMembership.lean:116:34: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [sourceCompared, second, first, scanned, regs, bindResults, loadRegisters, decoded,
+    RegisterComparator.flags]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterArcMembership.lean:125:34: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [targetCompared, sourceCompared, second, first, scanned, regs, bindResults, loadRegisters, decoded,
+    RegisterComparator.flags]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterArcMembership.lean:142:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9243/9280] Built MWIS.RegisterRemainder (5.5s)
+✔ [9244/9287] Built MWIS.RegisterResidualReach (6.6s)
+✔ [9245/9287] Built MWIS.RegisterPhaseAttempts (6.3s)
+✔ [9246/9287] Built MWIS.RegisterResidualAdjust (5.9s)
+✔ [9247/9288] Built MWIS.NetworkWords (6.7s)
+⚠ [9248/9288] Built MWIS.MaxFlowOverscaled (5.6s)
+warning: MWIS/MaxFlowOverscaled.lean:22:0: automatically included section variable(s) unused in theorem `MWIS.MaxFlowScaling.capacity_entry_le_sum`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9249/9292] Built MWIS.RegisterResidualSearch (5.0s)
+⚠ [9250/9293] Built MWIS.RegisterGCD (9.0s)
+warning: MWIS/RegisterGCD.lean:230:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9251/9293] Built MWIS.RegisterResidualUpdate (6.5s)
+✔ [9252/9293] Built MWIS.EfficientSearchPointerExecution (4.6s)
+⚠ [9253/9296] Built MWIS.EfficientSearchCodeSearch (5.5s)
+warning: MWIS/EfficientSearchCodeSearch.lean:72:46: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, Atom.eval, initialRegisters, bindResults, Function.update_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:72:49: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, r, initialRegisters, bindResults, Function.update_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:72:91: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, r, Atom.eval, initialRegisters, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:73:60: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, r, Atom.eval, bindResults, Function.update_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:73:91: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, r, Atom.eval, initialRegisters, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:74:91: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [knownRegs, readRegs, popRegs, r, Atom.eval, initialRegisters, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:127:63: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [finalRegs, regs, knownRegs, readRegs, popRegs, Atom.eval, initialRegisters, bindResults,
+    Function.update_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:127:66: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [finalRegs, regs, knownRegs, readRegs, popRegs, r, initialRegisters, bindResults, Function.update_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchCodeSearch.lean:128:21: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [finalRegs, regs, knownRegs, readRegs, popRegs, r, Atom.eval, initialRegisters, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9254/9297] Built MWIS.EfficientSearchHistogram (5.4s)
+warning: MWIS/EfficientSearchHistogram.lean:92:12: This simp argument is unused:
+  List.count_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [he, Ne.symm he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9255/9298] Built MWIS.RegisterNormalization (4.8s)
+⚠ [9256/9298] Built MWIS.EfficientSearchHistogramCode (4.1s)
+warning: MWIS/EfficientSearchHistogramCode.lean:16:29: Variable name `lookup` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _lookup
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9257/9301] Built MWIS.EfficientSearchPointerSolve (4.8s)
+✔ [9258/9303] Built MWIS.RegisterResidualTableUpdate (5.7s)
+✔ [9259/9304] Built MWIS.RegisterRationalProducts (5.5s)
+✔ [9260/9304] Built MWIS.EfficientSearchCodeSolve (4.5s)
+✔ [9261/9305] Built MWIS.RegisterSignedAdd (6.7s)
+✔ [9262/9305] Built MWIS.RegisterPathLabels (6.2s)
+✔ [9263/9305] Built MWIS.ResidualListPhase (4.5s)
+⚠ [9264/9305] Built MWIS.ResidualUpdateRefinement (4.6s)
+warning: MWIS/ResidualUpdateRefinement.lean:24:0: automatically included section variable(s) unused in theorem `MWIS.ResidualUpdateRefinement.encoded_membership`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ResidualUpdateRefinement.lean:47:0: automatically included section variable(s) unused in theorem `MWIS.ResidualUpdateRefinement.count_eq_indicator`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/ResidualUpdateRefinement.lean:116:0: automatically included section variable(s) unused in theorem `MWIS.ResidualUpdateRefinement.table_map`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [9265/9305] Built MWIS.EfficientSearchProgram (4.6s)
+✔ [9266/9305] Built MWIS.RegisterPotentialStep (5.1s)
+✔ [9267/9305] Built MWIS.RegisterRationalAdd (5.9s)
+✔ [9268/9305] Built MWIS.EfficientSearchRelabel (5.0s)
+✔ [9269/9305] Built MWIS.ResidualPhaseRefinement (5.8s)
+⚠ [9270/9305] Built MWIS.RegisterResidualPhase (7.4s)
+warning: MWIS/RegisterResidualPhase.lean:150:78: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: MWIS/RegisterResidualPhase.lean:202:58: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+✔ [9271/9306] Built MWIS.ResidualListScales (4.3s)
+✔ [9272/9306] Built MWIS.EfficientSearchRuntime (4.7s)
+✔ [9273/9306] Built MWIS.EfficientSearchHistogramUpdate (5.1s)
+✔ [9274/9306] Built MWIS.EfficientSearchProcedureTable (5.4s)
+✔ [9275/9310] Built MWIS.SignedWords (4.6s)
+✔ [9276/9310] Built MWIS.RegisterStoredRational (5.4s)
+✔ [9277/9310] Built MWIS.RegisterResidualScales (5.3s)
+✔ [9278/9313] Built MWIS.ResidualScalesRefinement (5.2s)
+✔ [9279/9313] Built MWIS.RegisterDigits (6.2s)
+⚠ [9280/9313] Built MWIS.EfficientSearchHistogramCompile (6.1s)
+warning: MWIS/EfficientSearchHistogramCompile.lean:48:14: This simp argument is unused:
+  regs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r, Atom.eval, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:82:58: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:82:61: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:83:58: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:83:61: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:84:58: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:84:61: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:84:109: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, Atom.eval, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:85:58: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:85:61: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:85:109: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, Atom.eval, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:104:60: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:104:63: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:105:60: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:105:63: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:106:60: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:106:63: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:106:111: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, Atom.eval, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:107:60: This simp argument is unused:
+  r
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, Atom.eval, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:107:63: This simp argument is unused:
+  Atom.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, loadRegisters, decoded, bindResults, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:107:111: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, r, Atom.eval, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/EfficientSearchHistogramCompile.lean:134:37: This simp argument is unused:
+  List.length_nil
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.length_cons, budget]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9281/9313] Built MWIS.RegisterHorner (5.6s)
+✔ [9282/9313] Built MWIS.RegisterRationalZero (4.9s)
+✔ [9283/9313] Built MWIS.RegisterRationalRow (5.6s)
+✔ [9284/9313] Built MWIS.EfficientSearchHistogramRuntime (4.8s)
+✔ [9285/9313] Built MWIS.ScalarNodeCodec (5.7s)
+✔ [9286/9313] Built MWIS.RegisterMaxFlowSolve (8.5s)
+✔ [9287/9314] Built MWIS.ExpandedWordEncoding (4.8s)
+⚠ [9288/9315] Built MWIS.RationalRowSemantics (4.7s)
+warning: MWIS/RationalRowSemantics.lean:37:67: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/RationalRowSemantics.lean:37:79: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9289/9315] Built MWIS.RegisterSearchReadback (5.4s)
+⚠ [9290/9315] Built MWIS.ExpandedContext (5.4s)
+warning: MWIS/ExpandedContext.lean:23:42: Local variable 'zero' resembles constructor 'Nat.zero' - write '.zero' (with a dot) or 'Nat.zero' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+✔ [9291/9315] Built MWIS.RegisterNetworkWeights (9.9s)
+⚠ [9292/9315] Built MWIS.ExpandedCoordinateSemantics (5.2s)
+warning: MWIS/ExpandedCoordinateSemantics.lean:36:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/ExpandedCoordinateSemantics.lean:42:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/ExpandedCoordinateSemantics.lean:76:33: This simp argument is unused:
+  Option.bind_some
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [updateWords, h 0]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9293/9315] Built MWIS.RegisterSearchHistogram (5.6s)
+✔ [9294/9315] Built MWIS.RationalWordRows (7.0s)
+✔ [9295/9315] Built MWIS.ExpandedGenerationData (4.6s)
+✔ [9296/9317] Built MWIS.RegisterContextPack (7.0s)
+⚠ [9297/9320] Built MWIS.ExpandedEmptyCoordinates (4.7s)
+warning: MWIS/ExpandedEmptyCoordinates.lean:33:43: This simp argument is unused:
+  finFunctionFinEquiv_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [encodeWords, boxWords, boxEquiv, Bits.value_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9298/9320] Built MWIS.RegisterNetworkNodes (7.5s)
+✔ [9299/9320] Built MWIS.EfficientSearchOutput (5.9s)
+✔ [9300/9320] Built MWIS.RegisterRationalProject (6.5s)
+⚠ [9301/9320] Built MWIS.ExpandedCandidateSemantics (5.5s)
+warning: MWIS/ExpandedCandidateSemantics.lean:97:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9302/9320] Built MWIS.RegisterCoordinate (6.6s)
+warning: MWIS/RegisterCoordinate.lean:139:65: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: MWIS/RegisterCoordinate.lean:140:8: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+✔ [9303/9326] Built MWIS.RegisterArcEmitter (5.7s)
+✔ [9304/9329] Built MWIS.RegisterAdjacencyScan (6.4s)
+✔ [9305/9329] Built MWIS.EfficientSearchOutputExact (6.2s)
+✔ [9306/9329] Built MWIS.RegisterCoordinates (7.7s)
+✔ [9307/9330] Built MWIS.RegisterRationalCut (9.5s)
+✔ [9308/9330] Built MWIS.RegisterQuotRem (4.6s)
+✔ [9309/9330] Built MWIS.RegisterCandidate (5.5s)
+✔ [9310/9336] Built MWIS.RegisterEliminateRows (5.7s)
+✔ [9311/9336] Built MWIS.RegisterArcLookup (6.9s)
+✔ [9312/9336] Built MWIS.RegisterNetworkTable (9.2s)
+✔ [9313/9336] Built MWIS.RegisterNodeDecode (7.2s)
+⚠ [9314/9338] Built MWIS.RegisterCandidateParsing (7.2s)
+warning: MWIS/RegisterCandidateParsing.lean:70:44: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r0, loadRegisters, decoded, initialRegisters]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:71:48: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:72:46: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r2, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:72:49: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:72:52: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r2, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:73:44: This simp argument is unused:
+  r4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:74:44: This simp argument is unused:
+  r5
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:125:44: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:126:44: This simp argument is unused:
+  r4'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:127:44: This simp argument is unused:
+  r5
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterCandidateParsing.lean:128:44: This simp argument is unused:
+  r6
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9315/9338] Built MWIS.RegisterWordRange (8.2s)
+✔ [9316/9338] Built MWIS.RegisterIncidenceRows (11s)
+⚠ [9317/9339] Built MWIS.WordNodeCodec (4.7s)
+warning: MWIS/WordNodeCodec.lean:77:64: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9318/9341] Built MWIS.RegisterCutReadback (6.5s)
+✔ [9319/9342] Built MWIS.RegisterNodeEncode (7.5s)
+✔ [9320/9342] Built MWIS.SupportCycleWords (6.9s)
+✔ [9321/9342] Built MWIS.RegisterNetworkSolve (13s)
+✔ [9322/9342] Built MWIS.RegisterResize (9.0s)
+✔ [9323/9342] Built MWIS.RegisterSignificant (4.9s)
+⚠ [9324/9342] Built MWIS.RegisterHubEntries (6.0s)
+warning: MWIS/RegisterHubEntries.lean:98:27: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:99:27: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:100:27: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:101:27: This simp argument is unused:
+  r4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:102:27: This simp argument is unused:
+  r5
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:103:27: This simp argument is unused:
+  r6
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:104:27: This simp argument is unused:
+  r7
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubEntries.lean:105:27: This simp argument is unused:
+  r8
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9325/9342] Built MWIS.RegisterCandidateFinish (5.0s)
+✔ [9326/9342] Built MWIS.DecomposeWords (7.3s)
+✔ [9327/9342] Built MWIS.ExpandedParameterValues (7.6s)
+⚠ [9328/9344] Built MWIS.RegisterHubSource (8.5s)
+warning: MWIS/RegisterHubSource.lean:153:27: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r2, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubSource.lean:153:30: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHubSource.lean:153:33: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r2, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9329/9344] Built MWIS.RegisterCandidateCompiled (6.3s)
+warning: MWIS/RegisterCandidateCompiled.lean:188:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+✔ [9330/9348] Built MWIS.Fun.Core (2.9s)
+✔ [9331/9351] Built MWIS.RegisterTemplateScan (4.5s)
+⚠ [9332/9351] Built MWIS.RegisterExit (8.6s)
+warning: MWIS/RegisterExit.lean:49:48: Local variable 'zero' resembles constructor 'Nat.zero' - write '.zero' (with a dot) or 'Nat.zero' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: MWIS/RegisterExit.lean:59:44: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterExit.lean:60:44: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterExit.lean:61:44: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterExit.lean:62:44: This simp argument is unused:
+  r4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9333/9354] Built MWIS.FrontCycleEnumeration (1.3s)
+warning: MWIS/FrontCycleEnumeration.lean:28:57: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FrontCycleEnumeration.lean:28:68: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FrontCycleEnumeration.lean:30:56: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FrontCycleEnumeration.lean:30:67: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9334/9354] Built MWIS.RegisterPreprocessing (23s)
+⚠ [9335/9354] Built MWIS.Fun.Heap (8.2s)
+warning: MWIS/Fun/Heap.lean:168:41: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9336/9354] Built MWIS.NetworkTarget (1.5s)
+✔ [9337/9354] Built MWIS.FlagKeyFaces (6.9s)
+⚠ [9338/9354] Built MWIS.RegisterWorkSource (7.5s)
+warning: MWIS/RegisterWorkSource.lean:75:48: Local variable 'zero' resembles constructor 'Nat.zero' - write '.zero' (with a dot) or 'Nat.zero' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: MWIS/RegisterWorkSource.lean:110:46: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterWorkSource.lean:111:46: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterWorkSource.lean:112:47: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r2, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterWorkSource.lean:112:50: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r1, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterWorkSource.lean:112:53: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [r3, r2, loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9339/9354] Built MWIS.EdgeCostWords (6.1s)
+✔ [9340/9354] Built MWIS.FaceRowSemantics (6.3s)
+⚠ [9341/9354] Built MWIS.FPTHardNetwork (7.9s)
+warning: MWIS/FPTHardNetwork.lean:49:0: automatically included section variable(s) unused in theorem `MWIS.FPTHard.columnHom_apply`:
+  [Fintype Row]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/FPTHardNetwork.lean:232:17: This simp argument is unused:
+  Fin.val_castSucc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at ih
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9342/9361] Built MWIS.RegisterKeyTrace (8.6s)
+⚠ [9343/9361] Built MWIS.ExpandedWorkSourceSemantics (5.3s)
+warning: MWIS/ExpandedWorkSourceSemantics.lean:69:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/ExpandedWorkSourceSemantics.lean:69:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/ExpandedWorkSourceSemantics.lean:71:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/ExpandedWorkSourceSemantics.lean:71:30: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9344/9365] Built MWIS.FPTHard (5.9s)
+warning: MWIS/FPTHard.lean:40:0: automatically included section variable(s) unused in theorem `MWIS.FPTHard.columnHom_incidence_of_span`:
+  [Fintype Row]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/FPTHard.lean:60:0: automatically included section variable(s) unused in theorem `MWIS.FPTHard.columnHom_one_of_incidence`:
+  [Fintype Row]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Row] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [9345/9365] Built MWIS.RegisterSourceDispatch (7.6s)
+warning: MWIS/RegisterSourceDispatch.lean:74:48: Local variable 'zero' resembles constructor 'Nat.zero' - write '.zero' (with a dot) or 'Nat.zero' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+warning: MWIS/RegisterSourceDispatch.lean:93:27: This simp argument is unused:
+  r1
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSourceDispatch.lean:94:27: This simp argument is unused:
+  r2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSourceDispatch.lean:95:27: This simp argument is unused:
+  r3
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSourceDispatch.lean:96:27: This simp argument is unused:
+  r4
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSourceDispatch.lean:97:27: This simp argument is unused:
+  r5
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loadRegisters, decoded]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9346/9368] Built MWIS.Spec (5.2s)
+✔ [9347/9368] Built MWIS.RegisterKeyFaceEnumeration (8.9s)
+⚠ [9348/9370] Built MWIS.ExpandedHubSourceSemantics (5.3s)
+warning: MWIS/ExpandedHubSourceSemantics.lean:32:17: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.val_castSucc, List.flatMap_cons, List.flatMap_nil, List.append_nil, Fin.val_last]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9349/9370] Built MWIS.RegisterAllSources (5.6s)
+warning: MWIS/RegisterAllSources.lean:51:38: Local variable 'unit' resembles constructor 'PUnit.unit' - write '.unit' (with a dot) or 'PUnit.unit' to use the constructor.
+
+Note: This linter can be disabled with `set_option linter.constructorNameAsVariable false`
+✔ [9350/9370] Built MWIS.SpecIndependence (4.6s)
+✔ [9351/9372] Built MWIS.SpecFlags (4.8s)
+✔ [9352/9375] Built MWIS.RegisterWordAssoc (6.9s)
+✔ [9353/9375] Built MWIS.RegisterEdgeWords (7.1s)
+✔ [9354/9375] Built MWIS.RegisterGraphEnumeration (5.2s)
+✔ [9355/9375] Built MWIS.RegisterFaceRow (9.2s)
+✔ [9356/9375] Built MWIS.SpecConnectivity (4.2s)
+✔ [9357/9375] Built MWIS.RegisterListReverse (6.2s)
+✔ [9358/9375] Built MWIS.RegisterRestrictCorner (7.5s)
+✔ [9359/9375] Built MWIS.ExpandedSourceSemantics (6.1s)
+✔ [9360/9375] Built MWIS.RegisterGraphArcs (10s)
+✔ [9361/9375] Built MWIS.ExpandedEnumerationSize (4.5s)
+✔ [9362/9377] Built MWIS.FPTTrees (6.0s)
+✔ [9363/9379] Built MWIS.SpecFaces (4.7s)
+✔ [9364/9379] Built MWIS.SpecDrawnCorner (5.5s)
+✔ [9365/9379] Built MWIS.SpecOrientation (6.4s)
+✔ [9366/9380] Built MWIS.RegisterRestrictTable (9.2s)
+✔ [9367/9380] Built MWIS.RegisterComponentRoots (7.6s)
+✔ [9368/9380] Built MWIS.IncrementalComplement (7.7s)
+✔ [9369/9380] Built MWIS.SpecRegions (4.8s)
+✔ [9370/9383] Built MWIS.RegisterWeightMask (8.9s)
+✔ [9371/9383] Built MWIS.RegisterRibbonCycles (7.5s)
+✔ [9372/9386] Built MWIS.RegisterInducedRibbon (8.5s)
+✔ [9373/9386] Built MWIS.SpecBridge (5.2s)
+✔ [9374/9387] Built MWIS.HardWidths (8.7s)
+✔ [9375/9388] Built MWIS.FaceColumnSemantics (6.2s)
+✔ [9376/9388] Built MWIS.RegisterRowRecords (6.6s)
+✔ [9377/9388] Built MWIS.RegisterEvenMatrix (5.5s)
+✔ [9378/9388] Built MWIS.GenericSolve (6.3s)
+✔ [9379/9388] Built MWIS.RegisterSignedRows (5.9s)
+✔ [9380/9388] Built MWIS.RegisterComponentSolve (8.6s)
+✔ [9381/9388] Built MWIS.GenericEncoded (8.5s)
+✔ [9382/9393] Built MWIS.RegisterKernelGenerators (10s)
+✔ [9383/9396] Built MWIS.RegisterHardInputs (12s)
+✔ [9384/9396] Built MWIS.RegisterFaceColumns (11s)
+✔ [9385/9396] Built MWIS.GenericComponentSolve (8.8s)
+✔ [9386/9403] Built MWIS.RegisterSupportArcs (11s)
+✔ [9387/9403] Built MWIS.RegisterFaceColumnStage (9.0s)
+✔ [9388/9403] Built MWIS.ResidualReachGeneric (6.9s)
+✔ [9389/9405] Built MWIS.RegisterFirstEdge (10s)
+✔ [9390/9405] Built MWIS.FaceStageProgram (8.2s)
+✔ [9391/9408] Built MWIS.RegisterSupportCycle (14s)
+✔ [9392/9409] Built MWIS.RegisterAdjacencyTable (8.7s)
+✔ [9393/9409] Built MWIS.RegisterColumnResize (8.2s)
+✔ [9394/9409] Built MWIS.RegisterGeneratorWords (8.4s)
+✔ [9395/9412] Built MWIS.RegisterComplementSelect (35s)
+✔ [9396/9412] Built MWIS.RegisterExpandedScalars (10s)
+✔ [9397/9415] Built MWIS.SearchHistogramProjection (6.5s)
+✔ [9398/9415] Built MWIS.ParityReachRefinement (7.7s)
+✔ [9399/9415] Built MWIS.RegisterEdgeMetadata (10s)
+✔ [9400/9415] Built MWIS.RegisterGenerationPack (6.7s)
+✔ [9401/9415] Built MWIS.RegisterDecompose (10s)
+✔ [9402/9417] Built MWIS.RegisterTranspose (8.9s)
+✔ [9403/9417] Built MWIS.RegisterExpandedVertexWords (9.7s)
+✔ [9404/9417] Built MWIS.SparseGraphConstruction (6.2s)
+⚠ [9405/9418] Built MWIS.RegisterHistogramValues (7.8s)
+warning: MWIS/RegisterHistogramValues.lean:133:93: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterHistogramValues.lean:153:95: This simp argument is unused:
+  initialRegisters
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [headRegs, looked, loaded, regs, loadRegisters, decoded, bindResults]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9406/9420] Built MWIS.RegisterParityTable (7.8s)
+✔ [9407/9420] Built MWIS.RegisterPotentialRoute (6.3s)
+✔ [9408/9420] Built MWIS.RegisterExpandedParameters (8.2s)
+⚠ [9409/9423] Built MWIS.RegisterSignedDot (8.3s)
+warning: MWIS/RegisterSignedDot.lean:59:33: This simp argument is unused:
+  value
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [BinaryRational.signed, ha, Int.natCast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSignedDot.lean:59:63: This simp argument is unused:
+  ha
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [value, BinaryRational.signed, Int.natCast_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/RegisterSignedDot.lean:59:67: This simp argument is unused:
+  Int.natCast_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [value, BinaryRational.signed, ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9410/9423] Built MWIS.RegisterSignedHalf (5.2s)
+✔ [9411/9423] Built MWIS.RegisterOddRowStep (9.1s)
+✔ [9412/9427] Built MWIS.HardSolveReference (6.3s)
+✔ [9413/9427] Built MWIS.RegisterGenerationInputs (5.7s)
+✔ [9414/9427] Built MWIS.RegisterRootValue (5.0s)
+✔ [9415/9427] Built MWIS.RegisterRouteCounts (6.6s)
+✔ [9416/9427] Built MWIS.RegisterCandidates (30s)
+✔ [9417/9427] Built MWIS.RegisterHardSearchBudget (9.0s)
+✔ [9418/9430] Built MWIS.RegisterEdgeCosts (12s)
+✔ [9419/9430] Built MWIS.RegisterOddRow (15s)
+✔ [9420/9430] Built MWIS.RegisterThresholdVertices (6.7s)
+✔ [9421/9430] Built MWIS.RegisterHardKernel (7.0s)
+✔ [9422/9437] Built MWIS.RegisterHardSearch (9.7s)
+✔ [9423/9437] Built MWIS.RegisterAllHalf (9.9s)
+✔ [9424/9438] Built MWIS.SpecMachine (5.2s)
+✔ [9425/9438] Built MWIS.RegisterEdgeCostProgram (14s)
+✔ [9426/9442] Built MWIS.RegisterEdgePairs (5.1s)
+✔ [9427/9445] Built MWIS.RegisterHardRecovery (16s)
+✔ [9428/9445] Built MWIS.SpecEncodingWriters (6.0s)
+✔ [9429/9445] Built MWIS.RegisterFinalAssembly (16s)
+✔ [9430/9445] Built MWIS.RuntimeAbsorption (11s)
+✔ [9431/9445] Built MWIS.RegisterHardSolve (12s)
+✔ [9432/9447] Built MWIS.FPTStatement (4.6s)
+✔ [9433/9447] Built MWIS.SpecEncoding (5.3s)
+✔ [9434/9447] Built MWIS.GenericAssembly (7.5s)
+✔ [9435/9451] Built MWIS.HardSolveBudget (14s)
+✔ [9436/9453] Built MWIS.FPTRegister (15s)
+✔ [9437/9453] Built MWIS.FunLPBasic (15s)
+✔ [9438/9453] Built MWIS.RegisterTopLevel (7.2s)
+⚠ [9439/9453] Built MWIS.FunNetworkEnum (6.8s)
+warning: MWIS/FunNetworkEnum.lean:174:37: This simp argument is unused:
+  reduceCtorEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.some.injEq] at hb hb'
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkEnum.lean:174:22: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [9440/9453] Built MWIS.FunNetworkLib (4.2s)
+warning: MWIS/FunNetworkLib.lean:37:45: This simp argument is unused:
+  foldl_cons_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rev, Fn.apply, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkLib.lean:64:2: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: MWIS/FunNetworkLib.lean:286:39: This simp argument is unused:
+  hd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkLib.lean:287:39: This simp argument is unused:
+  hd
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9441/9453] Built MWIS.RegisterTopLevelRun (7.0s)
+✔ [9442/9462] Built MWIS.Fun.HeapExec (12s)
+⚠ [9443/9463] Built MWIS.FunNetworkEncode (8.1s)
+warning: MWIS/FunNetworkEncode.lean:85:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:85:29: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:85:41: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:88:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:88:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:91:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:91:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:91:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:98:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:121:65: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/FunNetworkEncode.lean:121:65: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/FunNetworkEncode.lean:135:46: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkEncode.lean:296:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:296:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkEncode.lean:298:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:298:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkEncode.lean:349:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkEncode.lean:353:62: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkEncode.lean:408:17: This simp argument is unused:
+  List.map_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, h', Function.comp_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkEncode.lean:408:31: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, h', List.map_map]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9444/9467] Built MWIS.GenericTopLevel (6.8s)
+✔ [9445/9467] Built MWIS.FPTProgramBodies1 (6.5s)
+✔ [9446/9468] Built MWIS.FinalBudget (60s)
+⚠ [9447/9468] Built MWIS.Fun.ArithSpec (10s)
+warning: MWIS/Fun/ArithSpec.lean:38:71: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/Fun/ArithSpec.lean:49:5: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/Fun/ArithSpec.lean:54:71: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/Fun/ArithSpec.lean:63:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:64:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:73:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:74:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:77:77: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/Fun/ArithSpec.lean:77:77: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/Fun/ArithSpec.lean:82:38: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:87:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:90:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:93:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:116:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:127:5: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/Fun/ArithSpec.lean:148:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:149:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:166:5: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/Fun/ArithSpec.lean:179:38: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithSpec.lean:189:14: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithSpec.lean:209:60: This simp argument is unused:
+  not_not
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hzero, Bool.true_and, Bool.not_eq_true'] at hz
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9448/9472] Built MWIS.FPTProgramBodies2 (7.1s)
+✔ [9449/9475] Built MWIS.FinalCost (7.0s)
+⚠ [9450/9475] Built MWIS.TreeCotreeSearch (3.0s)
+warning: MWIS/TreeCotreeSearch.lean:119:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/TreeCotreeSearch.lean:120:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/TreeCotreeSearch.lean:122:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/TreeCotreeSearch.lean:123:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: MWIS/TreeCotreeSearch.lean:227:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotreeSearch.lean:230:28: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: MWIS/TreeCotreeSearch.lean:256:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotreeSearch.lean:261:24: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+✔ [9451/9483] Built MWIS.FPTTreeParse (18s)
+✔ [9452/9483] Built MWIS.TreeCotreeTriangular (5.7s)
+✔ [9453/9483] Built MWIS.FinalAccounting (9.7s)
+✔ [9454/9483] Built MWIS.SignedIncidence (2.8s)
+✔ [9455/9483] Built MWIS.Splitting (1.9s)
+✔ [9456/9483] Built MWIS.IntegerHomology (1.5s)
+⚠ [9457/9483] Built MWIS.Fun.ArithNat (20s)
+warning: MWIS/Fun/ArithNat.lean:108:16: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:138:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:145:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:147:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:177:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:180:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:181:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:182:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:185:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:186:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:219:14: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:229:63: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:286:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:287:16: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:297:16: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:306:17: `cond_false` has been deprecated: Use `Bool.cond_false` instead
+
+Hint: Replace the deprecated name:
+  B̲o̲o̲l̲.̲cond_false
+warning: MWIS/Fun/ArithNat.lean:318:17: `cond_true` has been deprecated: Use `Bool.cond_true` instead
+
+Hint: Replace the deprecated name:
+  B̲o̲o̲l̲.̲cond_true
+warning: MWIS/Fun/ArithNat.lean:349:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:351:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:357:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:359:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:403:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:406:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:418:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:430:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:517:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:522:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:541:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:546:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:581:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:592:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:623:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:625:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:631:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:633:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithNat.lean:682:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithNat.lean:685:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9458/9483] Built MWIS.HomologyStructure (3.0s)
+⚠ [9459/9483] Built MWIS.TreeCotreeElimination (8.6s)
+warning: MWIS/TreeCotreeElimination.lean:111:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/TreeCotreeElimination.lean:119:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/TreeCotreeElimination.lean:125:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/TreeCotreeElimination.lean:159:30: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotreeElimination.lean:294:34: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotreeElimination.lean:301:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/TreeCotreeElimination.lean:382:26: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotreeElimination.lean:475:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9460/9483] Built MWIS.HomologyCoordinates (3.8s)
+✔ [9461/9483] Built MWIS.GenericAccounting (11s)
+✔ [9462/9497] Built MWIS.HomologyRank (4.6s)
+⚠ [9463/9497] Built MWIS.Fun.ArithInt (10s)
+warning: MWIS/Fun/ArithInt.lean:126:55: This simp argument is unused:
+  signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/ArithInt.lean:130:55: This simp argument is unused:
+  signed
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/ArithInt.lean:126:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/Fun/ArithInt.lean:130:63: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/Fun/ArithInt.lean:195:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithInt.lean:200:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithInt.lean:272:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithInt.lean:302:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithInt.lean:302:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithInt.lean:313:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithInt.lean:313:33: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9464/9497] Built MWIS.FPTRegisterClaim (7.1s)
+⚠ [9465/9504] Built MWIS.TreeCotree (11s)
+warning: MWIS/TreeCotree.lean:206:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: MWIS/TreeCotree.lean:209:26: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: MWIS/TreeCotree.lean:228:0: automatically included section variable(s) unused in theorem `MWIS.TreeCotree.half_tree`:
+  hc
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hc in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: MWIS/TreeCotree.lean:257:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: MWIS/TreeCotree.lean:396:14: This simp argument is unused:
+  u
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [residual_tree _ he, half_tree hc he]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/TreeCotree.lean:408:67: This simp argument is unused:
+  Pi.zero_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [freeMap, AddMonoidHom.coe_mk, ZeroHom.coe_mk, coordEdge, hi] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/TreeCotree.lean:490:18: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/TreeCotree.lean:484:4: Unused tactic linter: `change freeMap left right C root u i = z i` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/TreeCotree.lean:497:4: Unused tactic linter: `change parityMap left right C root u = t` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/TreeCotree.lean:562:66: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/TreeCotree.lean:569:34: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9466/9504] Built MWIS.FunCoordinatesBase (4.9s)
+warning: MWIS/FunCoordinatesBase.lean:41:38: This simp argument is unused:
+  cfoldl_cons_rev
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [crevFn, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesBase.lean:63:38: This simp argument is unused:
+  cfoldl_cons_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [cmapFn, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9467/9504] Built MWIS.FunCoordinatesLib (7.5s)
+warning: MWIS/FunCoordinatesLib.lean:63:19: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:64:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesLib.lean:66:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:68:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesLib.lean:68:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesLib.lean:71:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:74:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:110:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesLib.lean:112:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesLib.lean:113:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:116:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:116:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:191:14: This simp argument is unused:
+  Function.comp_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hf, Option.map_map]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesLib.lean:191:37: This simp argument is unused:
+  Option.map_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Function.comp_def, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesLib.lean:277:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesLib.lean:402:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [9468/9505] Built MWIS.Fun.ArithOps (15s)
+warning: MWIS/Fun/ArithOps.lean:194:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:198:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:297:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:303:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:346:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:347:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:349:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:350:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:373:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:377:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:407:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:407:24: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/ArithOps.lean:414:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/ArithOps.lean:414:24: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9469/9506] Built MWIS.FunNetworkDense (12s)
+warning: MWIS/FunNetworkDense.lean:117:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkDense.lean:117:18: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunNetworkDense.lean:118:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunNetworkDense.lean:118:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9470/9506] Built MWIS.FPTRunFun (14s)
+⚠ [9471/9506] Built MWIS.TreeCotreeFPT (7.3s)
+warning: MWIS/TreeCotreeFPT.lean:87:32: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [9472/9506] Built MWIS.FunCoordinatesTree (4.9s)
+warning: MWIS/FunCoordinatesTree.lean:122:7: Unused tactic linter: `apply List.map_congr_left` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/FunCoordinatesTree.lean:122:34: Unused tactic linter: `intro i _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/FunCoordinatesTree.lean:122:45: Unused tactic linter: `simp [Fn.apply, eqRootFn, Expr.denote, Var.get, CmpOp.eval]` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/FunCoordinatesTree.lean:122:34: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/FunCoordinatesTree.lean:122:45: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/FunCoordinatesTree.lean:172:84: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2, not_true_eq_false, not_false_eq_true, and_true, and_false, false_and, ite_true, ite_false,
+    Option.isSome_some, Option.isSome_none, Bool.false_eq_true, decide_true, decide_false] at he ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesTree.lean:173:8: This simp argument is unused:
+  false_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2, not_true_eq_false, not_false_eq_true, and_true, and_false, true_and, ite_true, ite_false,
+    Option.isSome_some, Option.isSome_none, Bool.false_eq_true, decide_true, decide_false] at he ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9473/9506] Built MWIS.FPTMainProgShape (2.3s)
+⚠ [9474/9506] Built MWIS.FunLPList (6.4s)
+warning: MWIS/FunLPList.lean:87:37: This simp argument is unused:
+  foldl_cons_rev
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [revFn, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunLPList.lean:111:40: This simp argument is unused:
+  foldl_cons_rev
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [appendFn, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunLPList.lean:134:37: This simp argument is unused:
+  foldl_cons_map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [mapFn, Expr.denote, Var.get]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9475/9506] Built MWIS.Fun.InterpBase (7.6s)
+warning: MWIS/Fun/InterpBase.lean:42:16: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [loaded, h2, h14, h15]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpBase.lean:179:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/InterpBase.lean:210:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/InterpBase.lean:177:48: This simp argument is unused:
+  rounds
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9476/9515] Built MWIS.FPTBuild (6.7s)
+✔ [9477/9515] Built MWIS.FunNetworkFn (8.4s)
+⚠ [9478/9517] Built MWIS.FunCoordinatesPotential (4.5s)
+warning: MWIS/FunCoordinatesPotential.lean:114:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/FunCoordinatesPotential.lean:121:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/FunCoordinatesPotential.lean:117:17: This simp argument is unused:
+  this
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_true, hl, getI_ofFn]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9479/9518] Built MWIS.Fun.InterpTree (12s)
+warning: MWIS/Fun/InterpTree.lean:36:60: This simp argument is unused:
+  Tree.bitList
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.spine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:41:60: This simp argument is unused:
+  Tree.bitList
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.spine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:46:60: This simp argument is unused:
+  Tree.bitList
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.spine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:51:60: This simp argument is unused:
+  Tree.bitList
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.spine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:56:60: This simp argument is unused:
+  Tree.bitList
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.spine]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:82:21: This simp argument is unused:
+  add_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [lval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:119:48: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:124:48: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:129:48: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:134:48: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:139:48: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:200:49: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:204:49: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:208:49: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:212:49: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:216:49: This simp argument is unused:
+  Tree.spine
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Tree.bitList]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/Fun/InterpTree.lean:226:60: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: MWIS/Fun/InterpTree.lean:226:60: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: MWIS/Fun/InterpTree.lean:229:69: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/Fun/InterpTree.lean:278:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/InterpTree.lean:279:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+✔ [9480/9518] Built MWIS.FPTHardBounds (20s)
+✔ [9481/9518] Built MWIS.FunLPMath (4.0s)
+✔ [9482/9518] Built MWIS.Fun.Interp (6.8s)
+⚠ [9483/9518] Built MWIS.FunCoordinatesElim (12s)
+warning: MWIS/FunCoordinatesElim.lean:337:67: This simp argument is unused:
+  hu
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesElim.lean:352:76: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.map_none, not_true_eq_false, and_false, decide_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesElim.lean:417:20: This simp argument is unused:
+  optInt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesElim.lean:424:22: This simp argument is unused:
+  optInt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesElim.lean:427:36: This simp argument is unused:
+  optInt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Option.map_some, hpos', ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9484/9518] Built MWIS.FunNetworkProgram (28s)
+warning: MWIS/FunNetworkProgram.lean:98:75: This simp argument is unused:
+  decide_eq_true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [denote_call, Expr.denote, Var.get, mapWith_apply, CmpOp.eval]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkProgram.lean:155:74: This simp argument is unused:
+  decide_eq_true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [denote_call, Expr.denote, Var.get, CmpOp.eval, eqList_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkProgram.lean:167:47: This simp argument is unused:
+  decide_eq_true_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, CmpOp.eval, stateE]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9485/9518] Built MWIS.FunNetworkCostCore (31s)
+✔ [9486/9518] Built MWIS.FPTRunFunInterp (5.8s)
+⚠ [9487/9518] Built MWIS.FunLPArith (11s)
+warning: MWIS/FunLPArith.lean:42:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [IntOp.eval]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: MWIS/FunLPArith.lean:77:8: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [IntOp.eval]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: MWIS/FunLPArith.lean:106:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunLPArith.lean:131:30: This simp argument is unused:
+  Var.get
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunLPArith.lean:174:68: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zero_add, Function.iterate_one, sqrtRound, pow_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunLPArith.lean:339:82: This simp argument is unused:
+  CmpOp.charge
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.cost, cost_call, Var.index, Expr.denote, Var.get, IntOp.charge, IntOp.eval, CmpOp.eval,
+    denote_call, pow2Fn_apply] at hit
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunLPArith.lean:340:16: This simp argument is unused:
+  CmpOp.eval
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.cost, cost_call, Var.index, Expr.denote, Var.get, IntOp.charge, CmpOp.charge, IntOp.eval,
+    denote_call, pow2Fn_apply] at hit
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9488/9518] Built MWIS.FPTProgramBodies3 (5.4s)
+✔ [9489/9518] Built MWIS.FPTProgramIds (6.5s)
+⚠ [9490/9518] Built MWIS.FunCoordinatesMatrix (9.9s)
+warning: MWIS/FunCoordinatesMatrix.lean:145:39: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9491/9518] Built MWIS.FunNetworkDecode (7.9s)
+✔ [9492/9518] Built MWIS.Fun.InterpCases (17s)
+✔ [9493/9523] Built MWIS.FPTProgramTable1 (6.1s)
+⚠ [9494/9528] Built MWIS.FunNetworkCostLib (9.9s)
+warning: MWIS/FunNetworkCostLib.lean:270:15: This simp argument is unused:
+  List.mem_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [List.not_mem_nil, or_false] at hz
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostLib.lean:355:19: This simp argument is unused:
+  hc
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostLib.lean:385:72: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCostLib.lean:397:26: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, srcFn, Ok, ok_call, Expr.denote, Var.get, true_and, Bool.false_eq_true, implies_true,
+    true_implies, false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostLib.lean:401:26: This simp argument is unused:
+  ↓reduceIte
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, srcFn, Ok, ok_call, Expr.denote, Var.get, true_and, Bool.false_eq_true, implies_true,
+    true_implies, false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostLib.lean:401:38: This simp argument is unused:
+  implies_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, srcFn, Ok, ok_call, Expr.denote, Var.get, true_and, Bool.false_eq_true, ↓reduceIte,
+    true_implies, false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostLib.lean:398:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+✔ [9495/9528] Built MWIS.FPTProgramTable2 (6.9s)
+⚠ [9496/9532] Built MWIS.Fun.InterpBinders (11s)
+warning: MWIS/Fun/InterpBinders.lean:253:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/InterpBinders.lean:256:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: MWIS/Fun/InterpBinders.lean:266:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: MWIS/Fun/InterpBinders.lean:272:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [9497/9534] Built MWIS.FunCoordinatesTables (16s)
+warning: MWIS/FunCoordinatesTables.lean:159:34: This simp argument is unused:
+  List.filter_cons
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9498/9534] Built MWIS.FunLPBound (44s)
+⚠ [9499/9534] Built MWIS.FunNetworkCostProgram (8.2s)
+warning: MWIS/FunNetworkCostProgram.lean:98:86: This simp argument is unused:
+  true_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeF2, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, false_implies,
+    Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:98:100: This simp argument is unused:
+  false_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeF2, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:98:115: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeF2, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:98:135: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeF2, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    false_implies, Bool.false_eq_true, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:189:88: This simp argument is unused:
+  true_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeEqFn, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, false_implies,
+    Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:189:102: This simp argument is unused:
+  false_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeEqFn, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:189:117: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeEqFn, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:189:137: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nodeEqFn, Ok, ok_call, Expr.denote, Var.get, true_and, implies_true, true_implies,
+    false_implies, Bool.false_eq_true, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:197:78: This simp argument is unused:
+  true_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, stateFn, Ok, Expr.denote, Var.get, true_and, implies_true, false_implies, Bool.false_eq_true,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:197:92: This simp argument is unused:
+  false_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, stateFn, Ok, Expr.denote, Var.get, true_and, implies_true, true_implies, Bool.false_eq_true,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:197:107: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, stateFn, Ok, Expr.denote, Var.get, true_and, implies_true, true_implies, false_implies,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:197:127: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, stateFn, Ok, Expr.denote, Var.get, true_and, implies_true, true_implies, false_implies,
+    Bool.false_eq_true, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:216:4: This simp argument is unused:
+  ite_self
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, nthFn, Ok, Expr.denote, Var.get, IntOp.eval, true_and, bits_one, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:262:93: This simp argument is unused:
+  true_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, entryFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    stateFn_apply, nthFn_apply, true_and, bits_zero, bits_one, implies_true, false_implies, Bool.false_eq_true,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:262:107: This simp argument is unused:
+  false_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, entryFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    stateFn_apply, nthFn_apply, true_and, bits_zero, bits_one, implies_true, true_implies, Bool.false_eq_true,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:262:122: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, entryFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    stateFn_apply, nthFn_apply, true_and, bits_zero, bits_one, implies_true, true_implies, false_implies,
+    Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:262:142: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, entryFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    stateFn_apply, nthFn_apply, true_and, bits_zero, bits_one, implies_true, true_implies, false_implies,
+    Bool.false_eq_true, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:281:54: This simp argument is unused:
+  true_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, rhsFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    true_and, bits_one, implies_true, false_implies, Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:281:68: This simp argument is unused:
+  false_implies
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, rhsFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    true_and, bits_one, implies_true, true_implies, Bool.false_eq_true, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:281:83: This simp argument is unused:
+  Bool.false_eq_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, rhsFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    true_and, bits_one, implies_true, true_implies, false_implies, Bool.true_eq_false, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunNetworkCostProgram.lean:281:103: This simp argument is unused:
+  Bool.true_eq_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [OkAt, rhsFn, b2i, Ok, ok_call, Expr.denote, Var.get, IntOp.eval, denote_call, nodeEqFn_apply,
+    true_and, bits_one, implies_true, true_implies, false_implies, Bool.false_eq_true, and_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9501/9536] Built MWIS.Fun.InterpMain (5.3s)
+✔ [9502/9536] Built MWIS.FPTProgram (7.2s)
+⚠ [9503/9536] Built Challenge (9.7s)
+warning: Challenge.lean:728:8: declaration uses `sorry`
+✔ [9505/9536] Built MWIS.FunCoordinatesCostBase (7.5s)
+✔ [9506/9536] Built MWIS.FPTMainTheorem (6.9s)
+✔ [9507/9536] Built MWIS.FunLPUpdate (13s)
+✔ [9508/9536] Built MWIS.FunLPRun (5.7s)
+✔ [9509/9536] Built MWIS.FunLPRunCost (8.8s)
+✔ [9510/9536] Built MWIS.FunLPSolver (16s)
+⚠ [9511/9536] Built MWIS.FunCoordinatesCostElim (36s)
+warning: MWIS/FunCoordinatesCostElim.lean:57:28: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: MWIS/FunCoordinatesCostElim.lean:171:79: This simp argument is unused:
+  nonzeroInFn_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, unitInFn_apply, bits_zero'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostElim.lean:189:63: This simp argument is unused:
+  unitInFn_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, nonzeroInFn_apply, bits_zero'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9512/9536] Built MWIS.FunLPThreshold (6.6s)
+⚠ [9513/9536] Built MWIS.FunNetworkCost (53s)
+warning: MWIS/FunNetworkCost.lean:54:29: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:65:28: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:162:19: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:162:38: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:180:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:180:89: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:189:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:191:50: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:426:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: MWIS/FunNetworkCost.lean:543:4: `List.sum_le_card_nsmul` has been deprecated: Use `List.sum_le_length_nsmul` instead
+
+Hint: Replace the deprecated name:
+  L̵i̵s̵t̵.̵s̵u̵m̵_̵l̵e̵_̵c̵a̵r̵d̵_̵n̵s̵m̵u̵l̵L̲i̲s̲t̲.̲s̲u̲m̲_̲l̲e̲_̲l̲e̲n̲g̲t̲h̲_̲n̲s̲m̲u̲l̲
+⚠ [9514/9536] Built MWIS.FunCoordinatesCostRun (10s)
+warning: MWIS/FunCoordinatesCostRun.lean:156:84: This simp argument is unused:
+  bits_zero'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, IntOp.eval, bits_one', bits_two', bits_neg_one'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostRun.lean:157:4: This simp argument is unused:
+  bits_neg_one'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, IntOp.eval, bits_one', bits_two', bits_zero'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostRun.lean:313:20: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9515/9536] Built MWIS.FunCoordinatesCostTree (18s)
+warning: MWIS/FunCoordinatesCostTree.lean:254:82: This simp argument is unused:
+  bits_one'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, getIntFn_apply', bits_zero'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostTree.lean:255:6: This simp argument is unused:
+  bits_zero'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, getIntFn_apply', bits_one'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostTree.lean:304:79: This simp argument is unused:
+  harg
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [9516/9536] Built MWIS.FunCoordinatesCostTables (17s)
+warning: MWIS/FunCoordinatesCostTables.lean:44:4: This simp argument is unused:
+  bits_one'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, getIntFn_apply', IntOp.eval, bits_zero'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: MWIS/FunCoordinatesCostTables.lean:44:15: This simp argument is unused:
+  bits_zero'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Expr.denote, Var.get, denote_call, getIntFn_apply', IntOp.eval, bits_one'] at *
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [9517/9536] Built MWIS.FunLPSolverCost (37s)
+✔ [9518/9536] Built MWIS.FunCoordinatesNetwork (5.4s)
+✔ [9519/9536] Built MWIS.FPTHardConcrete (5.5s)
+✔ [9520/9536] Built MWIS.FPTMainProg (6.7s)
+✔ [9521/9536] Built MWIS.FunLPThresholdCost (20s)
+✔ [9522/9536] Built MWIS.FPTMainProgCost (6.2s)
+✔ [9523/9536] Built MWIS.FPTMainProgBound (5.2s)
+✔ [9524/9536] Built MWIS.FunLPOpt (5.5s)
+✔ [9525/9536] Built MWIS.FPTMainProgStage (13s)
+✔ [9526/9536] Built MWIS.FPTMainProgNet (5.7s)
+✔ [9527/9536] Built MWIS.FPTMainProgMain (9.3s)
+✔ [9528/9536] Built MWIS.FPTFinal (4.4s)
+✔ [9529/9536] Built MWIS (5.2s)
+✔ [9531/9536] Built AllModules (5.3s)
+✔ [9533/9536] Built Solution (5.6s)
+ℹ [9535/9536] Built Audit (3.8s)
+info: Audit.lean:7:0: 'MWIS.Spec.fpt_claim' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9536 jobs).
+
+real	25m34.551s
+user	57m40.415s
+sys	12m25.144s
+EXIT 0
+2026-10-23T14:50:54Z

@@ -1,0 +1,81 @@
+{
+  "prepared": "2026-10-23",
+  "repository": "https://github.com/prove2me/formalpedia",
+  "commit": "07bfe4bbb3858db507bb6ac0d725951c228119fc",
+  "license": "Apache-2.0",
+  "adaptations": [
+    "Lean version compatibility updates",
+    "Namespace isolation and explicit public module declarations",
+    "Only accepted proof bodies are used; theorem stubs are excluded",
+    "Farkas normalization uses the standalone Fourier\u2013Motzkin proof",
+    "Explicit dyadic radius and polynomial iteration bounds are added",
+    "Submission metadata is omitted"
+  ],
+  "modules": [
+    {
+      "adapted": "MWIS/IntegerFeasibilityDefs.lean",
+      "source": "envs/0df444a/Definitions/Def_SmaleNinth_Khachiyan.lean",
+      "adapted_sha256": "88571bf309392de65be9dded7073f6068a0dfd260035e05f1712bafa835e444b"
+    },
+    {
+      "adapted": "MWIS/IntegerMinimalFace.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_exists_minimal_face_point.lean",
+      "adapted_sha256": "bc35730568bce7d091b2f829250838a35a35eeb97846e690cdddca4aa2934212"
+    },
+    {
+      "adapted": "MWIS/IntegerSquareSubsystem.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_exists_square_subsystem.lean",
+      "adapted_sha256": "e1c68d3fd273a5262ba429417f2008d8896830b2ecec29c11b4557ebea331531"
+    },
+    {
+      "adapted": "MWIS/IntegerDeterminantBound.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_abs_det_le_factorial_mul_pow.lean",
+      "adapted_sha256": "2238b57d1b919815be60b5a511483e85c26e84c390c44de2c94ab5583c6e5b0f"
+    },
+    {
+      "adapted": "MWIS/IntegerCramerBound.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_cramer_solution_bound.lean",
+      "adapted_sha256": "fad3c679512898d0bbe69db2e90a26a973f67842476290ceff9856bb2bfe8778"
+    },
+    {
+      "adapted": "MWIS/IntegerSubsystemBound.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_integer_subsystem_solution_bound.lean",
+      "adapted_sha256": "3335c0b894e23d27cc045265153b04b7b6ec6dbc7dbaa552037fb3f9b3ce0a72"
+    },
+    {
+      "adapted": "MWIS/IntegerSolutionBound.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_integer_polyhedron_solution_bound.lean",
+      "adapted_sha256": "500a8168c33644387ec4cfc059037dafd3443870cc8df33a1de89262de61348a"
+    },
+    {
+      "adapted": "MWIS/IntegerFarkas.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_farkas_lemma.lean",
+      "adapted_sha256": "baf7c728f239f4ceb9a2a226c03b9680f24296118b4000ec0d732c1e9f2c9ded"
+    },
+    {
+      "adapted": "MWIS/IntegerFarkasCertificate.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_exists_integral_farkas_certificate.lean",
+      "adapted_sha256": "48f155a548e5056a3832b172058dd5fba6c21f6414f021da30b594196db659f9"
+    },
+    {
+      "adapted": "MWIS/IntegerFeasibilityReverse.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_khachiyan_nonempty_imp.lean",
+      "adapted_sha256": "f38bb533eb0158449fa87ca85edf972a63183e127fc54bcba499d1d4ee207757"
+    },
+    {
+      "adapted": "MWIS/IntegerFeasibilityEquiv.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_khachiyan_feasibility_equiv.lean",
+      "adapted_sha256": "08fcab8befbc4d96180cdd9968c34e0cf1393c1defca316a41f4d581127a5ff8"
+    },
+    {
+      "adapted": "MWIS/IntegerFeasibilityInterior.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_khachiyan_volume_lower_bound.lean",
+      "adapted_sha256": "f994fdc02ecf955abd8c7b0377af1efb47f9fbe84ec8f4d0ca3439147c920355"
+    },
+    {
+      "adapted": "MWIS/IntegerFeasibilityBounds.lean",
+      "source": "envs/0df444a/Solutions/Sol_SmaleNinth_khachiyan_perturbation_bounds.lean",
+      "adapted_sha256": "5e51d4aaaf47af51c0f705083aaf3310236deb4c0921b66a429e4e2a849db0c4"
+    }
+  ]
+}

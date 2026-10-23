@@ -1,0 +1,2169 @@
+{
+ "source": "PALOMAR-2026-10-22-000006 v1",
+ "source_commit": "00f581e7401feedce30699ae94763d4afbfb2f6f",
+ "renaming": "WeightedMIS -> MWIS",
+ "compared": 432,
+ "identical": 432,
+ "modules": [
+  {
+   "module": "AllHalfEncoded",
+   "identical_after_renaming": true,
+   "sha256": "a910aeddcf151bfbdc601aa4fc441ee9064df248ac8530c2c56e3d1faef9adac"
+  },
+  {
+   "module": "BinaryGCD",
+   "identical_after_renaming": true,
+   "sha256": "eb6b3770fd301109a863ee2fa0b776cfb32ed345e8c53c1c6378fcf34e860ef2"
+  },
+  {
+   "module": "BinaryRational",
+   "identical_after_renaming": true,
+   "sha256": "acafbe942bcb56bc3cd04035886120c821e1a4aa16342fbcc60fb100a8734824"
+  },
+  {
+   "module": "BinaryRationalArithmetic",
+   "identical_after_renaming": true,
+   "sha256": "1f22ea3daba9556394c2809f8eeab86c97d89198cc7701304382b0943afd62bf"
+  },
+  {
+   "module": "BinaryRationalInterface",
+   "identical_after_renaming": true,
+   "sha256": "89690a83adad70e02685c2b0b920e9aff3053e8383d0608ea9a1733e7b5f3e99"
+  },
+  {
+   "module": "BipartiteRecovery",
+   "identical_after_renaming": true,
+   "sha256": "81bbc12304806fa4a1ea371c23dd7c8d20121d1e8f5751073c1eb93cfc738da5"
+  },
+  {
+   "module": "BoundedCycles",
+   "identical_after_renaming": true,
+   "sha256": "3b4f3998c258e2acba9093e7ef8caae8e614e3b4b0f5cc027736f0d8f887772b"
+  },
+  {
+   "module": "CachedPreprocessing",
+   "identical_after_renaming": true,
+   "sha256": "d298b502b3803a0c8541e76e60691ff78edeee71c4d2213ce2534694519c7d81"
+  },
+  {
+   "module": "CapRegions",
+   "identical_after_renaming": true,
+   "sha256": "dab5fd8716ac7d8dd7b5f59abaf513ba0d9cf02ad90b162c04cae8bae56f948c"
+  },
+  {
+   "module": "ColumnEncoding",
+   "identical_after_renaming": true,
+   "sha256": "13a086104c9b4ad208a171c711a0b0bade372ed7eec291d0d5ccd3e1aec5e3a2"
+  },
+  {
+   "module": "CompiledGraphConstruction",
+   "identical_after_renaming": true,
+   "sha256": "76d512386bd6b7b5414ebcb52301c2a99f0cc8f50904ba67885395847c6ba8f1"
+  },
+  {
+   "module": "CompiledInsert",
+   "identical_after_renaming": true,
+   "sha256": "deda102eaf6cba8158958c15980b31c21e0f63d83a673bfeda91e41b77284144"
+  },
+  {
+   "module": "CompiledJoin",
+   "identical_after_renaming": true,
+   "sha256": "3ee331856e51f1f9128c0204e266f1eb57958acf3b96f74edf6cd2b5eed0e140"
+  },
+  {
+   "module": "CompiledLookup",
+   "identical_after_renaming": true,
+   "sha256": "0447e8afd8ffd3e337109bf983b71415a0ad7c5859b9b353e20bc85bb583252c"
+  },
+  {
+   "module": "CompiledPop",
+   "identical_after_renaming": true,
+   "sha256": "62eaeb83608ccc91ff48514c5f98beb2c919fb57b5c254fd76e4aad21aa2079d"
+  },
+  {
+   "module": "CompiledTemplateColumn",
+   "identical_after_renaming": true,
+   "sha256": "564e6570645000cdbcc7383f01eb22a7e83329451d2c6a1759a19f85cb2f9aaa"
+  },
+  {
+   "module": "CompiledTemplateEmit",
+   "identical_after_renaming": true,
+   "sha256": "d1be8387ff03ad2cdc0679254b0bf05f85becf6e60ccdc49813f4c68f4516983"
+  },
+  {
+   "module": "CompiledTemplateList",
+   "identical_after_renaming": true,
+   "sha256": "cc79676926a310a752ae4d136369dfcae07ed6c68b85fbd0080fe54b5ed76eb9"
+  },
+  {
+   "module": "CompiledTemplatePrimitives",
+   "identical_after_renaming": true,
+   "sha256": "087e9c00a885b4a7b4921e1b86a235dcaad346c87c64abec9d5278568fb8f091"
+  },
+  {
+   "module": "CompiledTemplateSemantics",
+   "identical_after_renaming": true,
+   "sha256": "45bafe1c840b530a7ecb4afb3b0ed8998223844efb33874ae98486b9fb316336"
+  },
+  {
+   "module": "CompiledTemplates",
+   "identical_after_renaming": true,
+   "sha256": "ec1b0bb0b0fb66fe05a7a8ee66b1bf146377fcb4f919c12cc3ce4146d96ee293"
+  },
+  {
+   "module": "CompiledTrie",
+   "identical_after_renaming": true,
+   "sha256": "bd10999d3fe6ccaaac8b77cf0514e113fed6146f5d03f681c25f9e91ac6352e7"
+  },
+  {
+   "module": "Complement",
+   "identical_after_renaming": true,
+   "sha256": "a9f7df1dcc6eb2775dd58ddc6fa09e69acbb8a6229c20e6ea4e87bbf888b0ad3"
+  },
+  {
+   "module": "ComplementCaps",
+   "identical_after_renaming": true,
+   "sha256": "8bebcd6ceae329a931f846813068e8f67346b3be94036ce98d163daef1b1beb0"
+  },
+  {
+   "module": "ComplementEuler",
+   "identical_after_renaming": true,
+   "sha256": "029aa7bae6a239d0991b35a7a458b2727f0b4508451dafc306c9ae406012ed1e"
+  },
+  {
+   "module": "ComponentAssembly",
+   "identical_after_renaming": true,
+   "sha256": "75769ac8fa2d0f225e496d79a41975582a59179a980d059a0f779e4f243eac5a"
+  },
+  {
+   "module": "ComponentBoundary",
+   "identical_after_renaming": true,
+   "sha256": "496ed4239e4c6ed2ac5512084f7130a6d7192ede724c5678075e32ada8c10b29"
+  },
+  {
+   "module": "ComponentTable",
+   "identical_after_renaming": true,
+   "sha256": "139827ac6aa473afcdd5ea27877c7fc1b5c2258a13fb38e3a416de22b932fdf5"
+  },
+  {
+   "module": "ComputedColumns",
+   "identical_after_renaming": true,
+   "sha256": "ce2eb7202e403bc758ee13777cc98dee6062d01d21a9665fd14bc6b3711d0abf"
+  },
+  {
+   "module": "ComputedComponentRibbon",
+   "identical_after_renaming": true,
+   "sha256": "fee9d3ab78754611ac4775c7830d08dcfb5078a206293580bef78d3b0b59742b"
+  },
+  {
+   "module": "ComputedComponents",
+   "identical_after_renaming": true,
+   "sha256": "e538a6cd9dcb7f0adc2ebd45aa03fc5aff93f80b59b216a15d39752c555f17f3"
+  },
+  {
+   "module": "ComputedDrawingParameters",
+   "identical_after_renaming": true,
+   "sha256": "899f5fa711b34b8cc56cefe62006e18d0dee36930234927dd9bea55f37b6e8b1"
+  },
+  {
+   "module": "ComputedDrawingTransfer",
+   "identical_after_renaming": true,
+   "sha256": "6d0221e8df81b80a24f35be1b91f6919dda1c95bd55189d496e94366192c1997"
+  },
+  {
+   "module": "ComputedEmbeddedMatrices",
+   "identical_after_renaming": true,
+   "sha256": "b9581247ff4f0d4d542b5fe980074452784b2005dcec86ed6d55dc575103c62f"
+  },
+  {
+   "module": "ComputedFaceMatrix",
+   "identical_after_renaming": true,
+   "sha256": "c7fdc55c5e8afc90277debc394ac260fd4a55fd1019cec41325927b6eb21a572"
+  },
+  {
+   "module": "ComputedGeometryTransfer",
+   "identical_after_renaming": true,
+   "sha256": "904528505560c1413b7cd2cdd11dee5ea26f4ed35f2418b64347fd9f6654b00d"
+  },
+  {
+   "module": "ComputedInduced",
+   "identical_after_renaming": true,
+   "sha256": "7a81f875f5f3751634aa8c85b328078cd7d39fc743c784b8fdaa990e8328c3ed"
+  },
+  {
+   "module": "ComputedKernel",
+   "identical_after_renaming": true,
+   "sha256": "74377eee8fb07f205a843b16537f983b4d3f75b3eedc38c7cfbbe1816d659820"
+  },
+  {
+   "module": "ComputedOddRow",
+   "identical_after_renaming": true,
+   "sha256": "25ebe48756f018a5bc97839c727f8b61010eabd7a2ff628b69f78e031c18c4ea"
+  },
+  {
+   "module": "ComputedPathRecovery",
+   "identical_after_renaming": true,
+   "sha256": "ffffc8bfc6c596e624be039835fde2bffdc7d9b85aaccba3eb66fee53bf3305d"
+  },
+  {
+   "module": "ComputedRecovery",
+   "identical_after_renaming": true,
+   "sha256": "25f18658c5bf2dac56def87131ed1388bb0366918d7dad051765ed57f342a83a"
+  },
+  {
+   "module": "ComputedResidualGeometry",
+   "identical_after_renaming": true,
+   "sha256": "d101441c89c9e513cf20b71a6b037930c5f8ccc96c7a0b8ceaad4ac17514bf26"
+  },
+  {
+   "module": "ComputedResidualParameters",
+   "identical_after_renaming": true,
+   "sha256": "c4ac6af5a28cd60e3708306a01bef5ce51945176159b992b830f35c378acde6d"
+  },
+  {
+   "module": "ComputedRestriction",
+   "identical_after_renaming": true,
+   "sha256": "ce9bddb758a4b6eabcad633ca7742a26e33ae47ff2f97e3b1486a17669d205ef"
+  },
+  {
+   "module": "Construction",
+   "identical_after_renaming": true,
+   "sha256": "1fcfef9bbdc9ce06ef842544bf8d2aa99a72bc4bd30c6aca7943a1ba7eb26488"
+  },
+  {
+   "module": "CycleSearch",
+   "identical_after_renaming": true,
+   "sha256": "1e419811a934cc4460fe47b1ad4d3b98e05049dc0ba16c7836679c117290dfbf"
+  },
+  {
+   "module": "DecomposeWords",
+   "identical_after_renaming": true,
+   "sha256": "74902220aa6a3765cbe0f54bfd93c49e7a7e44294c6158b3dd96fc21842042c8"
+  },
+  {
+   "module": "Decomposition",
+   "identical_after_renaming": true,
+   "sha256": "d71716028ad56fdc052b3677d1747f9a24898203588a80e472101f26f442f1c8"
+  },
+  {
+   "module": "DeletedEmbeddedReduction",
+   "identical_after_renaming": true,
+   "sha256": "1e131f6aed0c54ac574697f18941c77e9c611d13b6dc1959f1450c4469665f34"
+  },
+  {
+   "module": "DeletionParameters",
+   "identical_after_renaming": true,
+   "sha256": "1f4cb534f8cb9a5618301f31e56a2db98ed07d2bdb62bf2aae8cee6957b6d31c"
+  },
+  {
+   "module": "DeterminantSize",
+   "identical_after_renaming": true,
+   "sha256": "cd0befd2c283b97702427f87ad4b8e9ce0bb4bb643fdd55bac4f1d11f7f9df61"
+  },
+  {
+   "module": "DeterministicComplement",
+   "identical_after_renaming": true,
+   "sha256": "5e45c53334dca0e5bb3f995e19c5cf71911cca542e014a241e462911844d0f53"
+  },
+  {
+   "module": "DeterministicKernel",
+   "identical_after_renaming": true,
+   "sha256": "1dbb74465001a6c1a141b351263fd7f8bf029ee2805b3549f47516f9cac80824"
+  },
+  {
+   "module": "DeterministicKernelWidth",
+   "identical_after_renaming": true,
+   "sha256": "7c1f02f465f63ed78f4f380c55e6965091fbe643d9f3573ff17a38ed702b1058"
+  },
+  {
+   "module": "DijkstraCorrectness",
+   "identical_after_renaming": true,
+   "sha256": "3209a547a142f655f99a0ad21794a76b667015d407483ab31f14506414596fb9"
+  },
+  {
+   "module": "DoubleCover",
+   "identical_after_renaming": true,
+   "sha256": "b04be232a905cef7cf85894574acdff0ad03f88b9adb102829e166b009ac36e2"
+  },
+  {
+   "module": "DoubleCoverNetwork",
+   "identical_after_renaming": true,
+   "sha256": "140ea3bb843b16b9df3e8b863ead4966f99e86cf427706014314ec5911463e6b"
+  },
+  {
+   "module": "DrawingComponents",
+   "identical_after_renaming": true,
+   "sha256": "03138c23d1ff1de0ac1adb8a7ede0a6f757b4cf06391e05a5bbf615423207001"
+  },
+  {
+   "module": "DrawingParameters",
+   "identical_after_renaming": true,
+   "sha256": "4d052120e4e32791c7b1aa54d5db255f02c997ade39d544d2d4d93e2667b70a4"
+  },
+  {
+   "module": "DrawingRegions",
+   "identical_after_renaming": true,
+   "sha256": "758a93cd39ae6846e32f95410e24ec90097d58b67000cbe69b077648c74ac37e"
+  },
+  {
+   "module": "EdgeAllocation",
+   "identical_after_renaming": true,
+   "sha256": "12c39b6ae498cac431b512bda04862bacecda39689cc3dc80d423649db7ca5d4"
+  },
+  {
+   "module": "EdgeCostWords",
+   "identical_after_renaming": true,
+   "sha256": "c2f3d403f70d7ed3282d69f56ccd3ffd8fbbca3b32da4dd79a4f178da11e2191"
+  },
+  {
+   "module": "EdgeTransport",
+   "identical_after_renaming": true,
+   "sha256": "d3b150f1d38c0789b97f4592733c652a44d9322e370eb261594280abb8552391"
+  },
+  {
+   "module": "EfficientSearchArithmetic",
+   "identical_after_renaming": true,
+   "sha256": "c52d03ee26c0a0cb6f175e7364de9cf6dae797517510f65872eca0790a2d547f"
+  },
+  {
+   "module": "EfficientSearchArithmeticMore",
+   "identical_after_renaming": true,
+   "sha256": "5e21114c235af77dc88288981181acf36667aa2b0af5dcc8f2cb847d3baf2839"
+  },
+  {
+   "module": "EfficientSearchBounds",
+   "identical_after_renaming": true,
+   "sha256": "5dd819e6693461515e3d762912223fa2d72a5716c38d88255d7c1a99260120b2"
+  },
+  {
+   "module": "EfficientSearchCode",
+   "identical_after_renaming": true,
+   "sha256": "7ae0fb7154fec88724d308fcc28787fe0cfe0f5e792cc30127f46bc00a7f1234"
+  },
+  {
+   "module": "EfficientSearchCodeBasic",
+   "identical_after_renaming": true,
+   "sha256": "986298257da2ce8dfdb9db778093c4fa1578b7257a25b3252ade70af81f595b4"
+  },
+  {
+   "module": "EfficientSearchCodeBounds",
+   "identical_after_renaming": true,
+   "sha256": "8b38327992b38b5d3a3c1be136b93cae24a43e1591ab07d2ab8e073051286e22"
+  },
+  {
+   "module": "EfficientSearchCodeFresh",
+   "identical_after_renaming": true,
+   "sha256": "aeb5ce568020cad603130f7e612d3974026c25517d2d652525757c8e821c85a5"
+  },
+  {
+   "module": "EfficientSearchCodePush",
+   "identical_after_renaming": true,
+   "sha256": "ab1bda068c0a9b1258d000fd8fe364357b8fc9234cff9b666a50e91a7efac134"
+  },
+  {
+   "module": "EfficientSearchCodeRelax",
+   "identical_after_renaming": true,
+   "sha256": "3ef4ca9d167426162ba004e87e229a23342fa4c4898f8a3bbc37fe96523a7d26"
+  },
+  {
+   "module": "EfficientSearchCodeSearch",
+   "identical_after_renaming": true,
+   "sha256": "3820cb789587980cdd763c968fd554a514b99fd246e67ee3ea81c953e05a9283"
+  },
+  {
+   "module": "EfficientSearchCodeSearchHelpers",
+   "identical_after_renaming": true,
+   "sha256": "9ea8774642eaaf944b0d4ce98631b12eb12157bbb5d870427230d5906de62836"
+  },
+  {
+   "module": "EfficientSearchCodeSolve",
+   "identical_after_renaming": true,
+   "sha256": "fd78a56cf810ebe1691071969847db2354f384140f5e41f36654e36cf2c63fb4"
+  },
+  {
+   "module": "EfficientSearchCorrectness",
+   "identical_after_renaming": true,
+   "sha256": "7d4ca1e6e0327cb4a2e07052635e72f0784e1a701840c1883471167548c07c78"
+  },
+  {
+   "module": "EfficientSearchHistogram",
+   "identical_after_renaming": true,
+   "sha256": "42691033b9429b2b508f70b5b22cc5d188b352d9590276a7127a9c4913b9ba13"
+  },
+  {
+   "module": "EfficientSearchHistogramCode",
+   "identical_after_renaming": true,
+   "sha256": "b6b8048407d204a16da358ca652b606de1a9e7b523b57fc5f17179d87aaf9cab"
+  },
+  {
+   "module": "EfficientSearchHistogramCompile",
+   "identical_after_renaming": true,
+   "sha256": "ea88293181fa14761181284a1a2cc499f9d643120a20e6e506653c138e0772d3"
+  },
+  {
+   "module": "EfficientSearchHistogramRuntime",
+   "identical_after_renaming": true,
+   "sha256": "bccaa7eb7e43f5f917bfa8893b9cfc846fb0047f33a1c833946c4c1fd014b486"
+  },
+  {
+   "module": "EfficientSearchHistogramUpdate",
+   "identical_after_renaming": true,
+   "sha256": "374da438043be10d0a24c96f14147c58e53149bbcfda4b375deefd3f960fa532"
+  },
+  {
+   "module": "EfficientSearchLoop",
+   "identical_after_renaming": true,
+   "sha256": "0d37b3bb290e1b59d440f3e86d3674e92e708045a7f9f8f9c8b4e42e409aed1a"
+  },
+  {
+   "module": "EfficientSearchOutput",
+   "identical_after_renaming": true,
+   "sha256": "ac4ce8a602db8e6eb666b61220b2fbc09030e301bf4956a522f4ba8ce3306e2c"
+  },
+  {
+   "module": "EfficientSearchOutputExact",
+   "identical_after_renaming": true,
+   "sha256": "b6e7bfa228170d12dff24bdf55b94af7febb37f58b0942d67bf6fc50c055e4b6"
+  },
+  {
+   "module": "EfficientSearchPointerData",
+   "identical_after_renaming": true,
+   "sha256": "194d56b0e243143e3878cc05317026ccbef15461dd72242751f66d0b8dfacb4b"
+  },
+  {
+   "module": "EfficientSearchPointerEvaluation",
+   "identical_after_renaming": true,
+   "sha256": "3cc5e2dc162efbe20bbcbd8e2df93cf2ffe3c5566bbb734b97fcf45e40c17936"
+  },
+  {
+   "module": "EfficientSearchPointerExecution",
+   "identical_after_renaming": true,
+   "sha256": "bb51ce27321eae94bb0989d2a56580e84aa0eb81b00dc2f04b97c5675d9749e6"
+  },
+  {
+   "module": "EfficientSearchPointerFresh",
+   "identical_after_renaming": true,
+   "sha256": "2dc94fc29e1111d5f1dd38d7b258fee78d8f120d1d84765abe060cfc68cce7cc"
+  },
+  {
+   "module": "EfficientSearchPointerInspect",
+   "identical_after_renaming": true,
+   "sha256": "d91b513214b81b694cff3863ddf521e0099e62efa88721528b385fddf63fbf04"
+  },
+  {
+   "module": "EfficientSearchPointerRelax",
+   "identical_after_renaming": true,
+   "sha256": "6ebe609d315a8dd9af9dfff506fa23e4e4a3df59c3bb9eff1e4de1a898858776"
+  },
+  {
+   "module": "EfficientSearchPointerRun",
+   "identical_after_renaming": true,
+   "sha256": "48ba72ebc488256b4285db1a25e61cdf32feba1f2f58ab21566a1ae4a49411a0"
+  },
+  {
+   "module": "EfficientSearchPointerSolve",
+   "identical_after_renaming": true,
+   "sha256": "70c98525d608010d51026b363c0c8ef5181187293c3b40e08684ba5319114b58"
+  },
+  {
+   "module": "EfficientSearchPointerTrie",
+   "identical_after_renaming": true,
+   "sha256": "7ade90264eb557e3a5888992642c228af14655034e23f128e7f27cf7f967609f"
+  },
+  {
+   "module": "EfficientSearchProcedureTable",
+   "identical_after_renaming": true,
+   "sha256": "dc6d08ef649a91b8cfcdaf354ed946057743b23f9c96d5c21320e9b3e8eea0f1"
+  },
+  {
+   "module": "EfficientSearchProgram",
+   "identical_after_renaming": true,
+   "sha256": "8cc379dfa5a8680aafcf0a632fe68d703639fe4bada43d8fff515c80642c5b21"
+  },
+  {
+   "module": "EfficientSearchQueue",
+   "identical_after_renaming": true,
+   "sha256": "d789e4761c600360a1858784045462e141b2d01e89ccaaeaa6973a3e388f4896"
+  },
+  {
+   "module": "EfficientSearchRecovery",
+   "identical_after_renaming": true,
+   "sha256": "0eac947d689899f17c35e9e5f1cdd83370c594003221ad77703e19cf59dac9db"
+  },
+  {
+   "module": "EfficientSearchRelabel",
+   "identical_after_renaming": true,
+   "sha256": "56d15d46205a565dbd8faff685e76d1b9ecff1a45cc19be61692d83e1d7fbb06"
+  },
+  {
+   "module": "EfficientSearchRelations",
+   "identical_after_renaming": true,
+   "sha256": "5a12a615390217ac86c82004528f4b0e26d2c4e927d8a9388e23ce3e580f6680"
+  },
+  {
+   "module": "EfficientSearchRuntime",
+   "identical_after_renaming": true,
+   "sha256": "52b25377569ed7920d32e476a21d0b775621d43e5906c9c7cf6544e9d642bdd5"
+  },
+  {
+   "module": "EliminationCertificate",
+   "identical_after_renaming": true,
+   "sha256": "c520ee7793544c91c9419197b704acd57caf59da86dab288bbf3cc902b44c757"
+  },
+  {
+   "module": "EmbeddedDimensions",
+   "identical_after_renaming": true,
+   "sha256": "14f58a958e935fc04ba31de35221caf82184870703cce69ff01f06f4b8d7b361"
+  },
+  {
+   "module": "EmbeddedReduction",
+   "identical_after_renaming": true,
+   "sha256": "7350ba64c636785da5a9f87d9b22cfecf2b23444c8b73103460b930fe0eabe28"
+  },
+  {
+   "module": "Embedding",
+   "identical_after_renaming": true,
+   "sha256": "27d726c6112ab83cea4c9c3dfbe775509f3ee5742f6cff684329ddede340a5a3"
+  },
+  {
+   "module": "EmbeddingDeletion",
+   "identical_after_renaming": true,
+   "sha256": "02f77624424fdeb1d9d2370bbb3db3b0ac3b93cdc9d30bc45dd6a228b2b7aab1"
+  },
+  {
+   "module": "EmbeddingDeletionOrientation",
+   "identical_after_renaming": true,
+   "sha256": "c3859ad45a6502ab5e7396c7db4cacf0dfed4955dfb6ccca42cd185e75b754af"
+  },
+  {
+   "module": "EmbeddingDual",
+   "identical_after_renaming": true,
+   "sha256": "3e4092c40c91c809f715984bce20ed788e11c445a5f97326aff78b8478e7cbda"
+  },
+  {
+   "module": "EmbeddingEuler",
+   "identical_after_renaming": true,
+   "sha256": "a8e58ac378232bca81a62c3787b7936b93ea58052e35e95ec561d90db71fd057"
+  },
+  {
+   "module": "EmbeddingFaces",
+   "identical_after_renaming": true,
+   "sha256": "fbdba4d86aba27a9f735481a642a7897e066aa118155e71561b45ad5c901f1fc"
+  },
+  {
+   "module": "EmbeddingPermutations",
+   "identical_after_renaming": true,
+   "sha256": "d2aee988d3986a6691e0effbb2b4246b1a17f1b471d3b64b1a830d7bd098e89a"
+  },
+  {
+   "module": "EmbeddingVertices",
+   "identical_after_renaming": true,
+   "sha256": "dd25a20759037b3ad378dadc26ab952cbe5dae8cab6d293766190a3c52f32bf6"
+  },
+  {
+   "module": "EncodingCost",
+   "identical_after_renaming": true,
+   "sha256": "71b9a2e646e2b463ac3c8078cd2463af98345fd367b239b2c3bdf23083c5208c"
+  },
+  {
+   "module": "EndpointRelabeling",
+   "identical_after_renaming": true,
+   "sha256": "f956a84833532ae398acb76c3e3c2fee8b2f47352c6a408dd71f10ecbcaafdd3"
+  },
+  {
+   "module": "EnumeratedEmbedding",
+   "identical_after_renaming": true,
+   "sha256": "a76646566a205eb408bf01f00639c16e7a125ad7adaab850224d9c6b5131764f"
+  },
+  {
+   "module": "ExecutableAllHalf",
+   "identical_after_renaming": true,
+   "sha256": "9aaad97a9d35f154e23c2f56b5b55e2c339dec1119a806df36ebafba589e70e6"
+  },
+  {
+   "module": "ExecutableComponent",
+   "identical_after_renaming": true,
+   "sha256": "c9b4d52980d8e16c9d6a3f43054694440d9a02b90f643f7619a7f84aff6b8b84"
+  },
+  {
+   "module": "ExecutableMIS",
+   "identical_after_renaming": true,
+   "sha256": "aec6238d6fd304bee707e40616bf330ba3e143d98c1e868acf9c38f5bf427358"
+  },
+  {
+   "module": "ExecutableParity",
+   "identical_after_renaming": true,
+   "sha256": "06999002817e08c91afc67acd24595caf3784f5816d076789bbe3d9c49b189bd"
+  },
+  {
+   "module": "ExecutableReduction",
+   "identical_after_renaming": true,
+   "sha256": "716f6310a41e102bfa910ce76cb7e4bba84c86d325b321150f48d257e9c22a3c"
+  },
+  {
+   "module": "Expanded",
+   "identical_after_renaming": true,
+   "sha256": "8ce30bc53a23573326c98f79107ced19b65068e807038396ffc7ee2df0e77458"
+  },
+  {
+   "module": "ExpandedCandidateSemantics",
+   "identical_after_renaming": true,
+   "sha256": "70e209f47c853e82a05aaa6050ad291c736e7f362041b900c5f20a12b7c317a8"
+  },
+  {
+   "module": "ExpandedContext",
+   "identical_after_renaming": true,
+   "sha256": "7c8eabcff610be152cf79dc9646b582f244aba072652d2dff91d258b56687c3e"
+  },
+  {
+   "module": "ExpandedCoordinate",
+   "identical_after_renaming": true,
+   "sha256": "f28cf53b5889f134905d910261d98d6932cde8eb196bc1b4838f28e96e22ea1f"
+  },
+  {
+   "module": "ExpandedCoordinateSemantics",
+   "identical_after_renaming": true,
+   "sha256": "d40e6378d9cc8101c3e345fe0f12c53edda97d812a53d1a93f4ac7f2b11cf0c6"
+  },
+  {
+   "module": "ExpandedEmptyCoordinates",
+   "identical_after_renaming": true,
+   "sha256": "10ec6018c94a5a5c81003e58b9911f6469b4279749c71b9cfcfd97a6ca4c0dde"
+  },
+  {
+   "module": "ExpandedEnumerationSize",
+   "identical_after_renaming": true,
+   "sha256": "cd692a1502bd0876c6dc17b0268d41bd95a52a9314fe05a3d66b6bff391177c0"
+  },
+  {
+   "module": "ExpandedGenerationData",
+   "identical_after_renaming": true,
+   "sha256": "0affe6b9a8a05eaf66a9d4c283a0d55a1c57fda821653f6dc1d5236d0a0b962d"
+  },
+  {
+   "module": "ExpandedHubSourceSemantics",
+   "identical_after_renaming": true,
+   "sha256": "8d6e116a94ea1ed374a36ff03af60bd8a914598a14b9c79350998e8f652c1bad"
+  },
+  {
+   "module": "ExpandedParameterValues",
+   "identical_after_renaming": true,
+   "sha256": "77521763857c60687a4d98d73cf4e7208a02a832b6bbec7e6839d6fd48738929"
+  },
+  {
+   "module": "ExpandedRecords",
+   "identical_after_renaming": true,
+   "sha256": "5e5fb6d0ec6701696570fcdf02a1c2d2766487e972da50e3916b6e40e10e4209"
+  },
+  {
+   "module": "ExpandedSourceSemantics",
+   "identical_after_renaming": true,
+   "sha256": "dd786c764ea78522afb031071b32a2af48a54a1b074cb72fd23e24a53acd1731"
+  },
+  {
+   "module": "ExpandedWordEncoding",
+   "identical_after_renaming": true,
+   "sha256": "f5b7888d534a9d6ee001a1f6fc3aef44fda8dc3ae15079dc8fd00e3953eb6835"
+  },
+  {
+   "module": "ExpandedWords",
+   "identical_after_renaming": true,
+   "sha256": "fb1431b29584deaac36d8071ebe5ee2ebd0335ba531212e0a3994e0928e88d43"
+  },
+  {
+   "module": "ExpandedWorkSourceSemantics",
+   "identical_after_renaming": true,
+   "sha256": "1eefca590e9d90ca1145e50c4db0a8b22099da42588e3b27771d5d402d1c33b2"
+  },
+  {
+   "module": "FaceColumnSemantics",
+   "identical_after_renaming": true,
+   "sha256": "b7c24a7bf2fdd863889601554a8781f8fc49f8a8d1626ebb8a12117358fe2580"
+  },
+  {
+   "module": "FaceRank",
+   "identical_after_renaming": true,
+   "sha256": "0998b0c2006bb9a864814f33b0abb395a31297ab8992ac10e60f7a348bda032b"
+  },
+  {
+   "module": "FaceRowSemantics",
+   "identical_after_renaming": true,
+   "sha256": "0315ecf8d84412f7fe9c73f83f0b8aad87f653491c3812438ac12f2fe28d3680"
+  },
+  {
+   "module": "FaceStageProgram",
+   "identical_after_renaming": true,
+   "sha256": "37f69d3f3d37924c33f681b96e3a65ce43e076f211b961260c1d432c80f2eec3"
+  },
+  {
+   "module": "Faces",
+   "identical_after_renaming": true,
+   "sha256": "b79055ca29149a95a331c6f7bcb9d5f1fbf73442d4db1c6c222b8c1dc6257851"
+  },
+  {
+   "module": "FinalAccounting",
+   "identical_after_renaming": true,
+   "sha256": "da3ac4534a04f9ff5acae0b2ff408c2372d06055af9bccb213478f0c2bf9b6ee"
+  },
+  {
+   "module": "FinalBudget",
+   "identical_after_renaming": true,
+   "sha256": "1dae50bb1154fc50230bdddb1eb048fa140c3609b31e4f979500be19768975ba"
+  },
+  {
+   "module": "FinalCost",
+   "identical_after_renaming": true,
+   "sha256": "b5ac0ea5601cee7e90d8be9aec233242b5ae15e59469cfe0395bd59fce87e967"
+  },
+  {
+   "module": "FiniteCycleEnumeration",
+   "identical_after_renaming": true,
+   "sha256": "5b47d73048e3c8cb386d38cae23bdff69871cc2563d30a12968d2507740941f7"
+  },
+  {
+   "module": "FiniteCycleLength",
+   "identical_after_renaming": true,
+   "sha256": "6a2f28ee141ee0c9442b787389079c7efa334991e27e5abd8952e55588a230e4"
+  },
+  {
+   "module": "FlagKeyFaces",
+   "identical_after_renaming": true,
+   "sha256": "de762aa2d464037109eac34caa059f45b7acbe586014f0caab25e32545722721"
+  },
+  {
+   "module": "FrontCycleEnumeration",
+   "identical_after_renaming": true,
+   "sha256": "82433d6fcde8211118ac2dfeaa916a9719ddef8383eaf80f9c3ccf7dbd5fd708"
+  },
+  {
+   "module": "GraphComponents",
+   "identical_after_renaming": true,
+   "sha256": "688a284f7abaf9f8a1debc7d8a8ff32c6b3b8927d5057764fe0d8f2b98e03ea2"
+  },
+  {
+   "module": "GraphReachEncoded",
+   "identical_after_renaming": true,
+   "sha256": "968888eb9c7ce8ee0f277e315b4492e63d05f0305fe49f7ddb197c8297031398"
+  },
+  {
+   "module": "GraphRelabeling",
+   "identical_after_renaming": true,
+   "sha256": "23fc77c9dab56c4543e15dbf06b947d91e5a8d84ab1b8a5028affe67a8fdb385"
+  },
+  {
+   "module": "GraphSearch",
+   "identical_after_renaming": true,
+   "sha256": "90237aaa796c95ea0115d06eb3a075685ae58546e4ee6fa7a24303fc66a31b72"
+  },
+  {
+   "module": "HardSolveBudget",
+   "identical_after_renaming": true,
+   "sha256": "1bb861573e0070bd2fcadd62d7607ccb8941490bc42718fff41b5860faec73f9"
+  },
+  {
+   "module": "HardSolveReference",
+   "identical_after_renaming": true,
+   "sha256": "9755fe15ec639020da3b33d13f1734c7a98b81903f3b90b0dac1214e39ab0bdc"
+  },
+  {
+   "module": "HardWidths",
+   "identical_after_renaming": true,
+   "sha256": "99264b9b0f80f0c871673f7564c7105c6571f7642412ae039cb670178610510b"
+  },
+  {
+   "module": "Incidence",
+   "identical_after_renaming": true,
+   "sha256": "6998ca93d4d8ed673cea5f4ed180da716710f116e3f3c60aea42a5a9adf98117"
+  },
+  {
+   "module": "IncrementalComplement",
+   "identical_after_renaming": true,
+   "sha256": "32cde6ef01fef78b828809c7971b835648b1a6f9b4e83096191ae14442d10012"
+  },
+  {
+   "module": "IndexedActiveVertices",
+   "identical_after_renaming": true,
+   "sha256": "51cf1fd8237bbe64dc5c670b3089ac250248077c0108c23d474909e17297097d"
+  },
+  {
+   "module": "InducedComponents",
+   "identical_after_renaming": true,
+   "sha256": "ca4a5a753c65108c15e6d316fe0c08fcc54b83073942476fef4f1faccb977fd2"
+  },
+  {
+   "module": "InducedReduction",
+   "identical_after_renaming": true,
+   "sha256": "c401419fbc79f7719cb5148409bed5654e9aafd85bf41cb4611f80e1b8b620eb"
+  },
+  {
+   "module": "InducedTable",
+   "identical_after_renaming": true,
+   "sha256": "1241b3d5a754783ca977e2f33267b04a98d1556e4882a0475896f22d4d8a0473"
+  },
+  {
+   "module": "IntegerEdgeCosts",
+   "identical_after_renaming": true,
+   "sha256": "af60663432e60327b306d6705905665db9711f81eb7981062168fcd2b43b8a43"
+  },
+  {
+   "module": "IntegerSlacks",
+   "identical_after_renaming": true,
+   "sha256": "27ce59bdcb29a5e4e5b0ea25b7ddfa9bd9612929c8eaa461f4d4f6971e101189"
+  },
+  {
+   "module": "KernelArithmetic",
+   "identical_after_renaming": true,
+   "sha256": "c75cc9292fa62e22219b7de0aaaab519cb9fe1d3216cdee49301670e8abb061e"
+  },
+  {
+   "module": "KernelBasis",
+   "identical_after_renaming": true,
+   "sha256": "39f5c1d6499d2930c377a0c409e94376f6734a2c3e9b781ed9f334ce6b0ba9b9"
+  },
+  {
+   "module": "LPDirections",
+   "identical_after_renaming": true,
+   "sha256": "4c1e41bfded59fa803d16443e7ac03dcbb58b4c6bf9d902aad232103aee75dc3"
+  },
+  {
+   "module": "Lift",
+   "identical_after_renaming": true,
+   "sha256": "f1a91dd15d81cc9780ccf7797a60fb18863cb3f63ecb3c1d39be93530d187cb6"
+  },
+  {
+   "module": "LinearAlgebra",
+   "identical_after_renaming": true,
+   "sha256": "fa7e47d5c93da37f337e283efb705b559c82afb273438dd2f131f67229d1c821"
+  },
+  {
+   "module": "MaxFlowCached",
+   "identical_after_renaming": true,
+   "sha256": "e752fd5c0ffca5f3f11b1f7c6b1ec8048ed64a23599dabbea8c264c5d470f1bc"
+  },
+  {
+   "module": "MaxFlowCore",
+   "identical_after_renaming": true,
+   "sha256": "00682dcaa170a7aeaaee83455b424562e1ac02dcf330e331c7fdb7487e613234"
+  },
+  {
+   "module": "MaxFlowDual",
+   "identical_after_renaming": true,
+   "sha256": "6cc5581ef694594d6ec23f800ed2ca8279279eca82380fad2b654279c9440ce3"
+  },
+  {
+   "module": "MaxFlowListReach",
+   "identical_after_renaming": true,
+   "sha256": "b8f9ff89ebf0403baf3dff2afcc04ddd09dc30450bd4833cfc42ccd42bee0470"
+  },
+  {
+   "module": "MaxFlowOverscaled",
+   "identical_after_renaming": true,
+   "sha256": "4e8db60e9c51ce46c3585d620523cfd67308a50a3153ebf41814504376bdad02"
+  },
+  {
+   "module": "MaxFlowPreprocessing",
+   "identical_after_renaming": true,
+   "sha256": "27acfb0b4cfedb3d3be72f449ccc1d8c570309f9d99a7df49b2aafb3058a254b"
+  },
+  {
+   "module": "MaxFlowReach",
+   "identical_after_renaming": true,
+   "sha256": "92a01543265cf886881876a02ee1e2460ebcb124985d972668b78a48394b7b26"
+  },
+  {
+   "module": "MaxFlowResidual",
+   "identical_after_renaming": true,
+   "sha256": "0246a44588b552f69dd442187e3b5b062616bce2cafcb608d122df1217c46a96"
+  },
+  {
+   "module": "MaxFlowScaling",
+   "identical_after_renaming": true,
+   "sha256": "9bf7b58208443b519af49dd2a49699119b6b9cabe6110eb593eddb607ddc3937"
+  },
+  {
+   "module": "MaxFlowSize",
+   "identical_after_renaming": true,
+   "sha256": "e06a4ba3cc337e74ab6f69dfb65a0be83a3f7e214a43d7fa26484e212ea7f01e"
+  },
+  {
+   "module": "NegativeWeights",
+   "identical_after_renaming": true,
+   "sha256": "b6223a7bcff2ab63cd16b53a087d81dcfc7d0b644863ca239d91d75de3394930"
+  },
+  {
+   "module": "NestedRetention",
+   "identical_after_renaming": true,
+   "sha256": "c2af283ab42b877c29fde60245bd0db4cd966c71730fd57ed8bfc34a5e5aeed0"
+  },
+  {
+   "module": "NetworkWeights",
+   "identical_after_renaming": true,
+   "sha256": "927f96197e43dfdf7d6e9e2f1bfe702e1a352c8b1ab3ae28f2bedbf06b10aad0"
+  },
+  {
+   "module": "NetworkWords",
+   "identical_after_renaming": true,
+   "sha256": "71735b615cef782fd1f2fa95da0745f0d5c99d37aaec311b6ae28074b66b8796"
+  },
+  {
+   "module": "NodeEncoding",
+   "identical_after_renaming": true,
+   "sha256": "a8a977058a5f00930076e2cd02fa3a2861fcc9eac524c6042b9272d519437ea4"
+  },
+  {
+   "module": "OddRow",
+   "identical_after_renaming": true,
+   "sha256": "695882eccb3a2171fbe1300c0c7a16f7cd531388aca2756339b5f20deb7665b9"
+  },
+  {
+   "module": "Orientable",
+   "identical_after_renaming": true,
+   "sha256": "4a65002acec36be2b0c4c40ef8cc25dd43dd12400c226586b5054a91477b333e"
+  },
+  {
+   "module": "OriginalFaces",
+   "identical_after_renaming": true,
+   "sha256": "bafc538a31e9b8304f1f97a1bbd0c381e04b2d73130f54fa001b9ce822140970"
+  },
+  {
+   "module": "OriginalReduction",
+   "identical_after_renaming": true,
+   "sha256": "9a650b4c79f6b671c37a53a5a969389a8d2674f68f4bebfe8e3c61dcbabe1708"
+  },
+  {
+   "module": "Parameters",
+   "identical_after_renaming": true,
+   "sha256": "08dd406fe74eed7ef89cd4d2b1d457b7295db05fd0b3e908f4e225e898423790"
+  },
+  {
+   "module": "Parity",
+   "identical_after_renaming": true,
+   "sha256": "4e0478041f3a819656242e361a931196364502f11b4099a0dd6d9a1decb103a0"
+  },
+  {
+   "module": "ParityReachRefinement",
+   "identical_after_renaming": true,
+   "sha256": "55b66e2a446e6273cd7dbe82e0b8d0490cde48571c6462eea0ed7a038302e52e"
+  },
+  {
+   "module": "PermutationDeletion",
+   "identical_after_renaming": true,
+   "sha256": "9d825fa87cd9610107d98f2d8aa49f46a5b8389e51aa5ebee6f2f747211d66cf"
+  },
+  {
+   "module": "PermutationRestriction",
+   "identical_after_renaming": true,
+   "sha256": "5e461310b569de24d8d0b71fae3de471fc96c5dfd556013ad3c0d2018f5e1950"
+  },
+  {
+   "module": "Persistence",
+   "identical_after_renaming": true,
+   "sha256": "aef7401497dbfc374e6bdf411658e7839cb86d8d74dec8e15ccabba33eac9b72"
+  },
+  {
+   "module": "PointerArithmetic",
+   "identical_after_renaming": true,
+   "sha256": "1d85345032dd04b8b34081e50d7f60729dcbea85546a62ca35eaaabb2483b4e9"
+  },
+  {
+   "module": "PointerArithmeticEval",
+   "identical_after_renaming": true,
+   "sha256": "3c49e44a1bcf771dbdd77acc809e05b0028e80920a962ef8fd6c4855a9434e4c"
+  },
+  {
+   "module": "PointerCallTrees",
+   "identical_after_renaming": true,
+   "sha256": "bc3049406cb935838774bafce458825b5bfc655ddc16acb0065616c601f47c34"
+  },
+  {
+   "module": "PointerEvaluation",
+   "identical_after_renaming": true,
+   "sha256": "9b534e80142b74424174576d6574a1fd339d8b8867fe272a347fae9a6f17d1f0"
+  },
+  {
+   "module": "PointerExecution",
+   "identical_after_renaming": true,
+   "sha256": "40fab8ef49d3ceabdc12982d412e12839b9f9c8698bb3359fdb7bc6102f8e0af"
+  },
+  {
+   "module": "PointerInsert",
+   "identical_after_renaming": true,
+   "sha256": "289daf5ec9d440ac1749e5fd7da42a4ccfde23a54ff1dce7663dd2d2e1e08bde"
+  },
+  {
+   "module": "PointerJoin",
+   "identical_after_renaming": true,
+   "sha256": "f4ae7b8d19941fa54b1f4657ed14d55ad0fe86cbcc43b4712e97f106820efd4a"
+  },
+  {
+   "module": "PointerLookup",
+   "identical_after_renaming": true,
+   "sha256": "f68670496eb819d8a4d23803be64bcf0e584bb3f036b0f3cc3dd5093eece1c59"
+  },
+  {
+   "module": "PointerMemory",
+   "identical_after_renaming": true,
+   "sha256": "071ee61808cfce187711ed05ed430fccdbae967bd245b1ef777d7da8c200e733"
+  },
+  {
+   "module": "PointerPop",
+   "identical_after_renaming": true,
+   "sha256": "af731df5b0774022df7c4929995955b964c1c4fba243c5b7837eb6fe23b8bc7f"
+  },
+  {
+   "module": "PointerPopSafety",
+   "identical_after_renaming": true,
+   "sha256": "d5883250335fd4e5f5f40d40b212b8729145d3caaeaabc9dce90ffa214284260"
+  },
+  {
+   "module": "PointerRepresentations",
+   "identical_after_renaming": true,
+   "sha256": "2a0eb1467d5ddbbe2b14e49c051dd22af5d59c942bb460d3fe68843c6ef305e5"
+  },
+  {
+   "module": "PointerStack",
+   "identical_after_renaming": true,
+   "sha256": "531bb9303a9bfff9a41326ea7c249da5ee0a5b48554b2c8936bc0b7a53b1a930"
+  },
+  {
+   "module": "PureSmoothing",
+   "identical_after_renaming": true,
+   "sha256": "1fe7702c582803476f8f78d587855ac0554ba4c2527df44ab6611efff6429daf"
+  },
+  {
+   "module": "RadixConstruction",
+   "identical_after_renaming": true,
+   "sha256": "757e3996f4c8545f586d1df72c907defeb26b769ba83711fb3d1a681fa925ca0"
+  },
+  {
+   "module": "RationalDual",
+   "identical_after_renaming": true,
+   "sha256": "a822fe8b66396ba8a805701a1c1e6d1eb84ddbf9b767dafda2b86104f71b247d"
+  },
+  {
+   "module": "RationalElimination",
+   "identical_after_renaming": true,
+   "sha256": "c0dca62ccbbbbaf0f7a12573c375933035bb5ae7bb3ef8b360acbf09d11770eb"
+  },
+  {
+   "module": "RationalRowSemantics",
+   "identical_after_renaming": true,
+   "sha256": "61a82df8fe237033659351e5818663d6cf33af731d95d1bb418131958b60e6cf"
+  },
+  {
+   "module": "RationalWidth",
+   "identical_after_renaming": true,
+   "sha256": "d42d88050c1f54e76c0bd59be284ec26fe4f6d15c93f8a5818b7a97615192b48"
+  },
+  {
+   "module": "RationalWordRows",
+   "identical_after_renaming": true,
+   "sha256": "d530c121247efe302c8121cbf48473dbdd995052054917871e86d429d86a1d3d"
+  },
+  {
+   "module": "ReachSeen",
+   "identical_after_renaming": true,
+   "sha256": "db00d556bb5f5cbcd39476ad0a3131a1b39068e87a364e16397ed6341bee325a"
+  },
+  {
+   "module": "Reduction",
+   "identical_after_renaming": true,
+   "sha256": "9a43ec0e85da1b516c923bf3069d53eaf80f4389c6dd0fa8f55ccbbd1b025bcc"
+  },
+  {
+   "module": "RegionParity",
+   "identical_after_renaming": true,
+   "sha256": "a1a07c2f4ae839f6222e694a5bc8d2eef86046a31089d11bb3ef5c4faa75f4ca"
+  },
+  {
+   "module": "RegisterAdder",
+   "identical_after_renaming": true,
+   "sha256": "806473d57dce04e79a7f61031a05404f62479bf448c099086fd2db305cd05d39"
+  },
+  {
+   "module": "RegisterAdjacencyScan",
+   "identical_after_renaming": true,
+   "sha256": "5bfa41d32ccf337501ed4b686fc368467609345725818d68c3af59dada97e1dc"
+  },
+  {
+   "module": "RegisterAdjacencyTable",
+   "identical_after_renaming": true,
+   "sha256": "c308d5174bdcb49fe790606ddb49b98d3f783f0237495a0ec4341a62df33fa42"
+  },
+  {
+   "module": "RegisterAllHalf",
+   "identical_after_renaming": true,
+   "sha256": "d5dd99e80cb848d8ccc219cebcb2a55d75f3a962ab89c9f3b48e64cf34d1bdbe"
+  },
+  {
+   "module": "RegisterAllSources",
+   "identical_after_renaming": true,
+   "sha256": "824d2a7cd0322de40646ae208078a13f62d9c980919e9f39b4bacf5f14dd4d19"
+  },
+  {
+   "module": "RegisterArcEmitter",
+   "identical_after_renaming": true,
+   "sha256": "ebe918693d29ad616f36589b28ad4a420109bd1227b5e0d24ab29d1cb7148707"
+  },
+  {
+   "module": "RegisterArcLookup",
+   "identical_after_renaming": true,
+   "sha256": "d7db22a9f4d1b2d28f3943f1990c0efed14ca01de901aaec7e13e31e872eb7d5"
+  },
+  {
+   "module": "RegisterArcMembership",
+   "identical_after_renaming": true,
+   "sha256": "cfbd7df0ebe778b5c5e1a0a71bb91c7ee0a6d563956032f52abe0db9311a26fd"
+  },
+  {
+   "module": "RegisterCandidate",
+   "identical_after_renaming": true,
+   "sha256": "0adaf28aab1f50294ca5037e71fc23881f09212d81d481edb0a034d54413a46e"
+  },
+  {
+   "module": "RegisterCandidateCompiled",
+   "identical_after_renaming": true,
+   "sha256": "0d9c1e28f7242d3247e57721ad5877cb499c218f521faa1f2a3115cab622b5e0"
+  },
+  {
+   "module": "RegisterCandidateFinish",
+   "identical_after_renaming": true,
+   "sha256": "e69870072a916be011e3cabba4507d31a93b9c4fe2b940e9a6daf6da5d9640a9"
+  },
+  {
+   "module": "RegisterCandidateParsing",
+   "identical_after_renaming": true,
+   "sha256": "78c9b63ec2d2d9482a1ec902e86ffbb4ce9d10edb1c5902f1047045bf3a82338"
+  },
+  {
+   "module": "RegisterCandidates",
+   "identical_after_renaming": true,
+   "sha256": "e43bd7bd4949e08fd0cebe60346ab7acb9ceda9851668475b778828589a36d53"
+  },
+  {
+   "module": "RegisterColumnResize",
+   "identical_after_renaming": true,
+   "sha256": "4291e774a894e90fc05942ae8f8b2ea86527d97ba4806ffe9a1f536bbd9a9454"
+  },
+  {
+   "module": "RegisterComparator",
+   "identical_after_renaming": true,
+   "sha256": "65336f7c0334613ef1be9594a9ae7e9d86fae110fc1638acdc7562ef57597683"
+  },
+  {
+   "module": "RegisterComplement",
+   "identical_after_renaming": true,
+   "sha256": "6f94a1b3cbba767440d6c4d4c4bb36e1bfb5076d7a9dd57c80d5656d817ecae4"
+  },
+  {
+   "module": "RegisterComplementSelect",
+   "identical_after_renaming": true,
+   "sha256": "1e23c4931006e9de9cae0c973a4af8e084bb95537d018f4bf4334aebbc4e796e"
+  },
+  {
+   "module": "RegisterComponentRoots",
+   "identical_after_renaming": true,
+   "sha256": "348a8a8cbdfde0953cb521a219af6be525406762162a93cd3c9572f45546a25e"
+  },
+  {
+   "module": "RegisterComponentSolve",
+   "identical_after_renaming": true,
+   "sha256": "890706653532a905a126f23bdf983bf00a1efdbfb9679000b9ba9a9105e12ecc"
+  },
+  {
+   "module": "RegisterContextPack",
+   "identical_after_renaming": true,
+   "sha256": "5ddfce9ad2e06545ade750b6aa40c90105cfaaa5df119f6f5f3a4a28c59b42d9"
+  },
+  {
+   "module": "RegisterCoordinate",
+   "identical_after_renaming": true,
+   "sha256": "42b62a6223bfd3692302b6140eafa6ce9b6253e15fa08703fe50a77dad1099a4"
+  },
+  {
+   "module": "RegisterCoordinates",
+   "identical_after_renaming": true,
+   "sha256": "3e412132c613c9a37719478c6bf0a74965092d1b12ab8fb4a29cbe0181009abb"
+  },
+  {
+   "module": "RegisterCutReadback",
+   "identical_after_renaming": true,
+   "sha256": "a4cbe9a5085c44425d1c34d1f7cf71c64d119520deba1e5d514757419f619b7d"
+  },
+  {
+   "module": "RegisterDecompose",
+   "identical_after_renaming": true,
+   "sha256": "cfd0c5eb223eac936d32c7ba9d0e22d246630a094a561e73cafe7951eeee667e"
+  },
+  {
+   "module": "RegisterDigits",
+   "identical_after_renaming": true,
+   "sha256": "a92adf9fe1aacec9ea698fd27df46c70bd0f88e7c5652e7f5165fee9454fe5a1"
+  },
+  {
+   "module": "RegisterDivision",
+   "identical_after_renaming": true,
+   "sha256": "bc5779a00b1c209c8fc964a64afd85b635a737f82bae5f624e3ea328178f252a"
+  },
+  {
+   "module": "RegisterDivisionWrapper",
+   "identical_after_renaming": true,
+   "sha256": "15db5c41191b18b00636cb9d28de320ec818b55f990a46a0af33599b859a5ade"
+  },
+  {
+   "module": "RegisterEdgeCostProgram",
+   "identical_after_renaming": true,
+   "sha256": "572667fc22ed5e6c0dae10dd934e4506f45c993f9fa505335a1643822a87091c"
+  },
+  {
+   "module": "RegisterEdgeCosts",
+   "identical_after_renaming": true,
+   "sha256": "0773489683e36a5765d99db3022862fa016cd4158bd19f405c1dac3f17587dcd"
+  },
+  {
+   "module": "RegisterEdgeMetadata",
+   "identical_after_renaming": true,
+   "sha256": "a6191cbe8dfb2f03caf68243a285f509ee97e348409b50e23e713c020a536482"
+  },
+  {
+   "module": "RegisterEdgePairs",
+   "identical_after_renaming": true,
+   "sha256": "85959ca67c2ceb5a1c8e39eb8b2f455e1b1c73b06e8e1372ec2c5149eaeeac88"
+  },
+  {
+   "module": "RegisterEdgeWords",
+   "identical_after_renaming": true,
+   "sha256": "bd3402c8ad326a051406bcb484f605099b379cbe3e5b903cb17e7256228dc422"
+  },
+  {
+   "module": "RegisterEliminateRows",
+   "identical_after_renaming": true,
+   "sha256": "75d45cb1f7fcafda72050dc6146c5704e60c14096aba3f953a59747fdcea133d"
+  },
+  {
+   "module": "RegisterEvenMatrix",
+   "identical_after_renaming": true,
+   "sha256": "3c2ec41f0e036532fb88a05b4982b24b14cf1c36c40d01bfa466748c08d42302"
+  },
+  {
+   "module": "RegisterExit",
+   "identical_after_renaming": true,
+   "sha256": "99f1f8b44e4ce45d38b3528d859a00d7c31c8252fbf733f3c1470165ef9393de"
+  },
+  {
+   "module": "RegisterExpandedParameters",
+   "identical_after_renaming": true,
+   "sha256": "7b86a32c3c849a201b5e012445232de149aa1cefad876511d702093ca17ac737"
+  },
+  {
+   "module": "RegisterExpandedScalars",
+   "identical_after_renaming": true,
+   "sha256": "9357f84d3121dfe712e0ced5eaa302968976c55aed9763263a18dba2519fd550"
+  },
+  {
+   "module": "RegisterExpandedVertexWords",
+   "identical_after_renaming": true,
+   "sha256": "83863aa05d2c2c091c3c11049ece7c75a4863b56ff1beafb60b015caf43e75dd"
+  },
+  {
+   "module": "RegisterFaceColumnStage",
+   "identical_after_renaming": true,
+   "sha256": "3a2d9b3b5c4d3933d487ea915a43f03000d9b836ad294c34104a0fee5c3edc94"
+  },
+  {
+   "module": "RegisterFaceColumns",
+   "identical_after_renaming": true,
+   "sha256": "943dd576fedf760376aa5cbd891fe3234dbccd8dc9ff13daf606cf18df3a0ef0"
+  },
+  {
+   "module": "RegisterFaceRow",
+   "identical_after_renaming": true,
+   "sha256": "032a4c966db4a89ddefd28554de44a1d85e153af7868e9c33daa8d697865b009"
+  },
+  {
+   "module": "RegisterFinalAssembly",
+   "identical_after_renaming": true,
+   "sha256": "003382f25f0ecdfa6d04c6099e539154c50c6415b9c9f9a2b36dfef8a4dc3fd2"
+  },
+  {
+   "module": "RegisterFirstEdge",
+   "identical_after_renaming": true,
+   "sha256": "d1bb95f065694180a68570705539a20f6e5d2ea6228e887dee9bb2054a2c1001"
+  },
+  {
+   "module": "RegisterFirstReturn",
+   "identical_after_renaming": true,
+   "sha256": "c0f7ea2d181cac7c81abd9bcc60c6053099d2a2085a66fe17e4b25fecadc281e"
+  },
+  {
+   "module": "RegisterFlagKeys",
+   "identical_after_renaming": true,
+   "sha256": "5397017f59949313e5c4f3f95871a2ef27c615651d1f482df75c2374d124cf51"
+  },
+  {
+   "module": "RegisterGCD",
+   "identical_after_renaming": true,
+   "sha256": "b1c4952047e9556f7fda917ba9bc44e788b8fa58f4cc11384be945f18f7f1851"
+  },
+  {
+   "module": "RegisterGenerationInputs",
+   "identical_after_renaming": true,
+   "sha256": "7f8f35da1cdce9ac3a7ab8871e0a46d5e8608f22898582d44d8a6534596b4a4c"
+  },
+  {
+   "module": "RegisterGenerationPack",
+   "identical_after_renaming": true,
+   "sha256": "5fb177ff399f30fd83b683e1eabf2a64c98cc6216bcc860478589e466c2707c8"
+  },
+  {
+   "module": "RegisterGeneratorWords",
+   "identical_after_renaming": true,
+   "sha256": "2777812a5ea5628a91453eb02c83a8f52f7fa1c6f60d88e0605fdd1a850a952c"
+  },
+  {
+   "module": "RegisterGraphArcs",
+   "identical_after_renaming": true,
+   "sha256": "5b1156284e99e65eee3f2981e1480889f5e53a893bc6d7b7d088fd90a0754fb4"
+  },
+  {
+   "module": "RegisterGraphEnumeration",
+   "identical_after_renaming": true,
+   "sha256": "566a20fb4463d0ff8b61017785f997eaae36791ed7d5bcbd54778992b95384b0"
+  },
+  {
+   "module": "RegisterHalve",
+   "identical_after_renaming": true,
+   "sha256": "eb979b5033e78ead6752065e8304961a6940fee8f47c299e289404ed667692b6"
+  },
+  {
+   "module": "RegisterHardInputs",
+   "identical_after_renaming": true,
+   "sha256": "61d3b46bfc4098cbb6ec04a25a7490e5cb39fafad57b1fb011cf42117d7852a1"
+  },
+  {
+   "module": "RegisterHardKernel",
+   "identical_after_renaming": true,
+   "sha256": "61f538bd8e10358c2ef153bcc53c8ee9a6795e03f6b6a4a86d5ac76930e214b5"
+  },
+  {
+   "module": "RegisterHardRecovery",
+   "identical_after_renaming": true,
+   "sha256": "360fbb5a43b8c15d7dfd8171ac833bb365b7db2137e6794bd0200d4eec0a57c5"
+  },
+  {
+   "module": "RegisterHardSearch",
+   "identical_after_renaming": true,
+   "sha256": "22a71a36c0b5b104603c7bbc069a2dc00cbbd50624f14cb7b7574ad630a4901a"
+  },
+  {
+   "module": "RegisterHardSearchBudget",
+   "identical_after_renaming": true,
+   "sha256": "949fd463a498af057b31e791d05cebe8209b4e9bffe23c684816dd3bb3144815"
+  },
+  {
+   "module": "RegisterHardSolve",
+   "identical_after_renaming": true,
+   "sha256": "b7e903275d19259848853cd2a6f4a85585735f3d8407dad14e2706eabaf42c6f"
+  },
+  {
+   "module": "RegisterHistogramValues",
+   "identical_after_renaming": true,
+   "sha256": "82b0b3c9d7ef4f130500be6ab60e8bf1eaa48d6960f7c1764dcb08f69ac6f20a"
+  },
+  {
+   "module": "RegisterHorner",
+   "identical_after_renaming": true,
+   "sha256": "087e95ce900be980ba9aabfa76670c325ca02633350d799f058c4d0fde217015"
+  },
+  {
+   "module": "RegisterHubEntries",
+   "identical_after_renaming": true,
+   "sha256": "c36d1d609125986c6b3ff605f722a2ecbb82ab4819588ab618bd254fb4db9493"
+  },
+  {
+   "module": "RegisterHubSource",
+   "identical_after_renaming": true,
+   "sha256": "6a3423ee01d168c19600359282140a48f9b3a2f52e23dc14fc22883abec8bb8b"
+  },
+  {
+   "module": "RegisterIncidenceRows",
+   "identical_after_renaming": true,
+   "sha256": "8dcd601af624f9c61e423c31a0a691abce947dfd03775ca3a191815bdf9b1ac1"
+  },
+  {
+   "module": "RegisterInducedRibbon",
+   "identical_after_renaming": true,
+   "sha256": "ff5e54751918dbffa53818d32aa71bdb01eff9596c9920741c141bf1ece87358"
+  },
+  {
+   "module": "RegisterKernelGenerators",
+   "identical_after_renaming": true,
+   "sha256": "48d0cd8f1664714bb8152429cd6a5648e58c812ef99af6148f53096fa60c3ed4"
+  },
+  {
+   "module": "RegisterKeyFaceEnumeration",
+   "identical_after_renaming": true,
+   "sha256": "38a2f23be652065e9f868a5a99f792c7a8cea70fc3779e43e99b70087caa2c41"
+  },
+  {
+   "module": "RegisterKeyTrace",
+   "identical_after_renaming": true,
+   "sha256": "bb39d42d6f6d85d011dac3764fb29930adfdca344ae6f07dc4b1eb8cb56d7f61"
+  },
+  {
+   "module": "RegisterListCommon",
+   "identical_after_renaming": true,
+   "sha256": "7fe88a61816d4ad37f0416d27fdd1d81cd8b6ce141a98b9d5c0971af4a5026c8"
+  },
+  {
+   "module": "RegisterListFilter",
+   "identical_after_renaming": true,
+   "sha256": "ce1b672352651553b9c1cbb6858044b42d43938862ef87c138b8fa10547e1197"
+  },
+  {
+   "module": "RegisterListFind",
+   "identical_after_renaming": true,
+   "sha256": "afb7fe47d58e44d42b87e53538d7422ee8164a5c383864f9e61ceecb30127a0c"
+  },
+  {
+   "module": "RegisterListFlatMap",
+   "identical_after_renaming": true,
+   "sha256": "f045565a37b9cc8eebbcdb65288a4bd53e0a991037dd619de19acbac1fb79700"
+  },
+  {
+   "module": "RegisterListFold",
+   "identical_after_renaming": true,
+   "sha256": "5456235a6fb7bc302767f57309e92f15d84077cc43219d45656ed8a818d0aa73"
+  },
+  {
+   "module": "RegisterListMap",
+   "identical_after_renaming": true,
+   "sha256": "9a2f23a15765761ac7e270a71fd5ab581d5859e504bb0e7c395de9165378bf06"
+  },
+  {
+   "module": "RegisterListReverse",
+   "identical_after_renaming": true,
+   "sha256": "75c39cf6cbd919fb082991c71ab983339a23411ca4da72bc8e9efb6efe737e4c"
+  },
+  {
+   "module": "RegisterListZip",
+   "identical_after_renaming": true,
+   "sha256": "02da7a8783e0161d41b6564d27c3d28f3974b65113a0f313aabd04e6cf622324"
+  },
+  {
+   "module": "RegisterMachine",
+   "identical_after_renaming": true,
+   "sha256": "fd93314d0a588b1a83dba20c325386e387bc13cfa95279cccf1cc05fd1d28fb8"
+  },
+  {
+   "module": "RegisterMachineBounds",
+   "identical_after_renaming": true,
+   "sha256": "11343a1097025a49d0d1f0ebc474c8528e3cab1cf64974269e4bdf7a3c2dc2b5"
+  },
+  {
+   "module": "RegisterMachineFacts",
+   "identical_after_renaming": true,
+   "sha256": "b4c003259efeffae8b08e966c42a14d576d8e05aa16c037b7f2700bebe67c010"
+  },
+  {
+   "module": "RegisterMachineFrames",
+   "identical_after_renaming": true,
+   "sha256": "f25244c4aaa0be882e0348054a772c5b658b0c8beed8fef8a0be006ced60a641"
+  },
+  {
+   "module": "RegisterMachineMeta",
+   "identical_after_renaming": true,
+   "sha256": "eb938dce06f7c9d4cd367fc75370d002136c0ab14f09b8bccbaaa1931150b1ff"
+  },
+  {
+   "module": "RegisterMaxFlowSolve",
+   "identical_after_renaming": true,
+   "sha256": "78822bde047e56f75d506beaecc8e572e6a232d86597c10f2dfd7272c5f598b9"
+  },
+  {
+   "module": "RegisterMembership",
+   "identical_after_renaming": true,
+   "sha256": "9d98d8d0c6c2c4a1091a49ce1950a582076ef5f40be2323a2cd1dfb97c04967e"
+  },
+  {
+   "module": "RegisterMultiplier",
+   "identical_after_renaming": true,
+   "sha256": "aec1641ecabadbd5b76aa846509e3431a16bd1a4d03da3f4c540225beb4a1f35"
+  },
+  {
+   "module": "RegisterNetworkNodes",
+   "identical_after_renaming": true,
+   "sha256": "85a57c981766a43f9dbfd7275f6ded584aea989edbd4d15e136a8d5f4a41d88f"
+  },
+  {
+   "module": "RegisterNetworkSolve",
+   "identical_after_renaming": true,
+   "sha256": "85ed0ee4462613ee6f6fd696b9470db81b9aa536584529a4aa7de25fc6b662c8"
+  },
+  {
+   "module": "RegisterNetworkTable",
+   "identical_after_renaming": true,
+   "sha256": "b362eb5dea3f29ab6b9f62edc6e946bd0bb1c9f3a858640fa2089833153645c8"
+  },
+  {
+   "module": "RegisterNetworkWeights",
+   "identical_after_renaming": true,
+   "sha256": "003e34e1a34696317ec381b84edc25544660ba630d1ca590738629a32d8b1570"
+  },
+  {
+   "module": "RegisterNodeDecode",
+   "identical_after_renaming": true,
+   "sha256": "d4c5f6f354ac2d8fd5f02297a660374ad8f9e462e900fb2cba22505dddab409e"
+  },
+  {
+   "module": "RegisterNodeEncode",
+   "identical_after_renaming": true,
+   "sha256": "ffa8481d16358e771010103a6bcee2927402aeebea4ac960a0315b856dcc21e9"
+  },
+  {
+   "module": "RegisterNormalization",
+   "identical_after_renaming": true,
+   "sha256": "8c35a8399856af929bcbe86684219980b21e7a4c9e4746fec4ed37a2c0a88798"
+  },
+  {
+   "module": "RegisterOddRow",
+   "identical_after_renaming": true,
+   "sha256": "e5a6d907190886e599c9c38608eb878b1ef616e515512ceb2b50da20ed370316"
+  },
+  {
+   "module": "RegisterOddRowStep",
+   "identical_after_renaming": true,
+   "sha256": "abf1d67286ed204e2a1e0130a0962a45ab68a42141b60d7cab1255b3d0dc45b9"
+  },
+  {
+   "module": "RegisterPairReads",
+   "identical_after_renaming": true,
+   "sha256": "f981d89e555b09d8e329ef2e6c9709eeb2ac9d1dd5a16965460d9f4a613d92aa"
+  },
+  {
+   "module": "RegisterParityTable",
+   "identical_after_renaming": true,
+   "sha256": "c8a488ee76475909fac4f07de1e4a6a8280ca1fc2d87481e19da8efce5c58f85"
+  },
+  {
+   "module": "RegisterPathLabels",
+   "identical_after_renaming": true,
+   "sha256": "7d105dc2cc4b7db3d79fd07a7d85a84b12b22cefcb0d7c7d65df25487eeeb969"
+  },
+  {
+   "module": "RegisterPhaseAttempts",
+   "identical_after_renaming": true,
+   "sha256": "d4c6d36f77d6deb1a8bdeb810364690088af64f90955d830c69fb58b087ce84f"
+  },
+  {
+   "module": "RegisterPotentialRoute",
+   "identical_after_renaming": true,
+   "sha256": "161a9a2b7e4f67335ac4db6c24da7197bdf68c8eeec8632bde7394a201a46ddd"
+  },
+  {
+   "module": "RegisterPotentialStep",
+   "identical_after_renaming": true,
+   "sha256": "01d4f7b05697c43b16f13511312ed08a74f8609c7c74010c86eaa4e01ec2a987"
+  },
+  {
+   "module": "RegisterPreprocessing",
+   "identical_after_renaming": true,
+   "sha256": "cab043f0cda5d4d453886dc1639ec84e389a7985790fa461936c4cf551bac1f0"
+  },
+  {
+   "module": "RegisterQuotRem",
+   "identical_after_renaming": true,
+   "sha256": "7650a5887f7694857741f7121eecea1938619fc4c6e472aecf212ce997819eec"
+  },
+  {
+   "module": "RegisterRationalAdd",
+   "identical_after_renaming": true,
+   "sha256": "a713b729a1043b219ba5c7d5bcbf7c1c0058061f24f4293f127ca8336971f093"
+  },
+  {
+   "module": "RegisterRationalCut",
+   "identical_after_renaming": true,
+   "sha256": "475f6b2eba05fde06999bc14d5a27ece9ace63c028b9f63fad7a1fa5bb61dbe4"
+  },
+  {
+   "module": "RegisterRationalProducts",
+   "identical_after_renaming": true,
+   "sha256": "24aea037eeaf2880554e6e0bf1e418976c1aebb12c6fb1fea983475675141afa"
+  },
+  {
+   "module": "RegisterRationalProject",
+   "identical_after_renaming": true,
+   "sha256": "c43f25124a58aa3d4c6712fb429d20cc291822d601289ed20ea1260c5bcea9f1"
+  },
+  {
+   "module": "RegisterRationalRow",
+   "identical_after_renaming": true,
+   "sha256": "3e7fd09e4c26b4fa1a674d8730fc627c083479d2ac41d3e13b7a675c34aec94b"
+  },
+  {
+   "module": "RegisterRationalZero",
+   "identical_after_renaming": true,
+   "sha256": "3e2d7a861a637c3317c607d5db5e13f4b77cbf92e64f6d12a08d52fd5469f433"
+  },
+  {
+   "module": "RegisterReachExtend",
+   "identical_after_renaming": true,
+   "sha256": "ccc68706bb309363e1634d0a4c554841f3106de0538bf93a7be47ac17bac3cb2"
+  },
+  {
+   "module": "RegisterRecordLookup",
+   "identical_after_renaming": true,
+   "sha256": "a26589d01c9275ad13dc87560d8db19b3bb1be2c44aef35b69c6f9c623fdeea0"
+  },
+  {
+   "module": "RegisterRemainder",
+   "identical_after_renaming": true,
+   "sha256": "dc9514a27e785d62a88464666b8196907f30bd3f71b1f67a07c5edaa5d30e27b"
+  },
+  {
+   "module": "RegisterResidualAdjust",
+   "identical_after_renaming": true,
+   "sha256": "d0a7fe6241ff42f4045e034b685a68f8e3b5f8c0685c1b10fda9897342e41c0a"
+  },
+  {
+   "module": "RegisterResidualCrossing",
+   "identical_after_renaming": true,
+   "sha256": "dda8ab6a4371ccd30a4b51ebb0b83afbf21aee8f79e7fc854d77cc0c7512b57e"
+  },
+  {
+   "module": "RegisterResidualPhase",
+   "identical_after_renaming": true,
+   "sha256": "fb6e75cf7316f25cef57e85b3d528c1aa128d0d201fd80af14725520095f1702"
+  },
+  {
+   "module": "RegisterResidualPredicate",
+   "identical_after_renaming": true,
+   "sha256": "c0d8a64c5dcad8c2dc78052aba0239d0354dcd7c9976234939c49822a26338c1"
+  },
+  {
+   "module": "RegisterResidualReach",
+   "identical_after_renaming": true,
+   "sha256": "e3576e5a3f6d99c73a664c684a7e2ac67d3a6a963d8deedc803330d24845ed69"
+  },
+  {
+   "module": "RegisterResidualScales",
+   "identical_after_renaming": true,
+   "sha256": "564147d5bd7f5bfe6da74576f7fb9dee6efd11366d46d066387069df6d17d870"
+  },
+  {
+   "module": "RegisterResidualSearch",
+   "identical_after_renaming": true,
+   "sha256": "461d105b542fb1cc7a8750826f03e29921d2f08953c7f3b896b24745dcad8c90"
+  },
+  {
+   "module": "RegisterResidualTableUpdate",
+   "identical_after_renaming": true,
+   "sha256": "9ef84029f8180d24a1ca9c2890f13e8339053ab36133e669e5b7ef2d155fc44a"
+  },
+  {
+   "module": "RegisterResidualUpdate",
+   "identical_after_renaming": true,
+   "sha256": "021e313d1124b57f3427c3631b4b4afc21d6bef1c8c77358bef08c0fe4838f14"
+  },
+  {
+   "module": "RegisterResize",
+   "identical_after_renaming": true,
+   "sha256": "5ffdb8162d37098bd1c37e44f3741c48860d7e95dd3e2d17353fc8cdc27c38f7"
+  },
+  {
+   "module": "RegisterRestrictCorner",
+   "identical_after_renaming": true,
+   "sha256": "194ee97d175ed94e0cf86ed36ea40c3eded827161805b2e9f5d7c43ded5c57e3"
+  },
+  {
+   "module": "RegisterRestrictTable",
+   "identical_after_renaming": true,
+   "sha256": "7c61be0e97cd8e1c980f9fada5baa0cce157bae1627dbcb072afab3b6d3bf393"
+  },
+  {
+   "module": "RegisterRibbonCycles",
+   "identical_after_renaming": true,
+   "sha256": "2ec3f7e9e1c0be1c1ba1900c8975de62faaeb3b4e038c67ccd8c5d4e96ad359d"
+  },
+  {
+   "module": "RegisterRootValue",
+   "identical_after_renaming": true,
+   "sha256": "6adfe8025f17d25b1cdc16f6517813e02859454fa20e1fbb2aa2c66b6514ad73"
+  },
+  {
+   "module": "RegisterRouteCounts",
+   "identical_after_renaming": true,
+   "sha256": "34aac570a1a1eafecdd249899899f9e34555e961f44a9d92f2e0fee704d24778"
+  },
+  {
+   "module": "RegisterRouteLookup",
+   "identical_after_renaming": true,
+   "sha256": "44388754e9556d9b72eaac0933556eb5fd8a3ce4ca883e6b8198708a45486570"
+  },
+  {
+   "module": "RegisterRoutePrepend",
+   "identical_after_renaming": true,
+   "sha256": "921611ae00b34741fba73b7331874637698d0bac2897230e3d08dbd2d894c7b2"
+  },
+  {
+   "module": "RegisterRowRecords",
+   "identical_after_renaming": true,
+   "sha256": "2bed1198ae10346d937e8cd1449ed8c683993b566b33902f6589cf17ef75ba6e"
+  },
+  {
+   "module": "RegisterSearchHistogram",
+   "identical_after_renaming": true,
+   "sha256": "cdaacb65ec91a5105512c7b7bfd9e8774ee45461e1fcb82e7add97240279a2bf"
+  },
+  {
+   "module": "RegisterSearchReadback",
+   "identical_after_renaming": true,
+   "sha256": "e0586c4110455d21805d7d560f9dfe97e2b30c28989d4394ec4c0fde349b0406"
+  },
+  {
+   "module": "RegisterShift",
+   "identical_after_renaming": true,
+   "sha256": "e2ef963e17919a7cd2debb492116e8561baf4822660ffb677fc01dad5ac25e79"
+  },
+  {
+   "module": "RegisterSignedAdd",
+   "identical_after_renaming": true,
+   "sha256": "6e7c93afd33f44f550a2ee95cfeec3d94e8df92c39473486f56d6da5f8e17faa"
+  },
+  {
+   "module": "RegisterSignedDot",
+   "identical_after_renaming": true,
+   "sha256": "a1f16da240ffd15f85fadf647f87c6b2838facf40e4550046dc112adc1db82ae"
+  },
+  {
+   "module": "RegisterSignedHalf",
+   "identical_after_renaming": true,
+   "sha256": "8df66b25d45b669f05dac2651e445a754a19e3d2225389d12c7cedf42c0109c1"
+  },
+  {
+   "module": "RegisterSignedRows",
+   "identical_after_renaming": true,
+   "sha256": "32e480d2c661abd9bc247d6aac33a19dcfa6444f01d217a57c70e5dd5d016cd2"
+  },
+  {
+   "module": "RegisterSignificant",
+   "identical_after_renaming": true,
+   "sha256": "c79687dc17dcc876cdec41ef2ec74a69ec49ef20796005e7a2e0109323a8053b"
+  },
+  {
+   "module": "RegisterSourceDispatch",
+   "identical_after_renaming": true,
+   "sha256": "3c368fe469af5cd2f9e2990600ce4a8a3c63793c3727ade2317527f34d1619ec"
+  },
+  {
+   "module": "RegisterStoredRational",
+   "identical_after_renaming": true,
+   "sha256": "899f394fe40322623abb0089314737926d91ad7066e390813afd31ea32ec472a"
+  },
+  {
+   "module": "RegisterSubtractor",
+   "identical_after_renaming": true,
+   "sha256": "33a90ec243c48462e4d173a6ca2bf2f17997a4a7d6a85e50b18f0681d1d1d075"
+  },
+  {
+   "module": "RegisterSupportArcs",
+   "identical_after_renaming": true,
+   "sha256": "fe1957df2632c52ea0ba1c3f2b871251f801c0f5c90079a603efcb1cc7b17508"
+  },
+  {
+   "module": "RegisterSupportCycle",
+   "identical_after_renaming": true,
+   "sha256": "36b172580ed0b5034ff1540b292fae45cae38038fedcd2155529213766ac694b"
+  },
+  {
+   "module": "RegisterTemplateScan",
+   "identical_after_renaming": true,
+   "sha256": "fe53f217fa17e14e1a08f692293830e6271104949a5dedcad1a3f87d465dad4d"
+  },
+  {
+   "module": "RegisterThresholdVertices",
+   "identical_after_renaming": true,
+   "sha256": "9df10ada6c6da7b8e37158894ed5fc4c192924ba38a74f0fd54d32501a933fe4"
+  },
+  {
+   "module": "RegisterTopLevel",
+   "identical_after_renaming": true,
+   "sha256": "40a6d62415294459d66bee555201c36a6798ed043a4ffbc67356816346046a92"
+  },
+  {
+   "module": "RegisterTopLevelRun",
+   "identical_after_renaming": true,
+   "sha256": "9e62bf8ee61ee5def83e6cbeab4dccaaa840beb0e5c49ee085a09c5712c66a32"
+  },
+  {
+   "module": "RegisterTranspose",
+   "identical_after_renaming": true,
+   "sha256": "6284d6ea5130e82cb7ac844a3aa7fdc45a9047d782a8181a0e93ae6bfb8d271f"
+  },
+  {
+   "module": "RegisterWeightMask",
+   "identical_after_renaming": true,
+   "sha256": "e5714f00a48a334814a410e9b06a46ba98de7b0516d73f06bece818f150c29d1"
+  },
+  {
+   "module": "RegisterWiden",
+   "identical_after_renaming": true,
+   "sha256": "f07ff609c3ea27e5e7708cc07fde63058efd291448b5aeb9be487e336c9a26aa"
+  },
+  {
+   "module": "RegisterWordArithmetic",
+   "identical_after_renaming": true,
+   "sha256": "878d6e27360a16659a589ae685f13b6089672a43b016276a44276239bdabe896"
+  },
+  {
+   "module": "RegisterWordAssoc",
+   "identical_after_renaming": true,
+   "sha256": "7d298f33007ff37e0a1cdac46b7c7cc447522680a47901f9279841308802b667"
+  },
+  {
+   "module": "RegisterWordFilter",
+   "identical_after_renaming": true,
+   "sha256": "9da3bbc0b57004bc2d4b7b7ab15fde51f807537a14babf941f19add78f68a20e"
+  },
+  {
+   "module": "RegisterWordRange",
+   "identical_after_renaming": true,
+   "sha256": "8c052ab8e6758864842a97081cb4217b655ceff38b163cd26d867c111dfa462b"
+  },
+  {
+   "module": "RegisterWorkSource",
+   "identical_after_renaming": true,
+   "sha256": "092726b1d7df9f8ecf09badbffeebd2edd60005edadc1fb9f955ef82bd568bee"
+  },
+  {
+   "module": "RegisterZero",
+   "identical_after_renaming": true,
+   "sha256": "1e2c69a52275ababf0389195b886615bd8e7e3980260c870a380c3a5764b4ee9"
+  },
+  {
+   "module": "ResidualCrossingRefinement",
+   "identical_after_renaming": true,
+   "sha256": "8107413a26a55238d1fc1e0ca0af26e2db868254bb6cae01887b2bc592449c3b"
+  },
+  {
+   "module": "ResidualListPhase",
+   "identical_after_renaming": true,
+   "sha256": "a9e2737ee3be0f9d8665fd6bbae8417cdeb1be4dba827457d57ede41a62bb1e9"
+  },
+  {
+   "module": "ResidualListReach",
+   "identical_after_renaming": true,
+   "sha256": "372954ca36b90b4b8eda6b0b1e09c2387d2b0fcaa5532bb4cef84fcc521de1c1"
+  },
+  {
+   "module": "ResidualListScales",
+   "identical_after_renaming": true,
+   "sha256": "46147f64402f39b7e6cdc2588aea702669b9caf4f14aa0466963b3389dda9b85"
+  },
+  {
+   "module": "ResidualPhaseRefinement",
+   "identical_after_renaming": true,
+   "sha256": "1b7bac2a703467b97af06b55aa66ed96bde375294230f78f3cef325171bd81e5"
+  },
+  {
+   "module": "ResidualReachGeneric",
+   "identical_after_renaming": true,
+   "sha256": "c43542d097f8d9e096e74bd88484f869c35e994d3f58019060a66843c899b593"
+  },
+  {
+   "module": "ResidualScalesRefinement",
+   "identical_after_renaming": true,
+   "sha256": "7ce14d75f2fb33bf7ef0f5a5ab56fddd7f91e5e8164d09c6789eaa08c86ee997"
+  },
+  {
+   "module": "ResidualUpdateRefinement",
+   "identical_after_renaming": true,
+   "sha256": "aef30578226aae3474b568b090b254e5ef9b1cff1cc49a7c603f7a24e5483d1b"
+  },
+  {
+   "module": "ResidualWords",
+   "identical_after_renaming": true,
+   "sha256": "ff4be930726fb04ca3681887b62b7415214e863200c71ffe27a75eed62d32baf"
+  },
+  {
+   "module": "RibbonCellular",
+   "identical_after_renaming": true,
+   "sha256": "df6e0bf7f46f22edb600269d92e7baa5e3eeb7e6cbc72c1a16c15df22771d659"
+  },
+  {
+   "module": "RibbonComponentEuler",
+   "identical_after_renaming": true,
+   "sha256": "85df78be50e133399b7182f161df3149d1f6093fa97d88b91e1802f34acdd4a4"
+  },
+  {
+   "module": "RibbonComponentFaces",
+   "identical_after_renaming": true,
+   "sha256": "f7273c8f4f47bd225db1cd409cdfefa104a0b2fb21aa638fd8418e37125c1097"
+  },
+  {
+   "module": "RibbonComponents",
+   "identical_after_renaming": true,
+   "sha256": "371657872cb7eab27fba61714ad3fe7e33c9c4f7df66951e740d723435704c2c"
+  },
+  {
+   "module": "RibbonDeletionRelabeling",
+   "identical_after_renaming": true,
+   "sha256": "a7182fe4d1e994f720b9b2518ef924badfc52cbd95722d5fb78d33094c2b7c1d"
+  },
+  {
+   "module": "RibbonDrawingRestriction",
+   "identical_after_renaming": true,
+   "sha256": "df67515de892cfa0b05a9e738de2c5953ebfcb5b76ff7559804afd9a9ba56513"
+  },
+  {
+   "module": "RibbonEnumeratedSides",
+   "identical_after_renaming": true,
+   "sha256": "4336312e472a4344edc30b1a6b3e1496fa9d7b3c3b2654939f23ebd24fb130d0"
+  },
+  {
+   "module": "RibbonEnumeration",
+   "identical_after_renaming": true,
+   "sha256": "d623853e26ca684643a7acce211fdb49e2e4bd0b915654578140a9290987bf29"
+  },
+  {
+   "module": "RibbonFaceRelabeling",
+   "identical_after_renaming": true,
+   "sha256": "554be44d73888de2688ff62995e4d0f301f8a43fa8175d90cc2b1439f8030093"
+  },
+  {
+   "module": "RibbonFaces",
+   "identical_after_renaming": true,
+   "sha256": "45743bab92a27a52b4dba7cbdecbed1134cc07ec35cb47430be1e7ded8d27d91"
+  },
+  {
+   "module": "RibbonLinks",
+   "identical_after_renaming": true,
+   "sha256": "93ba5e38c626c2074520ba86f250734f0774a16d3ef67fef093db89044a03d1a"
+  },
+  {
+   "module": "RibbonOrientation",
+   "identical_after_renaming": true,
+   "sha256": "07ea2b43b4ee416415d00cd9842eba0950c03aefb999db5ee57972e51521753b"
+  },
+  {
+   "module": "RibbonRelabeling",
+   "identical_after_renaming": true,
+   "sha256": "4f2e4d093ed1d6904eda30987b078042e5c51686243d5e3e630a8f867133c077"
+  },
+  {
+   "module": "RibbonRestriction",
+   "identical_after_renaming": true,
+   "sha256": "fff98e98ebde438896946858bdcc74228bab1dc913ca3667b08a6681ef6b3076"
+  },
+  {
+   "module": "RibbonRestrictionCompatibility",
+   "identical_after_renaming": true,
+   "sha256": "f24de6ab5d24419da4e1f5a749cf5c4ffa3ae92af332500086365948c4b0b276"
+  },
+  {
+   "module": "RibbonSmoothing",
+   "identical_after_renaming": true,
+   "sha256": "c396926e2f38d8acee3ded288a0f8eb3e4e17e26290c577360f988655024be2b"
+  },
+  {
+   "module": "RibbonTable",
+   "identical_after_renaming": true,
+   "sha256": "13b27667364b67dfa8e6a6c35ac0da1cdd5d57ebfb615dc9ee173ff98b708ce5"
+  },
+  {
+   "module": "RibbonTableRestrict",
+   "identical_after_renaming": true,
+   "sha256": "4c069a3498c34948c9e48ac11c5c75fe86e8d61451abad828284acd12b47c363"
+  },
+  {
+   "module": "RibbonTracing",
+   "identical_after_renaming": true,
+   "sha256": "0db61f23a63c4b06f0e571667fc7f7592fdba75c1f4cdba86b128a1b22306d75"
+  },
+  {
+   "module": "RuntimeAbsorption",
+   "identical_after_renaming": true,
+   "sha256": "0fe23d8b1b1b5e681a8cd2619046ad780e40309da6ed0bb0c8b506fc8b1d5f72"
+  },
+  {
+   "module": "ScalarNodeCodec",
+   "identical_after_renaming": true,
+   "sha256": "772c819968b1c32c32ca9e9a8bdbd7372fef636fe634be7cdc3a1cba37f8b338"
+  },
+  {
+   "module": "SearchConstruction",
+   "identical_after_renaming": true,
+   "sha256": "2fc3920aefb411eb7541305646cf7edd5afdcc77d52572ca2aee7967b8a2fd76"
+  },
+  {
+   "module": "SearchHistogramProjection",
+   "identical_after_renaming": true,
+   "sha256": "448cf986b72954219c10551bb07527237aadad67fd30a081dd78c29a6df27876"
+  },
+  {
+   "module": "SearchOptimum",
+   "identical_after_renaming": true,
+   "sha256": "c53c288a0f25da30f2410fd6556068f3efe463710e452293b3c67dcefed6a684"
+  },
+  {
+   "module": "ShortestPath",
+   "identical_after_renaming": true,
+   "sha256": "353ec2283c505bbb314630f2b89d20f54476c88ede833c4b65133747bb493886"
+  },
+  {
+   "module": "SignedWords",
+   "identical_after_renaming": true,
+   "sha256": "2a3047d2f81534f6c581b9e5a0e7600d4c7359b169334ebecaa67f56750b7bd9"
+  },
+  {
+   "module": "Slack",
+   "identical_after_renaming": true,
+   "sha256": "691aaaaade3dc9982daeb7236e1fa791741d0aa8e862c0d332463e178df29ebc"
+  },
+  {
+   "module": "SmoothingFaces",
+   "identical_after_renaming": true,
+   "sha256": "2328998f4cc595d1d25721ae274f16859352602317e08dae21a669942f95eb4b"
+  },
+  {
+   "module": "SparseGraphConstruction",
+   "identical_after_renaming": true,
+   "sha256": "3358223ba728e0505a12ff9c8160bea7bde258f65b21f726e7fa9348008cd564"
+  },
+  {
+   "module": "SparseKernel",
+   "identical_after_renaming": true,
+   "sha256": "485e24c055185af7a954f7e7a16201e85ff58e6b72f77879fdd596e5bce73fdf"
+  },
+  {
+   "module": "SparseSearchGraph",
+   "identical_after_renaming": true,
+   "sha256": "1e0f89a8dc1b3b3f1aef184e94e62d9e3dfc6aafa170f1270a530afab355ab7c"
+  },
+  {
+   "module": "SparseSearchLabeled",
+   "identical_after_renaming": true,
+   "sha256": "b4921035151d6d7a6f6a754a1adfb0458f132a7b32bd090e1e9f650905a2d189"
+  },
+  {
+   "module": "SparseSearchLabeledPath",
+   "identical_after_renaming": true,
+   "sha256": "065c8a9ed11f9dd7e90439b9f930ee5538cde4ab330d6dcbc04ede9a69cd00e6"
+  },
+  {
+   "module": "SparseSearchLabeledWeights",
+   "identical_after_renaming": true,
+   "sha256": "4deeb5f38bd919db56cde714645634372e6ee6040383a3db06dcf8468c4f21d3"
+  },
+  {
+   "module": "SparseSearchPath",
+   "identical_after_renaming": true,
+   "sha256": "ac9ddf9c0872579eda92644a50682c799d378ee26b80ac11b51e4872e4f5025f"
+  },
+  {
+   "module": "SparseSearchWeights",
+   "identical_after_renaming": true,
+   "sha256": "0d496f324de5c422abf0b7b942fe9041aa9512c2d4f315fa5c40a5bc9d10851e"
+  },
+  {
+   "module": "Spec",
+   "identical_after_renaming": true,
+   "sha256": "3e1106bfe5f5d943231d5d4c025c30bb69c61734f9f4b3ebd030ed7a8e02b4db"
+  },
+  {
+   "module": "SpecBridge",
+   "identical_after_renaming": true,
+   "sha256": "032d59e1a20ead5c222a5bcd4f1404208bd76f3e9def6a71592a6b9fa51833de"
+  },
+  {
+   "module": "SpecConnectivity",
+   "identical_after_renaming": true,
+   "sha256": "aa050abaf2a7a292cf08bf377edd167ea07aced4506d5b3d6b59da21c001858e"
+  },
+  {
+   "module": "SpecDrawnCorner",
+   "identical_after_renaming": true,
+   "sha256": "7434a2f39e8f49b3a1fb04e81e7c53394d5fc95aa518ce06418224ca2268e478"
+  },
+  {
+   "module": "SpecEncoding",
+   "identical_after_renaming": true,
+   "sha256": "ed63a1f29a5cd3f2f3d813fd252a92db3ed825872b633c192dc03f83629373c9"
+  },
+  {
+   "module": "SpecEncodingWriters",
+   "identical_after_renaming": true,
+   "sha256": "b6dd52906698425e56529b37f78fa419f3608af10548635d3757c0d280e8f373"
+  },
+  {
+   "module": "SpecFaces",
+   "identical_after_renaming": true,
+   "sha256": "49e8b26fc727827aac848ced9e1a7d9cc6efc66712ca73e243c13bcf2795f5b8"
+  },
+  {
+   "module": "SpecFlags",
+   "identical_after_renaming": true,
+   "sha256": "eaa6c35e0054d5ed54fe154f91e208e8f4677137b05888f0830b49453feb20c1"
+  },
+  {
+   "module": "SpecIndependence",
+   "identical_after_renaming": true,
+   "sha256": "fa0fbebf9f95ab9834a4f6a5eeb5c4a7639bcda2ecd995c9b8932ded467a7fdf"
+  },
+  {
+   "module": "SpecMachine",
+   "identical_after_renaming": true,
+   "sha256": "4c01bb3082b09bcb2f930fbc457d87580b8059a8be2b09dc6699acd6f579c3a1"
+  },
+  {
+   "module": "SpecOrientation",
+   "identical_after_renaming": true,
+   "sha256": "8fd76941c6b2e7755e1522a136ad9608814a5880ca22954182059898ca557e72"
+  },
+  {
+   "module": "SpecRegions",
+   "identical_after_renaming": true,
+   "sha256": "9f1efe4a106c10259305dd38ba417906a8156184f2cf6cd2a302d581a4240355"
+  },
+  {
+   "module": "Statement",
+   "identical_after_renaming": true,
+   "sha256": "0162333834a94f490cc706f6c3979ce10d4f9422fe035eacbeb5f5a5f8ffa68a"
+  },
+  {
+   "module": "StoredElimination",
+   "identical_after_renaming": true,
+   "sha256": "624f02438b03b3bfe940adb9e616f43a3e9126e460c34086f0be3c5b9406ff2c"
+  },
+  {
+   "module": "StoredRational",
+   "identical_after_renaming": true,
+   "sha256": "c4000ef3b9b4d3062ffafd950d783b4174f9d6d78c65abc460a1a1c91c20528b"
+  },
+  {
+   "module": "SupportCycle",
+   "identical_after_renaming": true,
+   "sha256": "d4b61a068ef9a7750fe33bc63e09830eedf93e62ffb6f0ec5f836cdb4546d51d"
+  },
+  {
+   "module": "SupportCycleWords",
+   "identical_after_renaming": true,
+   "sha256": "44e930d65c1695c20c36911b338077c5a0f4b6eca81fef501b0cc2d0fdb0f641"
+  },
+  {
+   "module": "Walks",
+   "identical_after_renaming": true,
+   "sha256": "7cd3c8bd1e067720186e0775d446d416985578098fc0d373c7224e020f654553"
+  },
+  {
+   "module": "WeightedHall",
+   "identical_after_renaming": true,
+   "sha256": "faf72f45b7b563734828043556039965cb8a82b9950424832ee5855dce044e07"
+  },
+  {
+   "module": "WordNodeCodec",
+   "identical_after_renaming": true,
+   "sha256": "b4362891fc6235154fabfa8de2a0a74b154476859b3f7319cc4ac150c50844b3"
+  }
+ ]
+}

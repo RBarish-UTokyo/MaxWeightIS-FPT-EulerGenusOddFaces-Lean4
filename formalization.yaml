@@ -1,0 +1,188 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+
+project:
+  name: "An FPT Algorithm for Maximum-Weight Independent Set in Embedded Graphs, in Lean 4"
+  description: >-
+    A Lean 4 and Mathlib formalization of a fixed-parameter theorem of
+    "Maximum-weight independent set in embedded graphs parameterized by Euler
+    genus and number of odd faces" (forthcoming), with a provably correct
+    implementation of the algorithm as one fixed program for an explicit
+    sixteen-register pointer machine. Lean proves that for every graph drawn
+    in a closed surface of Euler genus gamma whose complement has k regions of
+    odd total boundary length, and all integer vertex weights, the program
+    outputs a maximum-weight independent set within
+    2^(c (p size(p) + 1)) (N size(M))^c bit operations, where p = gamma + k,
+    N = |V| + |E| + 1, M = max(1, max |w_v|), size(x) is the binary length of
+    x and c is an absolute constant; that is, 2^O(p log(p+1)) poly(N, log(M+1))
+    with an absolute polynomial exponent. Surfaces are represented by finite
+    combinatorial flag maps; orientable and nonorientable surfaces,
+    disconnected and noncellular drawings, loops, multiple edges, isolated
+    vertices and negative weights are covered. The algorithm solves one exact
+    linear program per retained component over a finite-group network whose
+    size depends only on p, using exact integral quotient coordinates, midpoint
+    convexity of class minima and a coarse Jensen inequality, and recovers an
+    optimal set from perturbed edge costs. The cost is a logarithmic bit-cost
+    measure including an explicit stack simulation of recursive calls. The
+    proofs use exactly propext, Classical.choice and Quot.sound.
+  authors:
+    - "Robert D. Barish"
+  license: "Apache-2.0"
+  responsible_maintainers:
+    - "Robert D. Barish"
+
+classification:
+  arxiv: [cs.DS, math.CO]
+  msc2020: [05C69, 05C10, 68Q25, 68R10, 68V20]
+
+sources:
+  - title: "Maximum-weight independent set in embedded graphs parameterized by Euler genus and number of odd faces"
+    type: paper
+    relationship: formalizes
+    location: "Forthcoming. The manuscript is not included in this repository."
+    note: >-
+      The target is the paper's fixed-parameter theorem for integer weights,
+      including graphs with loops and disconnected and noncellular drawings
+      (odd regions counted by total boundary length), for an explicit machine
+      model and input encoding. The proof follows the paper's proof;
+      documented differences are listed under fidelity.divergences and in
+      README.md. The rational-weight extension is not formalized.
+    license: "unknown"
+  - title: "4-Block Integer Programming is in FPT"
+    authors:
+      - "M. Koutecký"
+      - "A. Lassota"
+      - "K. Ligthart"
+    type: paper
+    id: "arxiv:2609.26746v1"
+    relationship: adapts
+    note: "The coarse Jensen argument follows the method of Lemmas 3-4."
+  - title: "Small extended formulations for group-constrained flows and cographic integer hulls"
+    authors:
+      - "A. Bhardwaj"
+    type: paper
+    relationship: background
+    note: "Compared with the finite-group network; its projection and integrality are proved in this development."
+  - title: "Vertex packings: Structural properties and algorithms"
+    authors:
+      - "G. L. Nemhauser"
+      - "L. E. Trotter, Jr."
+    type: paper
+    id: "doi:10.1007/BF01580444"
+    location: "Mathematical Programming 8 (1975), 232-248"
+    relationship: background
+    note: >-
+      Cited for half-integrality and weighted persistence; both are proved
+      directly in this development.
+  - title: "A polynomial algorithm in linear programming"
+    authors:
+      - "L. G. Khachiyan"
+    type: paper
+    location: "Doklady Akademii Nauk SSSR 244(5):1093-1096 (1979)"
+    relationship: background
+    note: "The rounded ellipsoid method used for exact LP feasibility is proved in this development."
+
+related_formalizations:
+  - id: "PALOMAR-2026-10-22-000006 v1"
+    relationship: builds-on
+    note: >-
+      The XP formalization of the same paper, immutable source commit
+      00f581e7401feedce30699ae94763d4afbfb2f6f. Its machine, cost, surface
+      model and input encoding are reused verbatim for the statement, and its
+      program is reused for every stage except the hard-component solver, which
+      is replaced. Its XP theorem is not used for the fixed-parameter bound.
+  - id: "https://github.com/prove2me/formalpedia"
+    relationship: adapts
+    note: >-
+      Rounded ellipsoid feasibility proofs adapted from commit
+      07bfe4bbb3858db507bb6ac0d725951c228119fc; see third_party/formalpedia.
+
+status:
+  scope: >-
+    Proved: MWIS.Spec.fpt_claim, the uniform bit-operation statement of the
+    fixed-parameter theorem for integer weights, for one fixed program
+    (MWIS.FPTProgram.fptProgram instantiated with the two constant Fun
+    programs, 402 procedures) and one explicit absolute constant. The statement
+    is in Challenge.lean, a verbatim copy of MWIS/Statement.lean and
+    MWIS/FPTStatement.lean without the unused inherited MainClaim. The surface
+    is represented combinatorially (flag maps); no realization theorem
+    relating flag maps to topological surfaces is formalized. The input is a
+    fixed binary encoding with common word widths. The rational-weight
+    extension is not formalized.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+
+automation:
+  methods:
+    - method: agent
+      models: ["GPT-6 Astra (OpenAI)", "Opus 5.5 (Anthropic)"]
+      framework: "AI coding agents"
+      tool_setup: >-
+        GPT-6 Astra (OpenAI) and Opus 5.5 (Anthropic) were used, as agents under
+        the direction of the author, both for the Lean formalization and to
+        assist with the documentation. The author set the task, the target
+        statement and the requirements. Tools: Lean v4.35.0-rc2 and Lake,
+        Mathlib, the toolchain's lake comparator and independent kernels.
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "cloud container"
+      prompting_notes: "n/a"
+  spend_usd: "not tracked"
+  notes: >-
+    The author directed the work. GPT-6 Astra (OpenAI) and Opus 5.5 (Anthropic)
+    assisted with the Lean definitions, statements, proofs, machine programs
+    and scripts, and with the documentation (README.md, this file, the
+    generated Challenge.lean header and the verification records).
+
+fidelity:
+  divergences: >-
+    (1) Surfaces are finite combinatorial flag maps, and the drawing is given
+    together with a witness that it is a subdrawing of a cellular map of the
+    surface; the ambient map is a proof witness only, the program reads only
+    the drawing, and the bound holds for every such map. (2) N = |V| + |E| + 1
+    counts the drawing, which is at most the encoding length. (3) The machine
+    is an explicit sixteen-register pointer machine with a logarithmic
+    bit-cost measure including the explicit stack cost of calls; the input is
+    a fixed binary encoding with common widths. (4) The weights are integers,
+    encoded as rationals with denominator one. (5) The integral quotient
+    coordinates are computed from a spanning tree and unit-pivot elimination,
+    not by normal forms; preprocessing is one maximum flow; recovery uses
+    perturbed edge costs.
+
+review:
+  status: agent-reviewed
+  notes: >-
+    The Challenge statement was audited for fidelity by an independent agent
+    review. The proof is checked by the Lean kernel, and Comparator verifies
+    that the solution proves the challenge statement using only the permitted
+    axioms. No human mathematical review or Palomar editorial review is
+    asserted.
+
+alignment:
+  namespace: "MWIS"
+  statements:
+    - source: "The fixed-parameter theorem (with its noncellular and disconnected extensions)"
+      lean: "MWIS.Spec.fpt_claim"
+      module: "Solution"
+      status: proved
+      note: >-
+        Statement MWIS.Spec.FPTClaim (MWIS/FPTStatement.lean); proof
+        MWIS.FPTFinal.fptClaim_of_optimizer applied to the exact LP optimizer
+        MWIS.FunLP.optF.
+    - source: "Correctness of the hard-component solver (integral coordinates, network LP, recovery)"
+      lean: "MWIS.FPTHardConcrete.fptHard_correct"
+      module: "MWIS.FPTHardConcrete"
+      status: proved
+      note: "The hard function returns a maximum-weight independent set on every connected nonbipartite all-half component."
+    - source: "Integral quotient coordinates and the rank bound"
+      lean: "MWIS.TreeCotree.faceCoordinates_valid"
+      module: "MWIS.TreeCotreeFPT"
+      status: proved
+      note: "Explicit coordinates of ker B / A Z^V isomorphic to Z^r x Z/2; faceCoordinates_rank_le bounds r by the computed row count d <= gamma + k."
+
+acknowledgements: >-
+  Mathlib and the Lean community; Formalpedia for the adapted ellipsoid
+  feasibility proofs; the Lean toolchain's lake comparator and independent
+  kernels.

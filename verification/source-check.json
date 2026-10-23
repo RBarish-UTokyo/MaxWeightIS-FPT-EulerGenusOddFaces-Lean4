@@ -1,0 +1,3011 @@
+{
+  "date": "2026-10-23",
+  "sources": [
+    {
+      "path": "AllModules.lean",
+      "lines": 600,
+      "bytes": 22403
+    },
+    {
+      "path": "Audit.lean",
+      "lines": 7,
+      "bytes": 119
+    },
+    {
+      "path": "Challenge.lean",
+      "lines": 731,
+      "bytes": 31753
+    },
+    {
+      "path": "MWIS/AlgorithmBounds.lean",
+      "lines": 154,
+      "bytes": 6790
+    },
+    {
+      "path": "MWIS/AlgorithmEllipsoid.lean",
+      "lines": 232,
+      "bytes": 9368
+    },
+    {
+      "path": "MWIS/AlgorithmEllipsoidComplete.lean",
+      "lines": 257,
+      "bytes": 12473
+    },
+    {
+      "path": "MWIS/AlgorithmEllipsoidGeometry.lean",
+      "lines": 177,
+      "bytes": 8540
+    },
+    {
+      "path": "MWIS/AlgorithmMatrixRounding.lean",
+      "lines": 222,
+      "bytes": 9961
+    },
+    {
+      "path": "MWIS/AlgorithmNetworkEncoding.lean",
+      "lines": 498,
+      "bytes": 23710
+    },
+    {
+      "path": "MWIS/AlgorithmNetworkEnumeration.lean",
+      "lines": 77,
+      "bytes": 3146
+    },
+    {
+      "path": "MWIS/AlgorithmNetworkOptimize.lean",
+      "lines": 108,
+      "bytes": 5062
+    },
+    {
+      "path": "MWIS/AlgorithmPrecision.lean",
+      "lines": 211,
+      "bytes": 9612
+    },
+    {
+      "path": "MWIS/AlgorithmRational.lean",
+      "lines": 133,
+      "bytes": 6111
+    },
+    {
+      "path": "MWIS/AlgorithmRounding.lean",
+      "lines": 130,
+      "bytes": 5374
+    },
+    {
+      "path": "MWIS/AlgorithmSeparation.lean",
+      "lines": 102,
+      "bytes": 4722
+    },
+    {
+      "path": "MWIS/AlgorithmSqrt.lean",
+      "lines": 120,
+      "bytes": 5151
+    },
+    {
+      "path": "MWIS/AlgorithmStateBounds.lean",
+      "lines": 275,
+      "bytes": 13187
+    },
+    {
+      "path": "MWIS/AlgorithmThresholdLP.lean",
+      "lines": 139,
+      "bytes": 6370
+    },
+    {
+      "path": "MWIS/AlgorithmThresholdSearch.lean",
+      "lines": 162,
+      "bytes": 6942
+    },
+    {
+      "path": "MWIS/AlgorithmTrajectory.lean",
+      "lines": 193,
+      "bytes": 8475
+    },
+    {
+      "path": "MWIS/AllHalfEncoded.lean",
+      "lines": 205,
+      "bytes": 9051
+    },
+    {
+      "path": "MWIS/BinaryGCD.lean",
+      "lines": 142,
+      "bytes": 5167
+    },
+    {
+      "path": "MWIS/BinaryRational.lean",
+      "lines": 126,
+      "bytes": 5085
+    },
+    {
+      "path": "MWIS/BinaryRationalArithmetic.lean",
+      "lines": 240,
+      "bytes": 9739
+    },
+    {
+      "path": "MWIS/BinaryRationalInterface.lean",
+      "lines": 148,
+      "bytes": 6379
+    },
+    {
+      "path": "MWIS/BipartiteRecovery.lean",
+      "lines": 140,
+      "bytes": 6792
+    },
+    {
+      "path": "MWIS/BoundedCycles.lean",
+      "lines": 175,
+      "bytes": 7161
+    },
+    {
+      "path": "MWIS/CachedPreprocessing.lean",
+      "lines": 82,
+      "bytes": 3862
+    },
+    {
+      "path": "MWIS/CapRegions.lean",
+      "lines": 229,
+      "bytes": 11592
+    },
+    {
+      "path": "MWIS/ClassMinimum.lean",
+      "lines": 188,
+      "bytes": 8029
+    },
+    {
+      "path": "MWIS/CoarseGeometry.lean",
+      "lines": 280,
+      "bytes": 11569
+    },
+    {
+      "path": "MWIS/CoarseJensen.lean",
+      "lines": 441,
+      "bytes": 20221
+    },
+    {
+      "path": "MWIS/ColumnEncoding.lean",
+      "lines": 95,
+      "bytes": 3920
+    },
+    {
+      "path": "MWIS/CompiledGraphConstruction.lean",
+      "lines": 130,
+      "bytes": 6673
+    },
+    {
+      "path": "MWIS/CompiledInsert.lean",
+      "lines": 183,
+      "bytes": 10784
+    },
+    {
+      "path": "MWIS/CompiledJoin.lean",
+      "lines": 118,
+      "bytes": 5990
+    },
+    {
+      "path": "MWIS/CompiledLookup.lean",
+      "lines": 101,
+      "bytes": 5106
+    },
+    {
+      "path": "MWIS/CompiledPop.lean",
+      "lines": 226,
+      "bytes": 12860
+    },
+    {
+      "path": "MWIS/CompiledTemplateColumn.lean",
+      "lines": 125,
+      "bytes": 8059
+    },
+    {
+      "path": "MWIS/CompiledTemplateEmit.lean",
+      "lines": 52,
+      "bytes": 2606
+    },
+    {
+      "path": "MWIS/CompiledTemplateList.lean",
+      "lines": 129,
+      "bytes": 7355
+    },
+    {
+      "path": "MWIS/CompiledTemplatePrimitives.lean",
+      "lines": 164,
+      "bytes": 8779
+    },
+    {
+      "path": "MWIS/CompiledTemplateSemantics.lean",
+      "lines": 61,
+      "bytes": 2946
+    },
+    {
+      "path": "MWIS/CompiledTemplates.lean",
+      "lines": 130,
+      "bytes": 6024
+    },
+    {
+      "path": "MWIS/CompiledTrie.lean",
+      "lines": 126,
+      "bytes": 4148
+    },
+    {
+      "path": "MWIS/Complement.lean",
+      "lines": 74,
+      "bytes": 2704
+    },
+    {
+      "path": "MWIS/ComplementCaps.lean",
+      "lines": 130,
+      "bytes": 5887
+    },
+    {
+      "path": "MWIS/ComplementEuler.lean",
+      "lines": 224,
+      "bytes": 10262
+    },
+    {
+      "path": "MWIS/ComponentAssembly.lean",
+      "lines": 166,
+      "bytes": 7631
+    },
+    {
+      "path": "MWIS/ComponentBoundary.lean",
+      "lines": 68,
+      "bytes": 2678
+    },
+    {
+      "path": "MWIS/ComponentTable.lean",
+      "lines": 99,
+      "bytes": 4839
+    },
+    {
+      "path": "MWIS/ComputedColumns.lean",
+      "lines": 48,
+      "bytes": 1867
+    },
+    {
+      "path": "MWIS/ComputedComponentRibbon.lean",
+      "lines": 71,
+      "bytes": 3692
+    },
+    {
+      "path": "MWIS/ComputedComponents.lean",
+      "lines": 209,
+      "bytes": 9764
+    },
+    {
+      "path": "MWIS/ComputedDrawingParameters.lean",
+      "lines": 143,
+      "bytes": 8730
+    },
+    {
+      "path": "MWIS/ComputedDrawingTransfer.lean",
+      "lines": 88,
+      "bytes": 4212
+    },
+    {
+      "path": "MWIS/ComputedEmbeddedMatrices.lean",
+      "lines": 178,
+      "bytes": 8431
+    },
+    {
+      "path": "MWIS/ComputedFaceMatrix.lean",
+      "lines": 152,
+      "bytes": 6974
+    },
+    {
+      "path": "MWIS/ComputedGeometryTransfer.lean",
+      "lines": 91,
+      "bytes": 4283
+    },
+    {
+      "path": "MWIS/ComputedInduced.lean",
+      "lines": 86,
+      "bytes": 4585
+    },
+    {
+      "path": "MWIS/ComputedKernel.lean",
+      "lines": 121,
+      "bytes": 5342
+    },
+    {
+      "path": "MWIS/ComputedOddRow.lean",
+      "lines": 196,
+      "bytes": 9115
+    },
+    {
+      "path": "MWIS/ComputedPathRecovery.lean",
+      "lines": 58,
+      "bytes": 2490
+    },
+    {
+      "path": "MWIS/ComputedRecovery.lean",
+      "lines": 103,
+      "bytes": 4705
+    },
+    {
+      "path": "MWIS/ComputedResidualGeometry.lean",
+      "lines": 131,
+      "bytes": 7109
+    },
+    {
+      "path": "MWIS/ComputedResidualParameters.lean",
+      "lines": 98,
+      "bytes": 5235
+    },
+    {
+      "path": "MWIS/ComputedRestriction.lean",
+      "lines": 128,
+      "bytes": 5570
+    },
+    {
+      "path": "MWIS/Construction.lean",
+      "lines": 85,
+      "bytes": 3800
+    },
+    {
+      "path": "MWIS/CoreBridge.lean",
+      "lines": 54,
+      "bytes": 2035
+    },
+    {
+      "path": "MWIS/CoreNetwork.lean",
+      "lines": 158,
+      "bytes": 7854
+    },
+    {
+      "path": "MWIS/CoreOptimum.lean",
+      "lines": 128,
+      "bytes": 5912
+    },
+    {
+      "path": "MWIS/CycleQuotient.lean",
+      "lines": 167,
+      "bytes": 7882
+    },
+    {
+      "path": "MWIS/CycleSearch.lean",
+      "lines": 147,
+      "bytes": 6981
+    },
+    {
+      "path": "MWIS/DecomposeWords.lean",
+      "lines": 291,
+      "bytes": 13609
+    },
+    {
+      "path": "MWIS/Decomposition.lean",
+      "lines": 314,
+      "bytes": 12553
+    },
+    {
+      "path": "MWIS/DeletedEmbeddedReduction.lean",
+      "lines": 80,
+      "bytes": 3833
+    },
+    {
+      "path": "MWIS/DeletionParameters.lean",
+      "lines": 135,
+      "bytes": 6097
+    },
+    {
+      "path": "MWIS/DeterminantSize.lean",
+      "lines": 126,
+      "bytes": 5557
+    },
+    {
+      "path": "MWIS/DeterministicComplement.lean",
+      "lines": 193,
+      "bytes": 8216
+    },
+    {
+      "path": "MWIS/DeterministicKernel.lean",
+      "lines": 392,
+      "bytes": 18418
+    },
+    {
+      "path": "MWIS/DeterministicKernelWidth.lean",
+      "lines": 266,
+      "bytes": 12378
+    },
+    {
+      "path": "MWIS/DijkstraCorrectness.lean",
+      "lines": 219,
+      "bytes": 9101
+    },
+    {
+      "path": "MWIS/DirectedDecomposition.lean",
+      "lines": 177,
+      "bytes": 7205
+    },
+    {
+      "path": "MWIS/DoubleCover.lean",
+      "lines": 255,
+      "bytes": 10503
+    },
+    {
+      "path": "MWIS/DoubleCoverNetwork.lean",
+      "lines": 121,
+      "bytes": 4806
+    },
+    {
+      "path": "MWIS/DrawingComponents.lean",
+      "lines": 123,
+      "bytes": 6575
+    },
+    {
+      "path": "MWIS/DrawingParameters.lean",
+      "lines": 105,
+      "bytes": 4843
+    },
+    {
+      "path": "MWIS/DrawingRegions.lean",
+      "lines": 94,
+      "bytes": 4057
+    },
+    {
+      "path": "MWIS/EdgeAllocation.lean",
+      "lines": 143,
+      "bytes": 6821
+    },
+    {
+      "path": "MWIS/EdgeCostWords.lean",
+      "lines": 392,
+      "bytes": 18758
+    },
+    {
+      "path": "MWIS/EdgeTransport.lean",
+      "lines": 113,
+      "bytes": 4649
+    },
+    {
+      "path": "MWIS/EfficientSearchArithmetic.lean",
+      "lines": 87,
+      "bytes": 3151
+    },
+    {
+      "path": "MWIS/EfficientSearchArithmeticMore.lean",
+      "lines": 348,
+      "bytes": 13759
+    },
+    {
+      "path": "MWIS/EfficientSearchBounds.lean",
+      "lines": 117,
+      "bytes": 5210
+    },
+    {
+      "path": "MWIS/EfficientSearchCode.lean",
+      "lines": 89,
+      "bytes": 3644
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeBasic.lean",
+      "lines": 120,
+      "bytes": 5783
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeBounds.lean",
+      "lines": 103,
+      "bytes": 4905
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeFresh.lean",
+      "lines": 77,
+      "bytes": 4429
+    },
+    {
+      "path": "MWIS/EfficientSearchCodePush.lean",
+      "lines": 87,
+      "bytes": 5190
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeRelax.lean",
+      "lines": 94,
+      "bytes": 5195
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeSearch.lean",
+      "lines": 156,
+      "bytes": 9044
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeSearchHelpers.lean",
+      "lines": 86,
+      "bytes": 5315
+    },
+    {
+      "path": "MWIS/EfficientSearchCodeSolve.lean",
+      "lines": 67,
+      "bytes": 3652
+    },
+    {
+      "path": "MWIS/EfficientSearchCorrectness.lean",
+      "lines": 231,
+      "bytes": 11416
+    },
+    {
+      "path": "MWIS/EfficientSearchHistogram.lean",
+      "lines": 122,
+      "bytes": 5104
+    },
+    {
+      "path": "MWIS/EfficientSearchHistogramCode.lean",
+      "lines": 31,
+      "bytes": 1196
+    },
+    {
+      "path": "MWIS/EfficientSearchHistogramCompile.lean",
+      "lines": 137,
+      "bytes": 8530
+    },
+    {
+      "path": "MWIS/EfficientSearchHistogramRuntime.lean",
+      "lines": 92,
+      "bytes": 4509
+    },
+    {
+      "path": "MWIS/EfficientSearchHistogramUpdate.lean",
+      "lines": 106,
+      "bytes": 6286
+    },
+    {
+      "path": "MWIS/EfficientSearchLoop.lean",
+      "lines": 294,
+      "bytes": 13466
+    },
+    {
+      "path": "MWIS/EfficientSearchOutput.lean",
+      "lines": 160,
+      "bytes": 9919
+    },
+    {
+      "path": "MWIS/EfficientSearchOutputExact.lean",
+      "lines": 155,
+      "bytes": 9920
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerData.lean",
+      "lines": 192,
+      "bytes": 8801
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerEvaluation.lean",
+      "lines": 308,
+      "bytes": 18885
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerExecution.lean",
+      "lines": 73,
+      "bytes": 3551
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerFresh.lean",
+      "lines": 85,
+      "bytes": 4708
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerInspect.lean",
+      "lines": 82,
+      "bytes": 3780
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerRelax.lean",
+      "lines": 182,
+      "bytes": 9988
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerRun.lean",
+      "lines": 168,
+      "bytes": 9958
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerSolve.lean",
+      "lines": 138,
+      "bytes": 7671
+    },
+    {
+      "path": "MWIS/EfficientSearchPointerTrie.lean",
+      "lines": 113,
+      "bytes": 5623
+    },
+    {
+      "path": "MWIS/EfficientSearchProcedureTable.lean",
+      "lines": 141,
+      "bytes": 7145
+    },
+    {
+      "path": "MWIS/EfficientSearchProgram.lean",
+      "lines": 120,
+      "bytes": 6263
+    },
+    {
+      "path": "MWIS/EfficientSearchQueue.lean",
+      "lines": 462,
+      "bytes": 15925
+    },
+    {
+      "path": "MWIS/EfficientSearchRecovery.lean",
+      "lines": 306,
+      "bytes": 15352
+    },
+    {
+      "path": "MWIS/EfficientSearchRelabel.lean",
+      "lines": 325,
+      "bytes": 14074
+    },
+    {
+      "path": "MWIS/EfficientSearchRelations.lean",
+      "lines": 169,
+      "bytes": 6185
+    },
+    {
+      "path": "MWIS/EfficientSearchRuntime.lean",
+      "lines": 85,
+      "bytes": 4472
+    },
+    {
+      "path": "MWIS/EliminationCertificate.lean",
+      "lines": 382,
+      "bytes": 16134
+    },
+    {
+      "path": "MWIS/EllipsoidCenterRounding.lean",
+      "lines": 318,
+      "bytes": 16018
+    },
+    {
+      "path": "MWIS/EllipsoidGeometry.lean",
+      "lines": 689,
+      "bytes": 28728
+    },
+    {
+      "path": "MWIS/EllipsoidInverseBounds.lean",
+      "lines": 67,
+      "bytes": 2985
+    },
+    {
+      "path": "MWIS/EllipsoidIteration.lean",
+      "lines": 183,
+      "bytes": 8594
+    },
+    {
+      "path": "MWIS/EllipsoidPerturbation.lean",
+      "lines": 209,
+      "bytes": 9619
+    },
+    {
+      "path": "MWIS/EllipsoidShapeBounds.lean",
+      "lines": 98,
+      "bytes": 4189
+    },
+    {
+      "path": "MWIS/EllipsoidUpdateBridge.lean",
+      "lines": 158,
+      "bytes": 9120
+    },
+    {
+      "path": "MWIS/EmbeddedDimensions.lean",
+      "lines": 142,
+      "bytes": 6506
+    },
+    {
+      "path": "MWIS/EmbeddedReduction.lean",
+      "lines": 141,
+      "bytes": 7163
+    },
+    {
+      "path": "MWIS/Embedding.lean",
+      "lines": 221,
+      "bytes": 9133
+    },
+    {
+      "path": "MWIS/EmbeddingDeletion.lean",
+      "lines": 235,
+      "bytes": 10777
+    },
+    {
+      "path": "MWIS/EmbeddingDeletionOrientation.lean",
+      "lines": 107,
+      "bytes": 4666
+    },
+    {
+      "path": "MWIS/EmbeddingDual.lean",
+      "lines": 201,
+      "bytes": 8774
+    },
+    {
+      "path": "MWIS/EmbeddingEuler.lean",
+      "lines": 267,
+      "bytes": 10633
+    },
+    {
+      "path": "MWIS/EmbeddingFaces.lean",
+      "lines": 218,
+      "bytes": 9388
+    },
+    {
+      "path": "MWIS/EmbeddingPermutations.lean",
+      "lines": 174,
+      "bytes": 6957
+    },
+    {
+      "path": "MWIS/EmbeddingVertices.lean",
+      "lines": 108,
+      "bytes": 4271
+    },
+    {
+      "path": "MWIS/EncodingCost.lean",
+      "lines": 197,
+      "bytes": 7782
+    },
+    {
+      "path": "MWIS/EndpointRelabeling.lean",
+      "lines": 91,
+      "bytes": 3560
+    },
+    {
+      "path": "MWIS/EnumeratedEmbedding.lean",
+      "lines": 174,
+      "bytes": 8138
+    },
+    {
+      "path": "MWIS/ExactValue.lean",
+      "lines": 118,
+      "bytes": 5389
+    },
+    {
+      "path": "MWIS/ExecutableAllHalf.lean",
+      "lines": 88,
+      "bytes": 4435
+    },
+    {
+      "path": "MWIS/ExecutableComponent.lean",
+      "lines": 68,
+      "bytes": 3169
+    },
+    {
+      "path": "MWIS/ExecutableMIS.lean",
+      "lines": 64,
+      "bytes": 3345
+    },
+    {
+      "path": "MWIS/ExecutableParity.lean",
+      "lines": 48,
+      "bytes": 1970
+    },
+    {
+      "path": "MWIS/ExecutableReduction.lean",
+      "lines": 105,
+      "bytes": 6129
+    },
+    {
+      "path": "MWIS/Expanded.lean",
+      "lines": 271,
+      "bytes": 12329
+    },
+    {
+      "path": "MWIS/ExpandedCandidateSemantics.lean",
+      "lines": 115,
+      "bytes": 6349
+    },
+    {
+      "path": "MWIS/ExpandedContext.lean",
+      "lines": 72,
+      "bytes": 3410
+    },
+    {
+      "path": "MWIS/ExpandedCoordinate.lean",
+      "lines": 149,
+      "bytes": 6608
+    },
+    {
+      "path": "MWIS/ExpandedCoordinateSemantics.lean",
+      "lines": 151,
+      "bytes": 7330
+    },
+    {
+      "path": "MWIS/ExpandedEmptyCoordinates.lean",
+      "lines": 61,
+      "bytes": 2758
+    },
+    {
+      "path": "MWIS/ExpandedEnumerationSize.lean",
+      "lines": 54,
+      "bytes": 2591
+    },
+    {
+      "path": "MWIS/ExpandedGenerationData.lean",
+      "lines": 41,
+      "bytes": 1851
+    },
+    {
+      "path": "MWIS/ExpandedHubSourceSemantics.lean",
+      "lines": 87,
+      "bytes": 4155
+    },
+    {
+      "path": "MWIS/ExpandedParameterValues.lean",
+      "lines": 214,
+      "bytes": 9041
+    },
+    {
+      "path": "MWIS/ExpandedRecords.lean",
+      "lines": 49,
+      "bytes": 2013
+    },
+    {
+      "path": "MWIS/ExpandedSourceSemantics.lean",
+      "lines": 146,
+      "bytes": 8029
+    },
+    {
+      "path": "MWIS/ExpandedWordEncoding.lean",
+      "lines": 117,
+      "bytes": 5109
+    },
+    {
+      "path": "MWIS/ExpandedWords.lean",
+      "lines": 61,
+      "bytes": 2362
+    },
+    {
+      "path": "MWIS/ExpandedWorkSourceSemantics.lean",
+      "lines": 123,
+      "bytes": 7385
+    },
+    {
+      "path": "MWIS/FPTBuild.lean",
+      "lines": 209,
+      "bytes": 10414
+    },
+    {
+      "path": "MWIS/FPTFinal.lean",
+      "lines": 31,
+      "bytes": 983
+    },
+    {
+      "path": "MWIS/FPTHard.lean",
+      "lines": 187,
+      "bytes": 8666
+    },
+    {
+      "path": "MWIS/FPTHardBounds.lean",
+      "lines": 216,
+      "bytes": 9582
+    },
+    {
+      "path": "MWIS/FPTHardConcrete.lean",
+      "lines": 116,
+      "bytes": 6330
+    },
+    {
+      "path": "MWIS/FPTHardNetwork.lean",
+      "lines": 445,
+      "bytes": 19958
+    },
+    {
+      "path": "MWIS/FPTMainProg.lean",
+      "lines": 331,
+      "bytes": 16041
+    },
+    {
+      "path": "MWIS/FPTMainProgBound.lean",
+      "lines": 124,
+      "bytes": 5729
+    },
+    {
+      "path": "MWIS/FPTMainProgCost.lean",
+      "lines": 154,
+      "bytes": 7033
+    },
+    {
+      "path": "MWIS/FPTMainProgMain.lean",
+      "lines": 199,
+      "bytes": 9912
+    },
+    {
+      "path": "MWIS/FPTMainProgNet.lean",
+      "lines": 122,
+      "bytes": 6690
+    },
+    {
+      "path": "MWIS/FPTMainProgShape.lean",
+      "lines": 94,
+      "bytes": 3275
+    },
+    {
+      "path": "MWIS/FPTMainProgStage.lean",
+      "lines": 235,
+      "bytes": 12232
+    },
+    {
+      "path": "MWIS/FPTMainTheorem.lean",
+      "lines": 68,
+      "bytes": 3144
+    },
+    {
+      "path": "MWIS/FPTProgram.lean",
+      "lines": 69,
+      "bytes": 3945
+    },
+    {
+      "path": "MWIS/FPTProgramBodies1.lean",
+      "lines": 432,
+      "bytes": 18307
+    },
+    {
+      "path": "MWIS/FPTProgramBodies2.lean",
+      "lines": 411,
+      "bytes": 18025
+    },
+    {
+      "path": "MWIS/FPTProgramBodies3.lean",
+      "lines": 332,
+      "bytes": 13976
+    },
+    {
+      "path": "MWIS/FPTProgramIds.lean",
+      "lines": 190,
+      "bytes": 9849
+    },
+    {
+      "path": "MWIS/FPTProgramTable1.lean",
+      "lines": 411,
+      "bytes": 25796
+    },
+    {
+      "path": "MWIS/FPTProgramTable2.lean",
+      "lines": 278,
+      "bytes": 18466
+    },
+    {
+      "path": "MWIS/FPTRegister.lean",
+      "lines": 576,
+      "bytes": 29115
+    },
+    {
+      "path": "MWIS/FPTRegisterClaim.lean",
+      "lines": 108,
+      "bytes": 5517
+    },
+    {
+      "path": "MWIS/FPTRunFun.lean",
+      "lines": 348,
+      "bytes": 17792
+    },
+    {
+      "path": "MWIS/FPTRunFunInterp.lean",
+      "lines": 33,
+      "bytes": 992
+    },
+    {
+      "path": "MWIS/FPTStatement.lean",
+      "lines": 58,
+      "bytes": 2586
+    },
+    {
+      "path": "MWIS/FPTTreeParse.lean",
+      "lines": 413,
+      "bytes": 18312
+    },
+    {
+      "path": "MWIS/FPTTrees.lean",
+      "lines": 259,
+      "bytes": 10412
+    },
+    {
+      "path": "MWIS/FaceColumnSemantics.lean",
+      "lines": 184,
+      "bytes": 7268
+    },
+    {
+      "path": "MWIS/FaceRank.lean",
+      "lines": 196,
+      "bytes": 9392
+    },
+    {
+      "path": "MWIS/FaceRowSemantics.lean",
+      "lines": 258,
+      "bytes": 10655
+    },
+    {
+      "path": "MWIS/FaceStageProgram.lean",
+      "lines": 214,
+      "bytes": 11565
+    },
+    {
+      "path": "MWIS/Faces.lean",
+      "lines": 212,
+      "bytes": 8898
+    },
+    {
+      "path": "MWIS/FinalAccounting.lean",
+      "lines": 252,
+      "bytes": 13625
+    },
+    {
+      "path": "MWIS/FinalBudget.lean",
+      "lines": 260,
+      "bytes": 12814
+    },
+    {
+      "path": "MWIS/FinalCost.lean",
+      "lines": 147,
+      "bytes": 7269
+    },
+    {
+      "path": "MWIS/FiniteCycleEnumeration.lean",
+      "lines": 213,
+      "bytes": 9253
+    },
+    {
+      "path": "MWIS/FiniteCycleLength.lean",
+      "lines": 100,
+      "bytes": 4274
+    },
+    {
+      "path": "MWIS/FiniteExtension.lean",
+      "lines": 180,
+      "bytes": 7783
+    },
+    {
+      "path": "MWIS/FlagKeyFaces.lean",
+      "lines": 340,
+      "bytes": 15023
+    },
+    {
+      "path": "MWIS/FrontCycleEnumeration.lean",
+      "lines": 42,
+      "bytes": 1629
+    },
+    {
+      "path": "MWIS/Fun/ArithInt.lean",
+      "lines": 326,
+      "bytes": 15232
+    },
+    {
+      "path": "MWIS/Fun/ArithNat.lean",
+      "lines": 710,
+      "bytes": 35523
+    },
+    {
+      "path": "MWIS/Fun/ArithOps.lean",
+      "lines": 563,
+      "bytes": 30978
+    },
+    {
+      "path": "MWIS/Fun/ArithSpec.lean",
+      "lines": 347,
+      "bytes": 14508
+    },
+    {
+      "path": "MWIS/Fun/Core.lean",
+      "lines": 325,
+      "bytes": 12904
+    },
+    {
+      "path": "MWIS/Fun/Heap.lean",
+      "lines": 266,
+      "bytes": 10669
+    },
+    {
+      "path": "MWIS/Fun/HeapExec.lean",
+      "lines": 257,
+      "bytes": 13675
+    },
+    {
+      "path": "MWIS/Fun/Interp.lean",
+      "lines": 247,
+      "bytes": 11285
+    },
+    {
+      "path": "MWIS/Fun/InterpBase.lean",
+      "lines": 254,
+      "bytes": 11330
+    },
+    {
+      "path": "MWIS/Fun/InterpBinders.lean",
+      "lines": 396,
+      "bytes": 21221
+    },
+    {
+      "path": "MWIS/Fun/InterpCases.lean",
+      "lines": 328,
+      "bytes": 18564
+    },
+    {
+      "path": "MWIS/Fun/InterpMain.lean",
+      "lines": 169,
+      "bytes": 5954
+    },
+    {
+      "path": "MWIS/Fun/InterpTree.lean",
+      "lines": 342,
+      "bytes": 17206
+    },
+    {
+      "path": "MWIS/FunCoordinatesBase.lean",
+      "lines": 142,
+      "bytes": 6129
+    },
+    {
+      "path": "MWIS/FunCoordinatesCostBase.lean",
+      "lines": 182,
+      "bytes": 8007
+    },
+    {
+      "path": "MWIS/FunCoordinatesCostElim.lean",
+      "lines": 418,
+      "bytes": 18694
+    },
+    {
+      "path": "MWIS/FunCoordinatesCostRun.lean",
+      "lines": 403,
+      "bytes": 18353
+    },
+    {
+      "path": "MWIS/FunCoordinatesCostTables.lean",
+      "lines": 514,
+      "bytes": 26029
+    },
+    {
+      "path": "MWIS/FunCoordinatesCostTree.lean",
+      "lines": 355,
+      "bytes": 16290
+    },
+    {
+      "path": "MWIS/FunCoordinatesElim.lean",
+      "lines": 442,
+      "bytes": 19083
+    },
+    {
+      "path": "MWIS/FunCoordinatesLib.lean",
+      "lines": 415,
+      "bytes": 19070
+    },
+    {
+      "path": "MWIS/FunCoordinatesMatrix.lean",
+      "lines": 222,
+      "bytes": 9369
+    },
+    {
+      "path": "MWIS/FunCoordinatesNetwork.lean",
+      "lines": 101,
+      "bytes": 4643
+    },
+    {
+      "path": "MWIS/FunCoordinatesPotential.lean",
+      "lines": 150,
+      "bytes": 6545
+    },
+    {
+      "path": "MWIS/FunCoordinatesTables.lean",
+      "lines": 383,
+      "bytes": 17358
+    },
+    {
+      "path": "MWIS/FunCoordinatesTree.lean",
+      "lines": 211,
+      "bytes": 8834
+    },
+    {
+      "path": "MWIS/FunLPArith.lean",
+      "lines": 388,
+      "bytes": 17794
+    },
+    {
+      "path": "MWIS/FunLPBasic.lean",
+      "lines": 469,
+      "bytes": 22635
+    },
+    {
+      "path": "MWIS/FunLPBound.lean",
+      "lines": 426,
+      "bytes": 16829
+    },
+    {
+      "path": "MWIS/FunLPList.lean",
+      "lines": 526,
+      "bytes": 22958
+    },
+    {
+      "path": "MWIS/FunLPMath.lean",
+      "lines": 182,
+      "bytes": 8431
+    },
+    {
+      "path": "MWIS/FunLPOpt.lean",
+      "lines": 47,
+      "bytes": 1762
+    },
+    {
+      "path": "MWIS/FunLPRun.lean",
+      "lines": 296,
+      "bytes": 12722
+    },
+    {
+      "path": "MWIS/FunLPRunCost.lean",
+      "lines": 276,
+      "bytes": 14027
+    },
+    {
+      "path": "MWIS/FunLPSolver.lean",
+      "lines": 315,
+      "bytes": 14751
+    },
+    {
+      "path": "MWIS/FunLPSolverCost.lean",
+      "lines": 439,
+      "bytes": 26346
+    },
+    {
+      "path": "MWIS/FunLPThreshold.lean",
+      "lines": 191,
+      "bytes": 8136
+    },
+    {
+      "path": "MWIS/FunLPThresholdCost.lean",
+      "lines": 426,
+      "bytes": 24431
+    },
+    {
+      "path": "MWIS/FunLPUpdate.lean",
+      "lines": 492,
+      "bytes": 24216
+    },
+    {
+      "path": "MWIS/FunNetworkCost.lean",
+      "lines": 711,
+      "bytes": 34238
+    },
+    {
+      "path": "MWIS/FunNetworkCostCore.lean",
+      "lines": 643,
+      "bytes": 28053
+    },
+    {
+      "path": "MWIS/FunNetworkCostLib.lean",
+      "lines": 457,
+      "bytes": 20758
+    },
+    {
+      "path": "MWIS/FunNetworkCostProgram.lean",
+      "lines": 298,
+      "bytes": 15380
+    },
+    {
+      "path": "MWIS/FunNetworkDecode.lean",
+      "lines": 141,
+      "bytes": 5829
+    },
+    {
+      "path": "MWIS/FunNetworkDense.lean",
+      "lines": 247,
+      "bytes": 10844
+    },
+    {
+      "path": "MWIS/FunNetworkEncode.lean",
+      "lines": 412,
+      "bytes": 17128
+    },
+    {
+      "path": "MWIS/FunNetworkEnum.lean",
+      "lines": 286,
+      "bytes": 12001
+    },
+    {
+      "path": "MWIS/FunNetworkFn.lean",
+      "lines": 362,
+      "bytes": 14734
+    },
+    {
+      "path": "MWIS/FunNetworkLib.lean",
+      "lines": 341,
+      "bytes": 15399
+    },
+    {
+      "path": "MWIS/FunNetworkProgram.lean",
+      "lines": 293,
+      "bytes": 12827
+    },
+    {
+      "path": "MWIS/GenericAccounting.lean",
+      "lines": 360,
+      "bytes": 19293
+    },
+    {
+      "path": "MWIS/GenericAssembly.lean",
+      "lines": 302,
+      "bytes": 16520
+    },
+    {
+      "path": "MWIS/GenericComponentSolve.lean",
+      "lines": 257,
+      "bytes": 14799
+    },
+    {
+      "path": "MWIS/GenericEncoded.lean",
+      "lines": 147,
+      "bytes": 6498
+    },
+    {
+      "path": "MWIS/GenericSolve.lean",
+      "lines": 212,
+      "bytes": 11398
+    },
+    {
+      "path": "MWIS/GenericTopLevel.lean",
+      "lines": 148,
+      "bytes": 7761
+    },
+    {
+      "path": "MWIS/GraphComponents.lean",
+      "lines": 181,
+      "bytes": 8088
+    },
+    {
+      "path": "MWIS/GraphReachEncoded.lean",
+      "lines": 365,
+      "bytes": 17962
+    },
+    {
+      "path": "MWIS/GraphRelabeling.lean",
+      "lines": 96,
+      "bytes": 3760
+    },
+    {
+      "path": "MWIS/GraphSearch.lean",
+      "lines": 135,
+      "bytes": 6202
+    },
+    {
+      "path": "MWIS/GroupExtension.lean",
+      "lines": 89,
+      "bytes": 4027
+    },
+    {
+      "path": "MWIS/GroupLifting.lean",
+      "lines": 177,
+      "bytes": 7510
+    },
+    {
+      "path": "MWIS/GroupNetwork.lean",
+      "lines": 206,
+      "bytes": 8987
+    },
+    {
+      "path": "MWIS/GroupSize.lean",
+      "lines": 74,
+      "bytes": 2751
+    },
+    {
+      "path": "MWIS/HardSolveBudget.lean",
+      "lines": 279,
+      "bytes": 13587
+    },
+    {
+      "path": "MWIS/HardSolveReference.lean",
+      "lines": 264,
+      "bytes": 12079
+    },
+    {
+      "path": "MWIS/HardWidths.lean",
+      "lines": 248,
+      "bytes": 11177
+    },
+    {
+      "path": "MWIS/HomologyCoordinates.lean",
+      "lines": 103,
+      "bytes": 4706
+    },
+    {
+      "path": "MWIS/HomologyRank.lean",
+      "lines": 146,
+      "bytes": 6253
+    },
+    {
+      "path": "MWIS/HomologyStructure.lean",
+      "lines": 123,
+      "bytes": 5435
+    },
+    {
+      "path": "MWIS/Incidence.lean",
+      "lines": 175,
+      "bytes": 6848
+    },
+    {
+      "path": "MWIS/IncidenceSplit.lean",
+      "lines": 154,
+      "bytes": 6926
+    },
+    {
+      "path": "MWIS/IncrementalComplement.lean",
+      "lines": 317,
+      "bytes": 15726
+    },
+    {
+      "path": "MWIS/IndexedActiveVertices.lean",
+      "lines": 58,
+      "bytes": 2403
+    },
+    {
+      "path": "MWIS/InducedComponents.lean",
+      "lines": 161,
+      "bytes": 8826
+    },
+    {
+      "path": "MWIS/InducedReduction.lean",
+      "lines": 152,
+      "bytes": 6465
+    },
+    {
+      "path": "MWIS/InducedTable.lean",
+      "lines": 108,
+      "bytes": 5416
+    },
+    {
+      "path": "MWIS/IntegerCramerBound.lean",
+      "lines": 96,
+      "bytes": 3856
+    },
+    {
+      "path": "MWIS/IntegerDeterminantBound.lean",
+      "lines": 40,
+      "bytes": 1294
+    },
+    {
+      "path": "MWIS/IntegerEdgeCosts.lean",
+      "lines": 113,
+      "bytes": 5724
+    },
+    {
+      "path": "MWIS/IntegerFarkas.lean",
+      "lines": 321,
+      "bytes": 13227
+    },
+    {
+      "path": "MWIS/IntegerFarkasCertificate.lean",
+      "lines": 532,
+      "bytes": 24676
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityBounds.lean",
+      "lines": 226,
+      "bytes": 9439
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityDefs.lean",
+      "lines": 70,
+      "bytes": 2292
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityEncoding.lean",
+      "lines": 125,
+      "bytes": 5444
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityEquiv.lean",
+      "lines": 114,
+      "bytes": 4471
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityGeneral.lean",
+      "lines": 75,
+      "bytes": 3198
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityInterior.lean",
+      "lines": 216,
+      "bytes": 9367
+    },
+    {
+      "path": "MWIS/IntegerFeasibilityReverse.lean",
+      "lines": 119,
+      "bytes": 5092
+    },
+    {
+      "path": "MWIS/IntegerFeasibilitySolver.lean",
+      "lines": 113,
+      "bytes": 5407
+    },
+    {
+      "path": "MWIS/IntegerHomology.lean",
+      "lines": 124,
+      "bytes": 5329
+    },
+    {
+      "path": "MWIS/IntegerMinimalFace.lean",
+      "lines": 142,
+      "bytes": 5458
+    },
+    {
+      "path": "MWIS/IntegerSlacks.lean",
+      "lines": 149,
+      "bytes": 6047
+    },
+    {
+      "path": "MWIS/IntegerSolutionBound.lean",
+      "lines": 40,
+      "bytes": 1412
+    },
+    {
+      "path": "MWIS/IntegerSquareSubsystem.lean",
+      "lines": 215,
+      "bytes": 8478
+    },
+    {
+      "path": "MWIS/IntegerSubsystemBound.lean",
+      "lines": 79,
+      "bytes": 2878
+    },
+    {
+      "path": "MWIS/KernelArithmetic.lean",
+      "lines": 220,
+      "bytes": 9870
+    },
+    {
+      "path": "MWIS/KernelBasis.lean",
+      "lines": 236,
+      "bytes": 10968
+    },
+    {
+      "path": "MWIS/KernelCoordinates.lean",
+      "lines": 98,
+      "bytes": 3728
+    },
+    {
+      "path": "MWIS/KernelMidpoint.lean",
+      "lines": 120,
+      "bytes": 5185
+    },
+    {
+      "path": "MWIS/LPDirections.lean",
+      "lines": 112,
+      "bytes": 4184
+    },
+    {
+      "path": "MWIS/Lift.lean",
+      "lines": 204,
+      "bytes": 10030
+    },
+    {
+      "path": "MWIS/LinearAlgebra.lean",
+      "lines": 130,
+      "bytes": 4942
+    },
+    {
+      "path": "MWIS/MaxFlowCached.lean",
+      "lines": 163,
+      "bytes": 6709
+    },
+    {
+      "path": "MWIS/MaxFlowCore.lean",
+      "lines": 246,
+      "bytes": 10149
+    },
+    {
+      "path": "MWIS/MaxFlowDual.lean",
+      "lines": 259,
+      "bytes": 12205
+    },
+    {
+      "path": "MWIS/MaxFlowListReach.lean",
+      "lines": 107,
+      "bytes": 3877
+    },
+    {
+      "path": "MWIS/MaxFlowOverscaled.lean",
+      "lines": 180,
+      "bytes": 8925
+    },
+    {
+      "path": "MWIS/MaxFlowPreprocessing.lean",
+      "lines": 160,
+      "bytes": 7205
+    },
+    {
+      "path": "MWIS/MaxFlowReach.lean",
+      "lines": 239,
+      "bytes": 9873
+    },
+    {
+      "path": "MWIS/MaxFlowResidual.lean",
+      "lines": 97,
+      "bytes": 3976
+    },
+    {
+      "path": "MWIS/MaxFlowScaling.lean",
+      "lines": 249,
+      "bytes": 11367
+    },
+    {
+      "path": "MWIS/MaxFlowSize.lean",
+      "lines": 138,
+      "bytes": 6135
+    },
+    {
+      "path": "MWIS/Midpoint.lean",
+      "lines": 96,
+      "bytes": 3470
+    },
+    {
+      "path": "MWIS/NegativeWeights.lean",
+      "lines": 75,
+      "bytes": 2709
+    },
+    {
+      "path": "MWIS/NestedRetention.lean",
+      "lines": 58,
+      "bytes": 2249
+    },
+    {
+      "path": "MWIS/NetworkBirkhoff.lean",
+      "lines": 335,
+      "bytes": 14690
+    },
+    {
+      "path": "MWIS/NetworkTarget.lean",
+      "lines": 21,
+      "bytes": 442
+    },
+    {
+      "path": "MWIS/NetworkWeights.lean",
+      "lines": 362,
+      "bytes": 15068
+    },
+    {
+      "path": "MWIS/NetworkWords.lean",
+      "lines": 177,
+      "bytes": 6864
+    },
+    {
+      "path": "MWIS/NodeEncoding.lean",
+      "lines": 78,
+      "bytes": 3209
+    },
+    {
+      "path": "MWIS/OddRow.lean",
+      "lines": 156,
+      "bytes": 5882
+    },
+    {
+      "path": "MWIS/Orientable.lean",
+      "lines": 230,
+      "bytes": 9669
+    },
+    {
+      "path": "MWIS/OriginalFaces.lean",
+      "lines": 181,
+      "bytes": 7764
+    },
+    {
+      "path": "MWIS/OriginalReduction.lean",
+      "lines": 218,
+      "bytes": 12602
+    },
+    {
+      "path": "MWIS/Parameters.lean",
+      "lines": 161,
+      "bytes": 6118
+    },
+    {
+      "path": "MWIS/Parity.lean",
+      "lines": 113,
+      "bytes": 4467
+    },
+    {
+      "path": "MWIS/ParityReachRefinement.lean",
+      "lines": 347,
+      "bytes": 15959
+    },
+    {
+      "path": "MWIS/PermutationDeletion.lean",
+      "lines": 332,
+      "bytes": 14906
+    },
+    {
+      "path": "MWIS/PermutationRestriction.lean",
+      "lines": 144,
+      "bytes": 6468
+    },
+    {
+      "path": "MWIS/Persistence.lean",
+      "lines": 235,
+      "bytes": 10212
+    },
+    {
+      "path": "MWIS/PointerArithmetic.lean",
+      "lines": 120,
+      "bytes": 5287
+    },
+    {
+      "path": "MWIS/PointerArithmeticEval.lean",
+      "lines": 124,
+      "bytes": 5626
+    },
+    {
+      "path": "MWIS/PointerCallTrees.lean",
+      "lines": 187,
+      "bytes": 9658
+    },
+    {
+      "path": "MWIS/PointerEvaluation.lean",
+      "lines": 166,
+      "bytes": 8446
+    },
+    {
+      "path": "MWIS/PointerExecution.lean",
+      "lines": 114,
+      "bytes": 5404
+    },
+    {
+      "path": "MWIS/PointerInsert.lean",
+      "lines": 163,
+      "bytes": 8435
+    },
+    {
+      "path": "MWIS/PointerJoin.lean",
+      "lines": 77,
+      "bytes": 3644
+    },
+    {
+      "path": "MWIS/PointerLookup.lean",
+      "lines": 108,
+      "bytes": 4876
+    },
+    {
+      "path": "MWIS/PointerMemory.lean",
+      "lines": 226,
+      "bytes": 8980
+    },
+    {
+      "path": "MWIS/PointerPop.lean",
+      "lines": 193,
+      "bytes": 9898
+    },
+    {
+      "path": "MWIS/PointerPopSafety.lean",
+      "lines": 133,
+      "bytes": 7029
+    },
+    {
+      "path": "MWIS/PointerRepresentations.lean",
+      "lines": 134,
+      "bytes": 5731
+    },
+    {
+      "path": "MWIS/PointerStack.lean",
+      "lines": 179,
+      "bytes": 8149
+    },
+    {
+      "path": "MWIS/PureSmoothing.lean",
+      "lines": 247,
+      "bytes": 12678
+    },
+    {
+      "path": "MWIS/RadixConstruction.lean",
+      "lines": 51,
+      "bytes": 2015
+    },
+    {
+      "path": "MWIS/RationalDual.lean",
+      "lines": 163,
+      "bytes": 7096
+    },
+    {
+      "path": "MWIS/RationalElimination.lean",
+      "lines": 164,
+      "bytes": 6043
+    },
+    {
+      "path": "MWIS/RationalRowSemantics.lean",
+      "lines": 96,
+      "bytes": 4217
+    },
+    {
+      "path": "MWIS/RationalWidth.lean",
+      "lines": 157,
+      "bytes": 6910
+    },
+    {
+      "path": "MWIS/RationalWordRows.lean",
+      "lines": 504,
+      "bytes": 21802
+    },
+    {
+      "path": "MWIS/ReachSeen.lean",
+      "lines": 247,
+      "bytes": 9782
+    },
+    {
+      "path": "MWIS/RealCoordinates.lean",
+      "lines": 75,
+      "bytes": 2820
+    },
+    {
+      "path": "MWIS/Recovery.lean",
+      "lines": 201,
+      "bytes": 8762
+    },
+    {
+      "path": "MWIS/Reduction.lean",
+      "lines": 232,
+      "bytes": 11242
+    },
+    {
+      "path": "MWIS/RegionParity.lean",
+      "lines": 233,
+      "bytes": 10160
+    },
+    {
+      "path": "MWIS/RegisterAdder.lean",
+      "lines": 161,
+      "bytes": 8481
+    },
+    {
+      "path": "MWIS/RegisterAdjacencyScan.lean",
+      "lines": 283,
+      "bytes": 15182
+    },
+    {
+      "path": "MWIS/RegisterAdjacencyTable.lean",
+      "lines": 350,
+      "bytes": 19404
+    },
+    {
+      "path": "MWIS/RegisterAllHalf.lean",
+      "lines": 193,
+      "bytes": 10443
+    },
+    {
+      "path": "MWIS/RegisterAllSources.lean",
+      "lines": 99,
+      "bytes": 6187
+    },
+    {
+      "path": "MWIS/RegisterArcEmitter.lean",
+      "lines": 67,
+      "bytes": 3335
+    },
+    {
+      "path": "MWIS/RegisterArcLookup.lean",
+      "lines": 213,
+      "bytes": 11666
+    },
+    {
+      "path": "MWIS/RegisterArcMembership.lean",
+      "lines": 193,
+      "bytes": 11042
+    },
+    {
+      "path": "MWIS/RegisterCandidate.lean",
+      "lines": 57,
+      "bytes": 2122
+    },
+    {
+      "path": "MWIS/RegisterCandidateCompiled.lean",
+      "lines": 207,
+      "bytes": 12202
+    },
+    {
+      "path": "MWIS/RegisterCandidateFinish.lean",
+      "lines": 143,
+      "bytes": 8816
+    },
+    {
+      "path": "MWIS/RegisterCandidateParsing.lean",
+      "lines": 151,
+      "bytes": 8834
+    },
+    {
+      "path": "MWIS/RegisterCandidates.lean",
+      "lines": 373,
+      "bytes": 20167
+    },
+    {
+      "path": "MWIS/RegisterColumnResize.lean",
+      "lines": 275,
+      "bytes": 15091
+    },
+    {
+      "path": "MWIS/RegisterComparator.lean",
+      "lines": 173,
+      "bytes": 8863
+    },
+    {
+      "path": "MWIS/RegisterComplement.lean",
+      "lines": 98,
+      "bytes": 4910
+    },
+    {
+      "path": "MWIS/RegisterComplementSelect.lean",
+      "lines": 487,
+      "bytes": 26593
+    },
+    {
+      "path": "MWIS/RegisterComponentRoots.lean",
+      "lines": 248,
+      "bytes": 12284
+    },
+    {
+      "path": "MWIS/RegisterComponentSolve.lean",
+      "lines": 475,
+      "bytes": 26281
+    },
+    {
+      "path": "MWIS/RegisterContextPack.lean",
+      "lines": 87,
+      "bytes": 4495
+    },
+    {
+      "path": "MWIS/RegisterCoordinate.lean",
+      "lines": 231,
+      "bytes": 14065
+    },
+    {
+      "path": "MWIS/RegisterCoordinates.lean",
+      "lines": 176,
+      "bytes": 11081
+    },
+    {
+      "path": "MWIS/RegisterCutReadback.lean",
+      "lines": 250,
+      "bytes": 13156
+    },
+    {
+      "path": "MWIS/RegisterDecompose.lean",
+      "lines": 405,
+      "bytes": 22622
+    },
+    {
+      "path": "MWIS/RegisterDigits.lean",
+      "lines": 144,
+      "bytes": 7182
+    },
+    {
+      "path": "MWIS/RegisterDivision.lean",
+      "lines": 204,
+      "bytes": 12141
+    },
+    {
+      "path": "MWIS/RegisterDivisionWrapper.lean",
+      "lines": 150,
+      "bytes": 8537
+    },
+    {
+      "path": "MWIS/RegisterEdgeCostProgram.lean",
+      "lines": 258,
+      "bytes": 13495
+    },
+    {
+      "path": "MWIS/RegisterEdgeCosts.lean",
+      "lines": 471,
+      "bytes": 27142
+    },
+    {
+      "path": "MWIS/RegisterEdgeMetadata.lean",
+      "lines": 399,
+      "bytes": 20829
+    },
+    {
+      "path": "MWIS/RegisterEdgePairs.lean",
+      "lines": 92,
+      "bytes": 4429
+    },
+    {
+      "path": "MWIS/RegisterEdgeWords.lean",
+      "lines": 221,
+      "bytes": 11292
+    },
+    {
+      "path": "MWIS/RegisterEliminateRows.lean",
+      "lines": 68,
+      "bytes": 3083
+    },
+    {
+      "path": "MWIS/RegisterEvenMatrix.lean",
+      "lines": 129,
+      "bytes": 6539
+    },
+    {
+      "path": "MWIS/RegisterExit.lean",
+      "lines": 112,
+      "bytes": 7415
+    },
+    {
+      "path": "MWIS/RegisterExpandedParameters.lean",
+      "lines": 254,
+      "bytes": 13825
+    },
+    {
+      "path": "MWIS/RegisterExpandedScalars.lean",
+      "lines": 587,
+      "bytes": 33222
+    },
+    {
+      "path": "MWIS/RegisterExpandedVertexWords.lean",
+      "lines": 259,
+      "bytes": 14724
+    },
+    {
+      "path": "MWIS/RegisterFaceColumnStage.lean",
+      "lines": 259,
+      "bytes": 13107
+    },
+    {
+      "path": "MWIS/RegisterFaceColumns.lean",
+      "lines": 227,
+      "bytes": 12018
+    },
+    {
+      "path": "MWIS/RegisterFaceRow.lean",
+      "lines": 302,
+      "bytes": 16263
+    },
+    {
+      "path": "MWIS/RegisterFinalAssembly.lean",
+      "lines": 567,
+      "bytes": 30302
+    },
+    {
+      "path": "MWIS/RegisterFirstEdge.lean",
+      "lines": 413,
+      "bytes": 20590
+    },
+    {
+      "path": "MWIS/RegisterFirstReturn.lean",
+      "lines": 198,
+      "bytes": 8806
+    },
+    {
+      "path": "MWIS/RegisterFlagKeys.lean",
+      "lines": 235,
+      "bytes": 11081
+    },
+    {
+      "path": "MWIS/RegisterGCD.lean",
+      "lines": 232,
+      "bytes": 13715
+    },
+    {
+      "path": "MWIS/RegisterGenerationInputs.lean",
+      "lines": 294,
+      "bytes": 14002
+    },
+    {
+      "path": "MWIS/RegisterGenerationPack.lean",
+      "lines": 62,
+      "bytes": 3068
+    },
+    {
+      "path": "MWIS/RegisterGeneratorWords.lean",
+      "lines": 368,
+      "bytes": 20240
+    },
+    {
+      "path": "MWIS/RegisterGraphArcs.lean",
+      "lines": 331,
+      "bytes": 17167
+    },
+    {
+      "path": "MWIS/RegisterGraphEnumeration.lean",
+      "lines": 115,
+      "bytes": 6676
+    },
+    {
+      "path": "MWIS/RegisterHalve.lean",
+      "lines": 195,
+      "bytes": 10139
+    },
+    {
+      "path": "MWIS/RegisterHardInputs.lean",
+      "lines": 521,
+      "bytes": 28176
+    },
+    {
+      "path": "MWIS/RegisterHardKernel.lean",
+      "lines": 222,
+      "bytes": 11381
+    },
+    {
+      "path": "MWIS/RegisterHardRecovery.lean",
+      "lines": 540,
+      "bytes": 29797
+    },
+    {
+      "path": "MWIS/RegisterHardSearch.lean",
+      "lines": 320,
+      "bytes": 18106
+    },
+    {
+      "path": "MWIS/RegisterHardSearchBudget.lean",
+      "lines": 155,
+      "bytes": 7946
+    },
+    {
+      "path": "MWIS/RegisterHardSolve.lean",
+      "lines": 411,
+      "bytes": 21628
+    },
+    {
+      "path": "MWIS/RegisterHistogramValues.lean",
+      "lines": 179,
+      "bytes": 10033
+    },
+    {
+      "path": "MWIS/RegisterHorner.lean",
+      "lines": 179,
+      "bytes": 9193
+    },
+    {
+      "path": "MWIS/RegisterHubEntries.lean",
+      "lines": 216,
+      "bytes": 12752
+    },
+    {
+      "path": "MWIS/RegisterHubSource.lean",
+      "lines": 229,
+      "bytes": 13452
+    },
+    {
+      "path": "MWIS/RegisterIncidenceRows.lean",
+      "lines": 491,
+      "bytes": 27377
+    },
+    {
+      "path": "MWIS/RegisterInducedRibbon.lean",
+      "lines": 339,
+      "bytes": 19501
+    },
+    {
+      "path": "MWIS/RegisterKernelGenerators.lean",
+      "lines": 169,
+      "bytes": 8979
+    },
+    {
+      "path": "MWIS/RegisterKeyFaceEnumeration.lean",
+      "lines": 286,
+      "bytes": 14882
+    },
+    {
+      "path": "MWIS/RegisterKeyTrace.lean",
+      "lines": 185,
+      "bytes": 9848
+    },
+    {
+      "path": "MWIS/RegisterListCommon.lean",
+      "lines": 62,
+      "bytes": 2815
+    },
+    {
+      "path": "MWIS/RegisterListFilter.lean",
+      "lines": 158,
+      "bytes": 8315
+    },
+    {
+      "path": "MWIS/RegisterListFind.lean",
+      "lines": 177,
+      "bytes": 9370
+    },
+    {
+      "path": "MWIS/RegisterListFlatMap.lean",
+      "lines": 96,
+      "bytes": 5155
+    },
+    {
+      "path": "MWIS/RegisterListFold.lean",
+      "lines": 135,
+      "bytes": 7441
+    },
+    {
+      "path": "MWIS/RegisterListMap.lean",
+      "lines": 137,
+      "bytes": 7262
+    },
+    {
+      "path": "MWIS/RegisterListReverse.lean",
+      "lines": 88,
+      "bytes": 4077
+    },
+    {
+      "path": "MWIS/RegisterListZip.lean",
+      "lines": 202,
+      "bytes": 11290
+    },
+    {
+      "path": "MWIS/RegisterMachine.lean",
+      "lines": 7,
+      "bytes": 224
+    },
+    {
+      "path": "MWIS/RegisterMachineBounds.lean",
+      "lines": 188,
+      "bytes": 7765
+    },
+    {
+      "path": "MWIS/RegisterMachineFacts.lean",
+      "lines": 84,
+      "bytes": 3595
+    },
+    {
+      "path": "MWIS/RegisterMachineFrames.lean",
+      "lines": 238,
+      "bytes": 12615
+    },
+    {
+      "path": "MWIS/RegisterMachineMeta.lean",
+      "lines": 80,
+      "bytes": 4083
+    },
+    {
+      "path": "MWIS/RegisterMaxFlowSolve.lean",
+      "lines": 211,
+      "bytes": 11378
+    },
+    {
+      "path": "MWIS/RegisterMembership.lean",
+      "lines": 122,
+      "bytes": 5958
+    },
+    {
+      "path": "MWIS/RegisterMultiplier.lean",
+      "lines": 205,
+      "bytes": 11272
+    },
+    {
+      "path": "MWIS/RegisterNetworkNodes.lean",
+      "lines": 478,
+      "bytes": 26577
+    },
+    {
+      "path": "MWIS/RegisterNetworkSolve.lean",
+      "lines": 230,
+      "bytes": 12829
+    },
+    {
+      "path": "MWIS/RegisterNetworkTable.lean",
+      "lines": 545,
+      "bytes": 31409
+    },
+    {
+      "path": "MWIS/RegisterNetworkWeights.lean",
+      "lines": 618,
+      "bytes": 35441
+    },
+    {
+      "path": "MWIS/RegisterNodeDecode.lean",
+      "lines": 161,
+      "bytes": 8809
+    },
+    {
+      "path": "MWIS/RegisterNodeEncode.lean",
+      "lines": 153,
+      "bytes": 9564
+    },
+    {
+      "path": "MWIS/RegisterNormalization.lean",
+      "lines": 106,
+      "bytes": 5938
+    },
+    {
+      "path": "MWIS/RegisterOddRow.lean",
+      "lines": 466,
+      "bytes": 26730
+    },
+    {
+      "path": "MWIS/RegisterOddRowStep.lean",
+      "lines": 340,
+      "bytes": 18986
+    },
+    {
+      "path": "MWIS/RegisterPairReads.lean",
+      "lines": 42,
+      "bytes": 2004
+    },
+    {
+      "path": "MWIS/RegisterParityTable.lean",
+      "lines": 406,
+      "bytes": 21628
+    },
+    {
+      "path": "MWIS/RegisterPathLabels.lean",
+      "lines": 118,
+      "bytes": 5682
+    },
+    {
+      "path": "MWIS/RegisterPhaseAttempts.lean",
+      "lines": 259,
+      "bytes": 13963
+    },
+    {
+      "path": "MWIS/RegisterPotentialRoute.lean",
+      "lines": 166,
+      "bytes": 8763
+    },
+    {
+      "path": "MWIS/RegisterPotentialStep.lean",
+      "lines": 122,
+      "bytes": 6171
+    },
+    {
+      "path": "MWIS/RegisterPreprocessing.lean",
+      "lines": 280,
+      "bytes": 15450
+    },
+    {
+      "path": "MWIS/RegisterQuotRem.lean",
+      "lines": 56,
+      "bytes": 2794
+    },
+    {
+      "path": "MWIS/RegisterRationalAdd.lean",
+      "lines": 211,
+      "bytes": 13041
+    },
+    {
+      "path": "MWIS/RegisterRationalCut.lean",
+      "lines": 293,
+      "bytes": 15903
+    },
+    {
+      "path": "MWIS/RegisterRationalProducts.lean",
+      "lines": 220,
+      "bytes": 12725
+    },
+    {
+      "path": "MWIS/RegisterRationalProject.lean",
+      "lines": 312,
+      "bytes": 17809
+    },
+    {
+      "path": "MWIS/RegisterRationalRow.lean",
+      "lines": 170,
+      "bytes": 9326
+    },
+    {
+      "path": "MWIS/RegisterRationalZero.lean",
+      "lines": 69,
+      "bytes": 3568
+    },
+    {
+      "path": "MWIS/RegisterReachExtend.lean",
+      "lines": 112,
+      "bytes": 5608
+    },
+    {
+      "path": "MWIS/RegisterRecordLookup.lean",
+      "lines": 189,
+      "bytes": 9169
+    },
+    {
+      "path": "MWIS/RegisterRemainder.lean",
+      "lines": 76,
+      "bytes": 3411
+    },
+    {
+      "path": "MWIS/RegisterResidualAdjust.lean",
+      "lines": 125,
+      "bytes": 7005
+    },
+    {
+      "path": "MWIS/RegisterResidualCrossing.lean",
+      "lines": 146,
+      "bytes": 8370
+    },
+    {
+      "path": "MWIS/RegisterResidualPhase.lean",
+      "lines": 229,
+      "bytes": 14981
+    },
+    {
+      "path": "MWIS/RegisterResidualPredicate.lean",
+      "lines": 141,
+      "bytes": 7835
+    },
+    {
+      "path": "MWIS/RegisterResidualReach.lean",
+      "lines": 174,
+      "bytes": 11689
+    },
+    {
+      "path": "MWIS/RegisterResidualScales.lean",
+      "lines": 118,
+      "bytes": 7497
+    },
+    {
+      "path": "MWIS/RegisterResidualSearch.lean",
+      "lines": 93,
+      "bytes": 5571
+    },
+    {
+      "path": "MWIS/RegisterResidualTableUpdate.lean",
+      "lines": 114,
+      "bytes": 6361
+    },
+    {
+      "path": "MWIS/RegisterResidualUpdate.lean",
+      "lines": 181,
+      "bytes": 10305
+    },
+    {
+      "path": "MWIS/RegisterResize.lean",
+      "lines": 388,
+      "bytes": 21172
+    },
+    {
+      "path": "MWIS/RegisterRestrictCorner.lean",
+      "lines": 196,
+      "bytes": 10125
+    },
+    {
+      "path": "MWIS/RegisterRestrictTable.lean",
+      "lines": 266,
+      "bytes": 14372
+    },
+    {
+      "path": "MWIS/RegisterRibbonCycles.lean",
+      "lines": 264,
+      "bytes": 13960
+    },
+    {
+      "path": "MWIS/RegisterRootValue.lean",
+      "lines": 178,
+      "bytes": 8693
+    },
+    {
+      "path": "MWIS/RegisterRouteCounts.lean",
+      "lines": 216,
+      "bytes": 11740
+    },
+    {
+      "path": "MWIS/RegisterRouteLookup.lean",
+      "lines": 172,
+      "bytes": 8586
+    },
+    {
+      "path": "MWIS/RegisterRoutePrepend.lean",
+      "lines": 61,
+      "bytes": 2883
+    },
+    {
+      "path": "MWIS/RegisterRowRecords.lean",
+      "lines": 131,
+      "bytes": 6480
+    },
+    {
+      "path": "MWIS/RegisterSearchHistogram.lean",
+      "lines": 143,
+      "bytes": 7730
+    },
+    {
+      "path": "MWIS/RegisterSearchReadback.lean",
+      "lines": 92,
+      "bytes": 4472
+    },
+    {
+      "path": "MWIS/RegisterShift.lean",
+      "lines": 146,
+      "bytes": 7963
+    },
+    {
+      "path": "MWIS/RegisterSignedAdd.lean",
+      "lines": 221,
+      "bytes": 13148
+    },
+    {
+      "path": "MWIS/RegisterSignedDot.lean",
+      "lines": 205,
+      "bytes": 10676
+    },
+    {
+      "path": "MWIS/RegisterSignedHalf.lean",
+      "lines": 56,
+      "bytes": 2473
+    },
+    {
+      "path": "MWIS/RegisterSignedRows.lean",
+      "lines": 144,
+      "bytes": 7034
+    },
+    {
+      "path": "MWIS/RegisterSignificant.lean",
+      "lines": 147,
+      "bytes": 6917
+    },
+    {
+      "path": "MWIS/RegisterSourceDispatch.lean",
+      "lines": 139,
+      "bytes": 9261
+    },
+    {
+      "path": "MWIS/RegisterStoredRational.lean",
+      "lines": 158,
+      "bytes": 10245
+    },
+    {
+      "path": "MWIS/RegisterSubtractor.lean",
+      "lines": 70,
+      "bytes": 3440
+    },
+    {
+      "path": "MWIS/RegisterSupportArcs.lean",
+      "lines": 581,
+      "bytes": 31986
+    },
+    {
+      "path": "MWIS/RegisterSupportCycle.lean",
+      "lines": 477,
+      "bytes": 27687
+    },
+    {
+      "path": "MWIS/RegisterTemplateScan.lean",
+      "lines": 66,
+      "bytes": 3159
+    },
+    {
+      "path": "MWIS/RegisterThresholdVertices.lean",
+      "lines": 269,
+      "bytes": 13980
+    },
+    {
+      "path": "MWIS/RegisterTopLevel.lean",
+      "lines": 130,
+      "bytes": 6370
+    },
+    {
+      "path": "MWIS/RegisterTopLevelRun.lean",
+      "lines": 156,
+      "bytes": 7798
+    },
+    {
+      "path": "MWIS/RegisterTranspose.lean",
+      "lines": 535,
+      "bytes": 26744
+    },
+    {
+      "path": "MWIS/RegisterWeightMask.lean",
+      "lines": 399,
+      "bytes": 18180
+    },
+    {
+      "path": "MWIS/RegisterWiden.lean",
+      "lines": 216,
+      "bytes": 10704
+    },
+    {
+      "path": "MWIS/RegisterWordArithmetic.lean",
+      "lines": 36,
+      "bytes": 1480
+    },
+    {
+      "path": "MWIS/RegisterWordAssoc.lean",
+      "lines": 155,
+      "bytes": 6719
+    },
+    {
+      "path": "MWIS/RegisterWordFilter.lean",
+      "lines": 307,
+      "bytes": 14464
+    },
+    {
+      "path": "MWIS/RegisterWordRange.lean",
+      "lines": 156,
+      "bytes": 8702
+    },
+    {
+      "path": "MWIS/RegisterWorkSource.lean",
+      "lines": 145,
+      "bytes": 8936
+    },
+    {
+      "path": "MWIS/RegisterZero.lean",
+      "lines": 74,
+      "bytes": 3649
+    },
+    {
+      "path": "MWIS/ResidualCrossingRefinement.lean",
+      "lines": 92,
+      "bytes": 3930
+    },
+    {
+      "path": "MWIS/ResidualListPhase.lean",
+      "lines": 60,
+      "bytes": 2321
+    },
+    {
+      "path": "MWIS/ResidualListReach.lean",
+      "lines": 165,
+      "bytes": 6964
+    },
+    {
+      "path": "MWIS/ResidualListScales.lean",
+      "lines": 36,
+      "bytes": 1478
+    },
+    {
+      "path": "MWIS/ResidualPhaseRefinement.lean",
+      "lines": 136,
+      "bytes": 7155
+    },
+    {
+      "path": "MWIS/ResidualReachGeneric.lean",
+      "lines": 172,
+      "bytes": 8051
+    },
+    {
+      "path": "MWIS/ResidualScalesRefinement.lean",
+      "lines": 131,
+      "bytes": 6691
+    },
+    {
+      "path": "MWIS/ResidualUpdateRefinement.lean",
+      "lines": 141,
+      "bytes": 7244
+    },
+    {
+      "path": "MWIS/ResidualWords.lean",
+      "lines": 85,
+      "bytes": 3119
+    },
+    {
+      "path": "MWIS/ResidueHull.lean",
+      "lines": 73,
+      "bytes": 2895
+    },
+    {
+      "path": "MWIS/ResidueJensen.lean",
+      "lines": 95,
+      "bytes": 3753
+    },
+    {
+      "path": "MWIS/RibbonCellular.lean",
+      "lines": 82,
+      "bytes": 2915
+    },
+    {
+      "path": "MWIS/RibbonComponentEuler.lean",
+      "lines": 118,
+      "bytes": 5188
+    },
+    {
+      "path": "MWIS/RibbonComponentFaces.lean",
+      "lines": 175,
+      "bytes": 7789
+    },
+    {
+      "path": "MWIS/RibbonComponents.lean",
+      "lines": 194,
+      "bytes": 9120
+    },
+    {
+      "path": "MWIS/RibbonDeletionRelabeling.lean",
+      "lines": 122,
+      "bytes": 6238
+    },
+    {
+      "path": "MWIS/RibbonDrawingRestriction.lean",
+      "lines": 53,
+      "bytes": 2477
+    },
+    {
+      "path": "MWIS/RibbonEnumeratedSides.lean",
+      "lines": 271,
+      "bytes": 13828
+    },
+    {
+      "path": "MWIS/RibbonEnumeration.lean",
+      "lines": 144,
+      "bytes": 6351
+    },
+    {
+      "path": "MWIS/RibbonFaceRelabeling.lean",
+      "lines": 133,
+      "bytes": 5354
+    },
+    {
+      "path": "MWIS/RibbonFaces.lean",
+      "lines": 307,
+      "bytes": 12988
+    },
+    {
+      "path": "MWIS/RibbonLinks.lean",
+      "lines": 49,
+      "bytes": 1483
+    },
+    {
+      "path": "MWIS/RibbonOrientation.lean",
+      "lines": 187,
+      "bytes": 7558
+    },
+    {
+      "path": "MWIS/RibbonRelabeling.lean",
+      "lines": 96,
+      "bytes": 3667
+    },
+    {
+      "path": "MWIS/RibbonRestriction.lean",
+      "lines": 143,
+      "bytes": 6205
+    },
+    {
+      "path": "MWIS/RibbonRestrictionCompatibility.lean",
+      "lines": 79,
+      "bytes": 3428
+    },
+    {
+      "path": "MWIS/RibbonSmoothing.lean",
+      "lines": 155,
+      "bytes": 6831
+    },
+    {
+      "path": "MWIS/RibbonTable.lean",
+      "lines": 327,
+      "bytes": 13851
+    },
+    {
+      "path": "MWIS/RibbonTableRestrict.lean",
+      "lines": 307,
+      "bytes": 13769
+    },
+    {
+      "path": "MWIS/RibbonTracing.lean",
+      "lines": 209,
+      "bytes": 9530
+    },
+    {
+      "path": "MWIS/RuntimeAbsorption.lean",
+      "lines": 74,
+      "bytes": 2976
+    },
+    {
+      "path": "MWIS/ScalarNodeCodec.lean",
+      "lines": 209,
+      "bytes": 9547
+    },
+    {
+      "path": "MWIS/SearchConstruction.lean",
+      "lines": 234,
+      "bytes": 9997
+    },
+    {
+      "path": "MWIS/SearchHistogramProjection.lean",
+      "lines": 152,
+      "bytes": 6888
+    },
+    {
+      "path": "MWIS/SearchOptimum.lean",
+      "lines": 163,
+      "bytes": 6821
+    },
+    {
+      "path": "MWIS/ShortestPath.lean",
+      "lines": 199,
+      "bytes": 8812
+    },
+    {
+      "path": "MWIS/SignedCover.lean",
+      "lines": 185,
+      "bytes": 7677
+    },
+    {
+      "path": "MWIS/SignedIncidence.lean",
+      "lines": 266,
+      "bytes": 10953
+    },
+    {
+      "path": "MWIS/SignedWords.lean",
+      "lines": 67,
+      "bytes": 2436
+    },
+    {
+      "path": "MWIS/Slack.lean",
+      "lines": 231,
+      "bytes": 9666
+    },
+    {
+      "path": "MWIS/SmoothingFaces.lean",
+      "lines": 144,
+      "bytes": 6728
+    },
+    {
+      "path": "MWIS/SparseGraphConstruction.lean",
+      "lines": 111,
+      "bytes": 7160
+    },
+    {
+      "path": "MWIS/SparseKernel.lean",
+      "lines": 290,
+      "bytes": 13569
+    },
+    {
+      "path": "MWIS/SparseSearchGraph.lean",
+      "lines": 184,
+      "bytes": 8551
+    },
+    {
+      "path": "MWIS/SparseSearchLabeled.lean",
+      "lines": 87,
+      "bytes": 4356
+    },
+    {
+      "path": "MWIS/SparseSearchLabeledPath.lean",
+      "lines": 180,
+      "bytes": 9279
+    },
+    {
+      "path": "MWIS/SparseSearchLabeledWeights.lean",
+      "lines": 77,
+      "bytes": 3657
+    },
+    {
+      "path": "MWIS/SparseSearchPath.lean",
+      "lines": 174,
+      "bytes": 8899
+    },
+    {
+      "path": "MWIS/SparseSearchWeights.lean",
+      "lines": 173,
+      "bytes": 8064
+    },
+    {
+      "path": "MWIS/Spec.lean",
+      "lines": 6,
+      "bytes": 181
+    },
+    {
+      "path": "MWIS/SpecBridge.lean",
+      "lines": 117,
+      "bytes": 6143
+    },
+    {
+      "path": "MWIS/SpecConnectivity.lean",
+      "lines": 65,
+      "bytes": 2227
+    },
+    {
+      "path": "MWIS/SpecDrawnCorner.lean",
+      "lines": 153,
+      "bytes": 6552
+    },
+    {
+      "path": "MWIS/SpecEncoding.lean",
+      "lines": 307,
+      "bytes": 14116
+    },
+    {
+      "path": "MWIS/SpecEncodingWriters.lean",
+      "lines": 285,
+      "bytes": 13645
+    },
+    {
+      "path": "MWIS/SpecFaces.lean",
+      "lines": 108,
+      "bytes": 4364
+    },
+    {
+      "path": "MWIS/SpecFlags.lean",
+      "lines": 121,
+      "bytes": 4922
+    },
+    {
+      "path": "MWIS/SpecIndependence.lean",
+      "lines": 48,
+      "bytes": 1628
+    },
+    {
+      "path": "MWIS/SpecMachine.lean",
+      "lines": 8,
+      "bytes": 269
+    },
+    {
+      "path": "MWIS/SpecOrientation.lean",
+      "lines": 105,
+      "bytes": 4290
+    },
+    {
+      "path": "MWIS/SpecRegions.lean",
+      "lines": 136,
+      "bytes": 5144
+    },
+    {
+      "path": "MWIS/Splitting.lean",
+      "lines": 149,
+      "bytes": 6104
+    },
+    {
+      "path": "MWIS/Statement.lean",
+      "lines": 696,
+      "bytes": 30319
+    },
+    {
+      "path": "MWIS/StoredElimination.lean",
+      "lines": 100,
+      "bytes": 4260
+    },
+    {
+      "path": "MWIS/StoredRational.lean",
+      "lines": 116,
+      "bytes": 5532
+    },
+    {
+      "path": "MWIS/SupportCycle.lean",
+      "lines": 90,
+      "bytes": 3796
+    },
+    {
+      "path": "MWIS/SupportCycleWords.lean",
+      "lines": 454,
+      "bytes": 19740
+    },
+    {
+      "path": "MWIS/SurfaceColumns.lean",
+      "lines": 67,
+      "bytes": 2638
+    },
+    {
+      "path": "MWIS/SurfaceComplex.lean",
+      "lines": 116,
+      "bytes": 4889
+    },
+    {
+      "path": "MWIS/SurfaceNetworkSize.lean",
+      "lines": 115,
+      "bytes": 5411
+    },
+    {
+      "path": "MWIS/TreeCotree.lean",
+      "lines": 635,
+      "bytes": 29847
+    },
+    {
+      "path": "MWIS/TreeCotreeElimination.lean",
+      "lines": 503,
+      "bytes": 19033
+    },
+    {
+      "path": "MWIS/TreeCotreeFPT.lean",
+      "lines": 101,
+      "bytes": 4767
+    },
+    {
+      "path": "MWIS/TreeCotreeSearch.lean",
+      "lines": 328,
+      "bytes": 13791
+    },
+    {
+      "path": "MWIS/TreeCotreeTriangular.lean",
+      "lines": 277,
+      "bytes": 10645
+    },
+    {
+      "path": "MWIS/UnitFlowIntegrality.lean",
+      "lines": 260,
+      "bytes": 11465
+    },
+    {
+      "path": "MWIS/Walks.lean",
+      "lines": 231,
+      "bytes": 10032
+    },
+    {
+      "path": "MWIS/WeightedHall.lean",
+      "lines": 113,
+      "bytes": 4406
+    },
+    {
+      "path": "MWIS/WordNodeCodec.lean",
+      "lines": 97,
+      "bytes": 4396
+    },
+    {
+      "path": "MWIS.lean",
+      "lines": 12,
+      "bytes": 327
+    },
+    {
+      "path": "Solution.lean",
+      "lines": 27,
+      "bytes": 1145
+    }
+  ],
+  "errors": []
+}

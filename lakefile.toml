@@ -1,0 +1,28 @@
+name = "mwisFpt"
+version = "0.1.0"
+enableArtifactCache = false
+defaultTargets = ["MWIS", "Challenge", "Solution"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+
+[[lean_lib]]
+name = "MWIS"
+
+[[lean_lib]]
+name = "Challenge"
+roots = ["Challenge"]
+
+[[lean_lib]]
+name = "Solution"
+roots = ["Solution"]
+
+[[lean_lib]]
+name = "Audit"
+roots = ["Audit"]
+
+[[lean_lib]]
+name = "AllModules"
+roots = ["AllModules"]
